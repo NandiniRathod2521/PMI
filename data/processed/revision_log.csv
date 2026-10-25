@@ -1,0 +1,4 @@
+global_id,ifc_type,old_name,new_name,old_description,new_description
+2O2Fr$t4X7Zf8NOew3FKau,IfcWall,Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:143239,PMI_External_Wall_Revised,,External wall revised with new insulation specification
+1hOSvn6df7F8_7GcBWlRGQ,IfcDoor,M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146596,PMI_Fire_Rated_Door,,Door specification revised for fire safety
+1hOSvn6df7F8_7GcBWlR72,IfcWindow,M_Fixed:4835mm x 2420mm:4835mm x 2420mm:145788,PMI_Window_Revised,,Window specification revised for improved glazing
