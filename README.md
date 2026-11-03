@@ -1,5 +1,6 @@
 # PMI — Project Management Intelligence
 *IAAC Research Studio · midterm prototype · November 2026*
+
 <img width="1500" height="520" alt="pmi-logo" src="https://github.com/user-attachments/assets/35c535e0-3a7c-47cd-9a87-920b633807f9" />
 
 
