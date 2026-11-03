@@ -1,0 +1,8 @@
+id,activity,duration_days,predecessors,phase,quantity,quantity_types,days_per_unit,min_days,rule
+A1,Foundations,10,,Substructure,7,IfcFooting,1.43,5,"max(5, 7 x 1.43)"
+A2,Structural works,20,A1,Superstructure,29,IfcSlab;IfcBeam;IfcColumn,0.69,10,"max(10, 29 x 0.69)"
+A3,Wall construction,12,A2,Envelope,57,IfcWall,0.21,5,"max(5, 57 x 0.21)"
+A4,Door and window installation,8,A3,Envelope,38,IfcDoor;IfcWindow,0.21,3,"max(3, 38 x 0.21)"
+A5,MEP rough-in,10,A2,Services,21,IfcSlab,0.48,5,"max(5, 21 x 0.48)"
+A6,Interior finishes,15,A4;A5,Interiors,13,IfcCovering,1.15,5,"max(5, 13 x 1.15)"
+A7,Final inspection,5,A6,Handover,0,,0.0,5,fixed 5

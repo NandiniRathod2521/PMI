@@ -1,0 +1,8 @@
+id,activity,duration_days,predecessors,phase
+S0,Strategic Definition,10,,Stage 0
+S1,Preparation and Briefing,15,S0,Stage 1
+S2,Concept Design,25,S1,Stage 2
+S3,Spatial Coordination,30,S2,Stage 3
+S4,Technical Design,35,S3,Stage 4
+P1,Procurement + lead time,30,S4,Stage 5
+H6,Handover and close-out,10,@construction_end,Stage 6

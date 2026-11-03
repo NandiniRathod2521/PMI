@@ -1,0 +1,20 @@
+global_id,element,stage,activity,extra_days,channels,issue
+1hOSvn6df7F8_7GcBWlR72,Window,Stage 5,P1,15,attribute+property+geometry,Window: new spec/size -> longer lead time (+15 d)
+1hOSvn6df7F8_7GcBWlRGQ,Door,Stage 5,P1,5,attribute+property,Door: new spec -> longer lead time (+5 d)
+0kF45Qs8L9PAM9kmb1lT2B,Footing,Stage 4,R4,6,geometry+property,Footing x7 (revised together): geometry+property change -> Stage 4 information re-issued (+6 d)
+1hOSvn6df7F8_7GcBWlR72,Window,Stage 4,R4,6,geometry+property,Window: geometry+property change -> Stage 4 information re-issued (+6 d)
+1hOSvn6df7F8_7GcBWlRGQ,Door,Stage 4,R4,2,property,Door: property change -> Stage 4 information re-issued (+2 d)
+1hOSvn6df7F8_7GcBWlRqU,Slab,Stage 4,R4,6,geometry+property,Slab x2 (revised together): geometry+property change -> Stage 4 information re-issued (+6 d)
+2O2Fr$t4X7Zf8NOew3FKau,Wall,Stage 4,R4,2,property,Wall: property change -> Stage 4 information re-issued (+2 d)
+0kF45Qs8L9PAM9kmb1lT2B,Footing,Stage 5,A1,2,attribute+property+geometry,Footing: review (+2 d on A1)
+0kF45Qs8L9PAM9kmb1lT2N,Footing,Stage 5,A1,2,attribute+property+geometry,Footing: review (+2 d on A1)
+0kF45Qs8L9PAM9kmb1lT2Z,Footing,Stage 5,A1,2,attribute+property+geometry,Footing: review (+2 d on A1)
+0kF45Qs8L9PAM9kmb1lT5$,Footing,Stage 5,A1,2,attribute+property+geometry,Footing: review (+2 d on A1)
+0kF45Qs8L9PAM9kmb1lT5d,Footing,Stage 5,A1,2,attribute+property+geometry,Footing: review (+2 d on A1)
+0kF45Qs8L9PAM9kmb1lT5l,Footing,Stage 5,A1,2,attribute+property+geometry,Footing: review (+2 d on A1)
+0kF45Qs8L9PAM9kmb1lT5t,Footing,Stage 5,A1,2,attribute+property+geometry,Footing: review (+2 d on A1)
+1hOSvn6df7F8_7GcBWlR72,Window,Stage 5,A4,3,attribute+property+geometry,"Window: new unit, longer lead time and opening enlargement (+3 d on A4)"
+1hOSvn6df7F8_7GcBWlRGQ,Door,Stage 5,A4,2,attribute+property,"Door: certified product, procurement and inspection (+2 d on A4)"
+1hOSvn6df7F8_7GcBWlRqU,Slab,Stage 5,A2,5,attribute+property+geometry,Slab: structural rework (+5 d on A2)
+1hOSvn6df7F8_7GcBWlRrM,Slab,Stage 5,A2,5,attribute+property+geometry,Slab: structural rework (+5 d on A2)
+2O2Fr$t4X7Zf8NOew3FKau,Wall,Stage 5,A3,4,attribute+property,Wall: partial rework of the wall build-up (+4 d on A3)

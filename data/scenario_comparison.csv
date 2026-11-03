@@ -1,0 +1,6 @@
+key,scenario,description,duration_days,delay_days,finish_date,extra_cost_eur,extra_tco2e,risk,meets_target,engine_tested
+baseline,Baseline (Model V1),Original schedule before design changes,70,0,2027-04-09,0,0.0,-,,True
+revised,Revised - no mitigation,"Design changes applied, nothing else changed",103,33,2027-05-26,110600,17.25,-,,True
+cost_efficient,Cost-efficient,No extra crews. Re-sequence: interior finishes start 3 days before door/window installation ends (area-by-area hand-over).,100,30,2027-05-21,106200,16.2,Medium - trade congestion on site,,True
+environmental,Environmentally efficient,"Use prefabricated insulated wall panels: wall rework shortened by 2 days, less on-site waste, lower-carbon insulation.",101,31,2027-05-24,111000,15.75,Low-Medium - panel lead time,,True
+alternative,Alternative proposal (accelerated),Add a second wall crew (wall rework shortened by 3 days) AND overlap finishes with door/window installation by 3 days.,97,27,2027-05-18,108800,15.15,Medium - extra crew availability and congestion,,True

@@ -1,0 +1,10 @@
+global_id,ifc_type,old_name,new_name,expected_channels,change
+1hOSvn6df7F8_7GcBWlRqU,IfcSlab,Floor:Residential - Wood Joist with Subflooring:144800,PMI_V3_Concrete_Floor_1,attribute;geometry;property,thickness 0.305 -> 0.400 m; volume 18.06 -> 23.69 m3
+1hOSvn6df7F8_7GcBWlRrM,IfcSlab,Floor:Residential - Wood Joist with Subflooring:144872,PMI_V3_Concrete_Floor_2,attribute;geometry;property,thickness 0.305 -> 0.400 m; volume 18.10 -> 23.73 m3
+0kF45Qs8L9PAM9kmb1lT5d,IfcFooting,Wall Foundation:Bearing Footing - 900 x 300:186596,PMI_V3_Footing_Widened_1,attribute;geometry;property,width 0.90 -> 1.20 m; depth 0.30 -> 0.45 m; volume 4.94 -> 9.87 m3
+0kF45Qs8L9PAM9kmb1lT5l,IfcFooting,Wall Foundation:Bearing Footing - 900 x 300:186604,PMI_V3_Footing_Widened_2,attribute;geometry;property,width 0.90 -> 1.20 m; depth 0.30 -> 0.45 m; volume 2.26 -> 4.53 m3
+0kF45Qs8L9PAM9kmb1lT5t,IfcFooting,Wall Foundation:Bearing Footing - 900 x 300:186612,PMI_V3_Footing_Widened_3,attribute;geometry;property,width 0.90 -> 1.20 m; depth 0.30 -> 0.45 m; volume 4.69 -> 9.39 m3
+0kF45Qs8L9PAM9kmb1lT5$,IfcFooting,Wall Foundation:Bearing Footing - 900 x 300:186620,PMI_V3_Footing_Widened_4,attribute;geometry;property,width 0.90 -> 1.20 m; depth 0.30 -> 0.45 m; volume 2.02 -> 4.04 m3
+0kF45Qs8L9PAM9kmb1lT2B,IfcFooting,Wall Foundation:Bearing Footing - 900 x 300:186632,PMI_V3_Footing_Widened_5,attribute;geometry;property,width 0.90 -> 1.20 m; depth 0.30 -> 0.45 m; volume 1.13 -> 2.26 m3
+0kF45Qs8L9PAM9kmb1lT2N,IfcFooting,Wall Foundation:Bearing Footing - 900 x 300:186644,PMI_V3_Footing_Widened_6,attribute;geometry;property,width 0.90 -> 1.20 m; depth 0.30 -> 0.45 m; volume 0.59 -> 1.19 m3
+0kF45Qs8L9PAM9kmb1lT2Z,IfcFooting,Wall Foundation:Bearing Footing - 900 x 300:186656,PMI_V3_Footing_Widened_7,attribute;geometry;property,width 0.90 -> 1.20 m; depth 0.30 -> 0.45 m; volume 0.89 -> 1.78 m3

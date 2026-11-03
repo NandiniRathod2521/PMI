@@ -1,0 +1,8 @@
+id,activity,predecessors,phase,quantity_types,days_per_unit,min_days
+A1,Foundations,,Substructure,IfcFooting,1.43,5
+A2,Structural works,A1,Superstructure,IfcSlab;IfcBeam;IfcColumn,0.69,10
+A3,Wall construction,A2,Envelope,IfcWall,0.21,5
+A4,Door and window installation,A3,Envelope,IfcDoor;IfcWindow,0.21,3
+A5,MEP rough-in,A2,Services,IfcSlab,0.48,5
+A6,Interior finishes,A4;A5,Interiors,IfcCovering,1.15,5
+A7,Final inspection,A6,Handover,,0,5

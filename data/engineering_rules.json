@@ -1,0 +1,66 @@
+{
+  "_note": "Screening parameters for the PMI engineering verification report. ILLUSTRATIVE ASSUMPTIONS - every value must be replaced or confirmed by the responsible certified engineer.",
+  "design_delta_T_K": 20,
+  "_delta_T_why": "assumed winter design temperature difference (e.g. 20 C inside, 0 C outside) - replace with the local design data",
+  "assumed_previous_U": {
+    "IfcWall": 0.35,
+    "IfcWindow": 2.6,
+    "IfcDoor": 2.0,
+    "IfcSlab": 0.4,
+    "IfcRoof": 0.3,
+    "_why": "used ONLY when Model V1 has no ThermalTransmittance for the element; every result that uses it is flagged ASSUMED"
+  },
+  "placeholder_values": [
+    "FireRating",
+    "Fire Rating",
+    "",
+    "None",
+    "-"
+  ],
+  "envelope_types": [
+    "IfcWall",
+    "IfcWindow",
+    "IfcDoor",
+    "IfcRoof",
+    "IfcSlab",
+    "IfcCurtainWall"
+  ],
+  "opening_types": [
+    "IfcWindow",
+    "IfcDoor"
+  ],
+  "structural_types": [
+    "IfcWall",
+    "IfcSlab",
+    "IfcBeam",
+    "IfcColumn",
+    "IfcFooting",
+    "IfcMember",
+    "IfcPile",
+    "IfcStair",
+    "IfcStairFlight",
+    "IfcRoof",
+    "IfcPlate"
+  ],
+  "mep_prefixes": [
+    "IfcFlow",
+    "IfcDistribution",
+    "IfcEnergyConversion"
+  ],
+  "reviewers": {
+    "structural": "Structural engineer",
+    "mep": "MEP / building services engineer",
+    "envelope": "Facade / energy consultant",
+    "fire": "Fire safety engineer",
+    "general": "Project architect"
+  },
+  "unit_weight_kN_m3": {
+    "wood": 5.0,
+    "timber": 5.0,
+    "joist": 5.0,
+    "steel": 78.5,
+    "concrete": 25.0,
+    "_default": 25.0,
+    "_why": "self-weight G = V x unit weight; the material is guessed from the element / type name (ASSUMED) - a timber joist floor is not solid timber, the engineer must replace with the real build-up"
+  }
+}

@@ -1,0 +1,6 @@
+Scenario,IFC Change,Detected channels,Affected Task,Assumed extra days,Baseline Duration,Revised Duration,Project Delay,Manual calculation,Validation
+A,Wall modification,attribute; property,A3,4,70,74,4,74,PASS
+B,Door modification,attribute; property,A4,2,70,72,2,72,PASS
+C,Window modification,attribute; geometry; property,A4,3,70,73,3,73,PASS
+ALL,All three modifications,attribute; geometry; property,"A3, A4",9,70,79,9,79,PASS
+D,Synthetic: +5 days on MEP rough-in (non-critical),n/a,A5,5,70,70,0,70,PASS
