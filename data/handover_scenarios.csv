@@ -1,0 +1,3 @@
+scenario,label,handover_v1_day,handover_v2_day,contract_day,buffer_days,slip_days,level,verdict,handover_v1_date,handover_v2_date,contract_date,stages_high
+stage4,V2 issued at end of Stage 4,195,250,220,25,55,AT RISK,HANDOVER AT RISK - misses the contract date by 30 working days,23 Apr 2027,09 Jul 2027,28 May 2027,"Stage 4, Stage 5, Stage 6"
+late,"V2 issued late, after wall construction",195,272,220,25,77,AT RISK,HANDOVER AT RISK - misses the contract date by 52 working days,23 Apr 2027,10 Aug 2027,28 May 2027,"Stage 4, Stage 5, Stage 6"

@@ -1,0 +1,4 @@
+global_id,ifc_type,old_name,new_name,expected_channels,change
+2O2Fr$t4X7Zf8NOew3FKau,IfcWall,Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:143239,PMI_External_Wall_Revised,attribute;property,Pset_WallCommon.ThermalTransmittance (not defined) -> 0.18 W/m2K
+1hOSvn6df7F8_7GcBWlRGQ,IfcDoor,M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146596,PMI_Fire_Rated_Door,attribute;property,Pset_DoorCommon.FireRating IFCLABEL('Fire Rating') -> 'EI 60'
+1hOSvn6df7F8_7GcBWlR72,IfcWindow,M_Fixed:4835mm x 2420mm:4835mm x 2420mm:145788,PMI_Window_Revised,attribute;property;geometry,width 4.835 m -> 5.435 m (opening widened); Pset_WindowCommon.ThermalTransmittance (not defined) -> 1.1 W/m2K

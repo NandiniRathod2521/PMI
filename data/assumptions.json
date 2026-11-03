@@ -1,0 +1,281 @@
+{
+  "_note": "ALL numbers are ILLUSTRATIVE ASSUMPTIONS for the prototype - scenario inputs, not AI predictions or measured data. They are GENERIC rules by IFC type x change channel, so any IFC pair works without editing. Calibrated so that the midterm test case reproduces its documented impacts.",
+  "project_start": "2027-01-04",
+  "calendar": "Mon-Fri working days",
+  "daily_overhead_eur": 1800,
+  "site_emissions_tco2e_per_day": 0.35,
+  "impact_rules": {
+    "_how": "extra days / cost / CO2 of one changed element = sum over its detected change channels. StandardCase / ElementedCase variants use the base type. Types not listed use _default.",
+    "IfcWall": {
+      "attribute": {
+        "days": 0,
+        "cost_eur": 0,
+        "tco2e": 0,
+        "why": "rename only"
+      },
+      "property": {
+        "days": 4,
+        "cost_eur": 7500,
+        "tco2e": 0.6,
+        "why": "specification change (e.g. insulation) -> partial rework of the wall build-up"
+      },
+      "material": {
+        "days": 3,
+        "cost_eur": 5000,
+        "tco2e": 0.5,
+        "why": "material change -> re-order and rework"
+      },
+      "type": {
+        "days": 3,
+        "cost_eur": 5000,
+        "tco2e": 0.4,
+        "why": "wall type change -> rework"
+      },
+      "geometry": {
+        "days": 3,
+        "cost_eur": 4000,
+        "tco2e": 0.4,
+        "why": "wall moved / resized -> demolish and rebuild section"
+      },
+      "added": {
+        "days": 2,
+        "cost_eur": 3000,
+        "tco2e": 0.4,
+        "why": "new wall -> extra installation"
+      },
+      "deleted": {
+        "days": 1,
+        "cost_eur": 500,
+        "tco2e": 0.0,
+        "why": "wall removed -> less work, re-coordination"
+      }
+    },
+    "IfcDoor": {
+      "attribute": {
+        "days": 0,
+        "cost_eur": 0,
+        "tco2e": 0,
+        "why": "rename only"
+      },
+      "property": {
+        "days": 2,
+        "cost_eur": 2400,
+        "tco2e": 0.1,
+        "why": "new specification (e.g. fire rating) -> certified product, procurement and inspection"
+      },
+      "material": {
+        "days": 1,
+        "cost_eur": 1200,
+        "tco2e": 0.05,
+        "why": "new material -> re-order"
+      },
+      "type": {
+        "days": 2,
+        "cost_eur": 2000,
+        "tco2e": 0.1,
+        "why": "new door type -> re-order and install"
+      },
+      "geometry": {
+        "days": 2,
+        "cost_eur": 2000,
+        "tco2e": 0.1,
+        "why": "new size -> new unit and opening change"
+      },
+      "added": {
+        "days": 1,
+        "cost_eur": 1500,
+        "tco2e": 0.05,
+        "why": "new door -> extra installation"
+      },
+      "deleted": {
+        "days": 0,
+        "cost_eur": 0,
+        "tco2e": 0,
+        "why": "door removed"
+      }
+    },
+    "IfcWindow": {
+      "attribute": {
+        "days": 0,
+        "cost_eur": 0,
+        "tco2e": 0,
+        "why": "rename only"
+      },
+      "property": {
+        "days": 1,
+        "cost_eur": 1300,
+        "tco2e": 0.1,
+        "why": "new glazing / performance specification -> new product"
+      },
+      "material": {
+        "days": 1,
+        "cost_eur": 1300,
+        "tco2e": 0.1,
+        "why": "new material -> re-order"
+      },
+      "type": {
+        "days": 2,
+        "cost_eur": 2000,
+        "tco2e": 0.1,
+        "why": "new window type -> re-order and install"
+      },
+      "geometry": {
+        "days": 2,
+        "cost_eur": 2500,
+        "tco2e": 0.2,
+        "why": "new size -> new unit, longer lead time and opening enlargement"
+      },
+      "added": {
+        "days": 1,
+        "cost_eur": 1800,
+        "tco2e": 0.1,
+        "why": "new window -> extra installation"
+      },
+      "deleted": {
+        "days": 0,
+        "cost_eur": 0,
+        "tco2e": 0,
+        "why": "window removed"
+      }
+    },
+    "IfcSlab": {
+      "attribute": {
+        "days": 0,
+        "cost_eur": 0,
+        "tco2e": 0,
+        "why": "rename only"
+      },
+      "property": {
+        "days": 2,
+        "cost_eur": 4000,
+        "tco2e": 0.8,
+        "why": "slab specification change -> structural rework"
+      },
+      "material": {
+        "days": 2,
+        "cost_eur": 4000,
+        "tco2e": 0.8,
+        "why": "slab material change -> structural rework"
+      },
+      "type": {
+        "days": 2,
+        "cost_eur": 4000,
+        "tco2e": 0.8,
+        "why": "slab type change -> structural rework"
+      },
+      "geometry": {
+        "days": 3,
+        "cost_eur": 6000,
+        "tco2e": 1.2,
+        "why": "slab resized -> structural rework"
+      },
+      "added": {
+        "days": 3,
+        "cost_eur": 6000,
+        "tco2e": 1.5,
+        "why": "new slab -> extra structure"
+      },
+      "deleted": {
+        "days": 1,
+        "cost_eur": 1000,
+        "tco2e": 0,
+        "why": "slab removed -> re-coordination"
+      }
+    },
+    "_default": {
+      "attribute": {
+        "days": 0,
+        "cost_eur": 0,
+        "tco2e": 0,
+        "why": "rename only"
+      },
+      "property": {
+        "days": 1,
+        "cost_eur": 1000,
+        "tco2e": 0.0,
+        "why": "specification change (generic rule) -> review with the project manager"
+      },
+      "material": {
+        "days": 1,
+        "cost_eur": 1000,
+        "tco2e": 0.0,
+        "why": "material change (generic rule) -> review"
+      },
+      "type": {
+        "days": 1,
+        "cost_eur": 1000,
+        "tco2e": 0.0,
+        "why": "type change (generic rule) -> review"
+      },
+      "geometry": {
+        "days": 1,
+        "cost_eur": 1500,
+        "tco2e": 0.1,
+        "why": "geometry change (generic rule) -> review"
+      },
+      "added": {
+        "days": 1,
+        "cost_eur": 1500,
+        "tco2e": 0.1,
+        "why": "new element (generic rule) -> extra installation"
+      },
+      "deleted": {
+        "days": 0,
+        "cost_eur": 500,
+        "tco2e": 0.0,
+        "why": "element removed (generic rule)"
+      }
+    }
+  },
+  "scenarios": {
+    "cost_efficient": {
+      "label": "Cost-efficient",
+      "description": "No extra crews. Re-sequence: interior finishes start 3 days before door/window installation ends (area-by-area hand-over).",
+      "operations": [
+        {
+          "op": "set_lag",
+          "activity": "A6",
+          "predecessor": "A4",
+          "lag_days": -3
+        }
+      ],
+      "mitigation_cost_eur": 1000,
+      "material_tco2e": 0.0,
+      "risk": "Medium - trade congestion on site"
+    },
+    "environmental": {
+      "label": "Environmentally efficient",
+      "description": "Use prefabricated insulated wall panels: wall rework shortened by 2 days, less on-site waste, lower-carbon insulation.",
+      "operations": [
+        {
+          "op": "reduce_added_days",
+          "activity": "A3",
+          "days": 2
+        }
+      ],
+      "mitigation_cost_eur": 4000,
+      "material_tco2e": -0.8,
+      "risk": "Low-Medium - panel lead time"
+    },
+    "alternative": {
+      "label": "Alternative proposal (accelerated)",
+      "description": "Add a second wall crew (wall rework shortened by 3 days) AND overlap finishes with door/window installation by 3 days.",
+      "operations": [
+        {
+          "op": "reduce_added_days",
+          "activity": "A3",
+          "days": 3
+        },
+        {
+          "op": "set_lag",
+          "activity": "A6",
+          "predecessor": "A4",
+          "lag_days": -3
+        }
+      ],
+      "mitigation_cost_eur": 9000,
+      "material_tco2e": 0.0,
+      "risk": "Medium - extra crew availability and congestion"
+    }
+  }
+}

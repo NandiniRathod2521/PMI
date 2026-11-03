@@ -1,0 +1,22 @@
+ifc_type,activity_id,possible_impact
+IfcWall,A3,Rework or additional installation
+IfcWallStandardCase,A3,Rework or additional installation
+IfcDoor,A4,Procurement and installation
+IfcWindow,A4,"Procurement, installation and envelope completion"
+IfcFooting,A1,Foundation rework
+IfcSlab,A2,Structural rework
+IfcBeam,A2,Structural rework
+IfcColumn,A2,Structural rework
+IfcStair,A2,Structural rework
+IfcRoof,A2,Structural rework
+IfcCovering,A6,Finishes rework
+IfcRailing,A6,Finishes rework
+IfcStairFlight,A2,Structural rework
+IfcMember,A2,Structural rework
+IfcPile,A1,Foundation rework
+IfcPlate,A3,Envelope rework
+IfcCurtainWall,A3,Facade rework
+IfcBuildingElementProxy,A6,Unclassified element - review
+IfcFurnishingElement,A6,Fit-out change
+IfcFlowTerminal,A5,Services change
+IfcDistributionElement,A5,Services change

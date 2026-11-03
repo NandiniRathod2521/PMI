@@ -1,0 +1,116 @@
+{
+  "_note": "ILLUSTRATIVE RULES for the midterm prototype. They turn a detected IFC change into extra work per RIBA stage. They are documented assumptions (scenario inputs), not a trained model. Replace with practice / contractor data.",
+  "construction_start": "2027-01-04",
+  "change_issued": "see issue_scenarios",
+  "stages": {
+    "Stage 0": "Strategic Definition",
+    "Stage 1": "Preparation and Briefing",
+    "Stage 2": "Concept Design",
+    "Stage 3": "Spatial Coordination",
+    "Stage 4": "Technical Design",
+    "Stage 5": "Manufacturing and Construction",
+    "Stage 6": "Handover",
+    "Stage 7": "Use (not scheduled)"
+  },
+  "design_rework_days_per_channel": {
+    "attribute": 0,
+    "property": 2,
+    "material": 2,
+    "type": 2,
+    "geometry": 4,
+    "_why": "Re-detailing and re-issuing Stage 4 information. A rename (attribute only) needs no rework; a geometry change needs re-coordination of the opening, structure and facade. Counted once per IFC type: similar elements (e.g. 7 footings) are revised in one design package.",
+    "added": 2,
+    "deleted": 1
+  },
+  "design_rework_activity": {
+    "id": "R4",
+    "activity": "Design change package (NEW)",
+    "phase": "Stage 4"
+  },
+  "procured_types": [
+    "IfcDoor",
+    "IfcWindow"
+  ],
+  "procurement_activity": "P1",
+  "procurement_extra_days": {
+    "IfcDoor": {
+      "property": 5,
+      "geometry": 5,
+      "added": 5
+    },
+    "IfcWindow": {
+      "property": 5,
+      "geometry": 10,
+      "added": 10
+    },
+    "_why": "A changed specification means a new quotation / certified product; a changed size means a bespoke unit with a longer manufacturing lead time."
+  },
+  "design_feeds": {
+    "IfcWall": [
+      "A3"
+    ],
+    "IfcDoor": [
+      "P1"
+    ],
+    "IfcWindow": [
+      "P1"
+    ],
+    "_why": "The revised design information must be issued before the affected work can start.",
+    "IfcSlab": [
+      "A2"
+    ],
+    "IfcBeam": [
+      "A2"
+    ],
+    "IfcColumn": [
+      "A2"
+    ],
+    "IfcStair": [
+      "A2"
+    ],
+    "IfcRoof": [
+      "A2"
+    ],
+    "IfcFooting": [
+      "A1"
+    ],
+    "IfcCovering": [
+      "A6"
+    ],
+    "IfcRailing": [
+      "A6"
+    ]
+  },
+  "severity_weight": {
+    "attribute": 1,
+    "property": 2,
+    "material": 2,
+    "type": 2,
+    "geometry": 3
+  },
+  "risk_levels": {
+    "HIGH": "the stage finishes later AND it is on the critical path after the change",
+    "MEDIUM": "the stage receives extra work or loses at least half of its float, but its finish does not drive the project",
+    "LOW": "the stage receives extra work that is fully absorbed by float",
+    "NONE": "no change touches the stage and its dates do not move",
+    "HANDOVER": "AT RISK when the V2 handover is later than the contract date (V1 handover + contract_handover_buffer_days); TIGHT when it uses more than half of the buffer"
+  },
+  "procurement_feeds": [
+    "A4"
+  ],
+  "contract_handover_buffer_days": 25,
+  "issue_scenarios": {
+    "stage4": {
+      "label": "V2 issued at end of Stage 4",
+      "issue_after": "S4",
+      "rework_factor": 1.0,
+      "_why": "normal case: the change is known before procurement and construction start"
+    },
+    "late": {
+      "label": "V2 issued late, after wall construction",
+      "issue_after": "A3",
+      "rework_factor": 2.0,
+      "_why": "late change during Stage 5: built work must be opened up and rebuilt (x2 for demolition + rebuild), elements already ordered must be re-ordered (full lead time again)"
+    }
+  }
+}

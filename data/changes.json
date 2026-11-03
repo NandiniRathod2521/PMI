@@ -1,0 +1,1448 @@
+{
+  "generated": "2026-11-03T17:56:55",
+  "original_model": "original.ifc",
+  "revised_model": "revised.ifc",
+  "method": "Deterministic GlobalId comparison over 5 channels (attribute, property, material, type, geometry)",
+  "summary": {
+    "ADDED": 0,
+    "DELETED": 0,
+    "MODIFIED": 12,
+    "UNCHANGED": 145
+  },
+  "changes": [
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT2B",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_5",
+      "old_name": "Wall Foundation:Bearing Footing - 900 x 300:186632",
+      "new_name": "PMI_V3_Footing_Widened_5",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property",
+        "geometry"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "Strip footing enlarged to 1200 x 450 mm for the heavier concrete floors"
+          },
+          "Name": {
+            "old": "Wall Foundation:Bearing Footing - 900 x 300:186632",
+            "new": "PMI_V3_Footing_Widened_5"
+          }
+        },
+        "property": {
+          "PSet_Revit_Dimensions.Volume": {
+            "old": 1.131705,
+            "new": 2.2634
+          },
+          "PSet_Revit_Dimensions.Width": {
+            "old": 0.9,
+            "new": 1.2
+          }
+        },
+        "geometry": {
+          "hash": {
+            "old": "4cc5fa47a5",
+            "new": "8a4df62d9d"
+          }
+        }
+      },
+      "geometry_changed": true,
+      "summary": "Name changed; Description changed; Volume: 1.131705 -> 2.2634; Width: 0.9 -> 1.2; geometry (shape / position) changed"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT2N",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_6",
+      "old_name": "Wall Foundation:Bearing Footing - 900 x 300:186644",
+      "new_name": "PMI_V3_Footing_Widened_6",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property",
+        "geometry"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "Strip footing enlarged to 1200 x 450 mm for the heavier concrete floors"
+          },
+          "Name": {
+            "old": "Wall Foundation:Bearing Footing - 900 x 300:186644",
+            "new": "PMI_V3_Footing_Widened_6"
+          }
+        },
+        "property": {
+          "PSet_Revit_Dimensions.Volume": {
+            "old": 0.5940000000000077,
+            "new": 1.188
+          },
+          "PSet_Revit_Dimensions.Width": {
+            "old": 0.9,
+            "new": 1.2
+          }
+        },
+        "geometry": {
+          "hash": {
+            "old": "21a61dd57b",
+            "new": "b7dfc0d7f2"
+          }
+        }
+      },
+      "geometry_changed": true,
+      "summary": "Name changed; Description changed; Volume: 0.5940000000000077 -> 1.188; Width: 0.9 -> 1.2; geometry (shape / position) changed"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT2Z",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_7",
+      "old_name": "Wall Foundation:Bearing Footing - 900 x 300:186656",
+      "new_name": "PMI_V3_Footing_Widened_7",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property",
+        "geometry"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "Strip footing enlarged to 1200 x 450 mm for the heavier concrete floors"
+          },
+          "Name": {
+            "old": "Wall Foundation:Bearing Footing - 900 x 300:186656",
+            "new": "PMI_V3_Footing_Widened_7"
+          }
+        },
+        "property": {
+          "PSet_Revit_Dimensions.Volume": {
+            "old": 0.8887049999999972,
+            "new": 1.7774
+          },
+          "PSet_Revit_Dimensions.Width": {
+            "old": 0.9,
+            "new": 1.2
+          }
+        },
+        "geometry": {
+          "hash": {
+            "old": "92601c17ce",
+            "new": "2514d3a3cf"
+          }
+        }
+      },
+      "geometry_changed": true,
+      "summary": "Name changed; Description changed; Volume: 0.8887049999999972 -> 1.7774; Width: 0.9 -> 1.2; geometry (shape / position) changed"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT5$",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_4",
+      "old_name": "Wall Foundation:Bearing Footing - 900 x 300:186620",
+      "new_name": "PMI_V3_Footing_Widened_4",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property",
+        "geometry"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "Strip footing enlarged to 1200 x 450 mm for the heavier concrete floors"
+          },
+          "Name": {
+            "old": "Wall Foundation:Bearing Footing - 900 x 300:186620",
+            "new": "PMI_V3_Footing_Widened_4"
+          }
+        },
+        "property": {
+          "PSet_Revit_Dimensions.Volume": {
+            "old": 2.02041,
+            "new": 4.0408
+          },
+          "PSet_Revit_Dimensions.Width": {
+            "old": 0.9,
+            "new": 1.2
+          }
+        },
+        "geometry": {
+          "hash": {
+            "old": "a7726a9ea2",
+            "new": "44fefffadf"
+          }
+        }
+      },
+      "geometry_changed": true,
+      "summary": "Name changed; Description changed; Volume: 2.02041 -> 4.0408; Width: 0.9 -> 1.2; geometry (shape / position) changed"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT5d",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_1",
+      "old_name": "Wall Foundation:Bearing Footing - 900 x 300:186596",
+      "new_name": "PMI_V3_Footing_Widened_1",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property",
+        "geometry"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "Strip footing enlarged to 1200 x 450 mm for the heavier concrete floors"
+          },
+          "Name": {
+            "old": "Wall Foundation:Bearing Footing - 900 x 300:186596",
+            "new": "PMI_V3_Footing_Widened_1"
+          }
+        },
+        "property": {
+          "PSet_Revit_Dimensions.Volume": {
+            "old": 4.936409999999995,
+            "new": 9.8728
+          },
+          "PSet_Revit_Dimensions.Width": {
+            "old": 0.9,
+            "new": 1.2
+          }
+        },
+        "geometry": {
+          "hash": {
+            "old": "2497b15010",
+            "new": "dd219b629a"
+          }
+        }
+      },
+      "geometry_changed": true,
+      "summary": "Name changed; Description changed; Volume: 4.936409999999995 -> 9.8728; Width: 0.9 -> 1.2; geometry (shape / position) changed"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT5l",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_2",
+      "old_name": "Wall Foundation:Bearing Footing - 900 x 300:186604",
+      "new_name": "PMI_V3_Footing_Widened_2",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property",
+        "geometry"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "Strip footing enlarged to 1200 x 450 mm for the heavier concrete floors"
+          },
+          "Name": {
+            "old": "Wall Foundation:Bearing Footing - 900 x 300:186604",
+            "new": "PMI_V3_Footing_Widened_2"
+          }
+        },
+        "property": {
+          "PSet_Revit_Dimensions.Volume": {
+            "old": 2.263409999999996,
+            "new": 4.5268
+          },
+          "PSet_Revit_Dimensions.Width": {
+            "old": 0.9,
+            "new": 1.2
+          }
+        },
+        "geometry": {
+          "hash": {
+            "old": "fa8d23b65a",
+            "new": "d0fbe2b5c8"
+          }
+        }
+      },
+      "geometry_changed": true,
+      "summary": "Name changed; Description changed; Volume: 2.263409999999996 -> 4.5268; Width: 0.9 -> 1.2; geometry (shape / position) changed"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT5t",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_3",
+      "old_name": "Wall Foundation:Bearing Footing - 900 x 300:186612",
+      "new_name": "PMI_V3_Footing_Widened_3",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property",
+        "geometry"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "Strip footing enlarged to 1200 x 450 mm for the heavier concrete floors"
+          },
+          "Name": {
+            "old": "Wall Foundation:Bearing Footing - 900 x 300:186612",
+            "new": "PMI_V3_Footing_Widened_3"
+          }
+        },
+        "property": {
+          "PSet_Revit_Dimensions.Volume": {
+            "old": 4.693409999999997,
+            "new": 9.3868
+          },
+          "PSet_Revit_Dimensions.Width": {
+            "old": 0.9,
+            "new": 1.2
+          }
+        },
+        "geometry": {
+          "hash": {
+            "old": "2abb9bff73",
+            "new": "91b2d56fab"
+          }
+        }
+      },
+      "geometry_changed": true,
+      "summary": "Name changed; Description changed; Volume: 4.693409999999997 -> 9.3868; Width: 0.9 -> 1.2; geometry (shape / position) changed"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlR72",
+      "ifc_type": "IfcWindow",
+      "element": "PMI_Window_Revised",
+      "old_name": "M_Fixed:4835mm x 2420mm:4835mm x 2420mm:145788",
+      "new_name": "PMI_Window_Revised",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property",
+        "geometry"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "Window enlarged by 0.6 m and glazing improved (U 1.1)"
+          },
+          "Name": {
+            "old": "M_Fixed:4835mm x 2420mm:4835mm x 2420mm:145788",
+            "new": "PMI_Window_Revised"
+          }
+        },
+        "property": {
+          "Pset_WindowCommon.ThermalTransmittance": {
+            "old": null,
+            "new": 1.1
+          }
+        },
+        "geometry": {
+          "hash": {
+            "old": "69bf18a506",
+            "new": "8faaf2a6c9"
+          }
+        }
+      },
+      "geometry_changed": true,
+      "summary": "Name changed; Description changed; ThermalTransmittance: not defined -> 1.1; geometry (shape / position) changed"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlRGQ",
+      "ifc_type": "IfcDoor",
+      "element": "PMI_Fire_Rated_Door",
+      "old_name": "M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146596",
+      "new_name": "PMI_Fire_Rated_Door",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "Door specification revised for fire safety"
+          },
+          "Name": {
+            "old": "M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146596",
+            "new": "PMI_Fire_Rated_Door"
+          }
+        },
+        "property": {
+          "Pset_DoorCommon.FireRating": {
+            "old": "Fire Rating",
+            "new": "EI 60"
+          }
+        }
+      },
+      "geometry_changed": false,
+      "summary": "Name changed; Description changed; FireRating: 'Fire Rating' -> 'EI 60'"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlRqU",
+      "ifc_type": "IfcSlab",
+      "element": "PMI_V3_Concrete_Floor_1",
+      "old_name": "Floor:Residential - Wood Joist with Subflooring:144800",
+      "new_name": "PMI_V3_Concrete_Floor_1",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property",
+        "geometry"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "Level 2 floor changed from timber joists to a 400 mm concrete slab"
+          },
+          "Name": {
+            "old": "Floor:Residential - Wood Joist with Subflooring:144800",
+            "new": "PMI_V3_Concrete_Floor_1"
+          }
+        },
+        "property": {
+          "PSet_Revit_Dimensions.Thickness": {
+            "old": 0.3050000000000001,
+            "new": 0.4
+          },
+          "PSet_Revit_Dimensions.Volume": {
+            "old": 18.06485036799987,
+            "new": 23.6916
+          }
+        },
+        "geometry": {
+          "hash": {
+            "old": "9f1f2aa999",
+            "new": "bee90bc0cc"
+          }
+        }
+      },
+      "geometry_changed": true,
+      "summary": "Name changed; Description changed; Thickness: 0.3050000000000001 -> 0.4; Volume: 18.06485036799987 -> 23.6916; geometry (shape / position) changed"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlRrM",
+      "ifc_type": "IfcSlab",
+      "element": "PMI_V3_Concrete_Floor_2",
+      "old_name": "Floor:Residential - Wood Joist with Subflooring:144872",
+      "new_name": "PMI_V3_Concrete_Floor_2",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property",
+        "geometry"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "Level 2 floor changed from timber joists to a 400 mm concrete slab"
+          },
+          "Name": {
+            "old": "Floor:Residential - Wood Joist with Subflooring:144872",
+            "new": "PMI_V3_Concrete_Floor_2"
+          }
+        },
+        "property": {
+          "PSet_Revit_Dimensions.Thickness": {
+            "old": 0.3050000000000001,
+            "new": 0.4
+          },
+          "PSet_Revit_Dimensions.Volume": {
+            "old": 18.09679301799989,
+            "new": 23.7335
+          }
+        },
+        "geometry": {
+          "hash": {
+            "old": "dd4df0249b",
+            "new": "2e5d2cfca9"
+          }
+        }
+      },
+      "geometry_changed": true,
+      "summary": "Name changed; Description changed; Thickness: 0.3050000000000001 -> 0.4; Volume: 18.09679301799989 -> 23.7335; geometry (shape / position) changed"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FKau",
+      "ifc_type": "IfcWall",
+      "element": "PMI_External_Wall_Revised",
+      "old_name": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:143239",
+      "new_name": "PMI_External_Wall_Revised",
+      "status": "MODIFIED",
+      "change_types": [
+        "attribute",
+        "property"
+      ],
+      "details": {
+        "attribute": {
+          "Description": {
+            "old": null,
+            "new": "External wall revised with new insulation specification"
+          },
+          "Name": {
+            "old": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:143239",
+            "new": "PMI_External_Wall_Revised"
+          }
+        },
+        "property": {
+          "Pset_WallCommon.ThermalTransmittance": {
+            "old": null,
+            "new": 0.18
+          }
+        }
+      },
+      "geometry_changed": false,
+      "summary": "Name changed; Description changed; ThermalTransmittance: not defined -> 0.18"
+    }
+  ],
+  "all_elements": [
+    {
+      "global_id": "01KzA4SPn5IOODwLEb5RNY",
+      "ifc_type": "IfcMember",
+      "element": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0dxE1Sy6nDqfpDb5vIMN_Z",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (152 mm Stud):194166",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0dxE1Sy6nDqfpDb5vIMNiA",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (152 mm Stud):193247",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0iEHWY1$XA8eQeeULq4jDb",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (152 mm Stud):190774",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0iEHWY1$XA8eQeeULq4jE6",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (152 mm Stud):190933",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0iEHWY1$XA8eQeeULq4jZ1",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (152 mm Stud):189074",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0iEHWY1$XA8eQeeULq4j_U",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (152 mm Stud):189901",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0iEHWY1$XA8eQeeULq4jpl",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):190140",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0jf0rYHfX3RAB3bSIRjmmy",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:184944",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0jf0rYHfX3RAB3bSIRjmoa",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:185064",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0jf0rYHfX3RAB3bSIRjmpw",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:185014",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0jf0rYHfX3RAB3bSIRjmr1",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:185101",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0jf0rYHfX3RAB3bSIRjmxl",
+      "ifc_type": "IfcRoof",
+      "element": "Basic Roof:Live Roof over Wood Joist Flat Roof:184483",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT2B",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_5",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT2N",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_6",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT2Z",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_7",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT5$",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_4",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT5d",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_1",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT5l",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_2",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "0kF45Qs8L9PAM9kmb1lT5t",
+      "ifc_type": "IfcFooting",
+      "element": "PMI_V3_Footing_Widened_3",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "0wkEuT1wr1kOyafLY4v_O1",
+      "ifc_type": "IfcStair",
+      "element": "Stair:Residential - 200mm Max Riser 250mm Tread:151086",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0wkEuT1wr1kOyafLY4v_PH",
+      "ifc_type": "IfcRailing",
+      "element": "Railing:1100mm Guard Rail:151166",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "0wkEuT1wr1kOyafLY4v_PL",
+      "ifc_type": "IfcRailing",
+      "element": "Railing:900mm Handrail Only:151162",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1CZILmCaHETO8tf3SgGEWh",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:150mm Exterior Slab on Grade:216507",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1CZILmCaHETO8tf3SgGEXu",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:150mm Exterior Slab on Grade:216552",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1Eo2$BaHX42AEkDvQQDocD",
+      "ifc_type": "IfcWindow",
+      "element": "M_Skylight:1180 x 1170mm:1180 x 1170mm:185337",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1Eo2$BaHX42AEkDvQQDoy2",
+      "ifc_type": "IfcWindow",
+      "element": "M_Skylight:1180 x 1170mm:1180 x 1170mm:185718",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1aj$VJZFn2TxepZUBcKp$i",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:203720",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1aj$VJZFn2TxepZUBcKpZw",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):203998",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1aj$VJZFn2TxepZUBcKpac",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:204034",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1aj$VJZFn2TxepZUBcKpee",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):204300",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1aj$VJZFn2TxepZUBcKphf",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):204493",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1aj$VJZFn2TxepZUBcKpvt",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):203347",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1gtrSK5QnDuxDwygd0EDGO",
+      "ifc_type": "IfcMember",
+      "element": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlR72",
+      "ifc_type": "IfcWindow",
+      "element": "PMI_Window_Revised",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlRBU",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:4835mm x 2420mm:4835mm x 2420mm:146016",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlRGQ",
+      "ifc_type": "IfcDoor",
+      "element": "PMI_Fire_Rated_Door",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlRH8",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146678",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlRLx",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:750mm x 2200mm:750mm x 2200mm:146885",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlRRL",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:750mm x 2200mm:750mm x 2200mm:147051",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlRqU",
+      "ifc_type": "IfcSlab",
+      "element": "PMI_V3_Concrete_Floor_1",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlRrM",
+      "ifc_type": "IfcSlab",
+      "element": "PMI_V3_Concrete_Floor_2",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlS1M",
+      "ifc_type": "IfcWindow",
+      "element": "M_Casement:819mm x 759mm:819mm x 759mm:149736",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlS2V",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:819mm x 759mm:819mm x 759mm:149537",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlS4Q",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:819mm x 759mm:819mm x 759mm:149924",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlS8Z",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150173",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlS9F",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150257",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlSDm",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150478",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlSFK",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150378",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlSXO",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:147686",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlS_W",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlSga",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:819mm x 759mm:819mm x 759mm:147994",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlSnC",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:819mm x 759mm:819mm x 759mm:148722",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1hOSvn6df7F8_7GcBWlSp1",
+      "ifc_type": "IfcWindow",
+      "element": "M_Casement:819mm x 759mm:819mm x 759mm:148607",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1l0GAJtRTFv8$zmKJOH4$e",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:180318",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1l0GAJtRTFv8$zmKJOH4ZZ",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:750mm x 2200mm:750mm x 2200mm:182101",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1l0GAJtRTFv8$zmKJOH4aS",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:750mm x 2200mm:750mm x 2200mm:181930",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1l0GAJtRTFv8$zmKJOH4gQ",
+      "ifc_type": "IfcWindow",
+      "element": "M_Casement:819mm x 759mm:819mm x 759mm:181548",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1l0GAJtRTFv8$zmKJOH4hv",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:819mm x 759mm:819mm x 759mm:181583",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1l0GAJtRTFv8$zmKJOH4kJ",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:819mm x 759mm:819mm x 759mm:181285",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1l0GAJtRTFv8$zmKJOH4oq",
+      "ifc_type": "IfcWindow",
+      "element": "M_Casement:819mm x 759mm:819mm x 759mm:180994",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1l0GAJtRTFv8$zmKJOH4pU",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:2800mm x 2410mm:2800mm x 2410mm:181096",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1l0GAJtRTFv8$zmKJOH4qs",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:819mm x 759mm:819mm x 759mm:180864",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1l0GAJtRTFv8$zmKJOH4u1",
+      "ifc_type": "IfcWindow",
+      "element": "M_Fixed:819mm x 759mm:819mm x 759mm:180663",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1oKjKg9PD3fP1iIwXLh3lK",
+      "ifc_type": "IfcStairFlight",
+      "element": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1s1jVhK8z0pgKYcr9jt781",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171853",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "1s1jVhK8z0pgKYcr9jt7AB",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171975",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "21ldoMpbP4VfsJ0XGY_335",
+      "ifc_type": "IfcRailing",
+      "element": "Railing:1100mm Guard Rail:198972",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "21ldoMpbP4VfsJ0XGY_34P",
+      "ifc_type": "IfcRailing",
+      "element": "Railing:900mm Handrail Only:198880",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "21ldoMpbP4VfsJ0XGY_34d",
+      "ifc_type": "IfcStair",
+      "element": "Stair:Residential - 200mm Max Riser 250mm Tread:198878",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FK04",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Foundation - Concrete (435mm):140987",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FK1b",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Foundation - Concrete (435mm):141018",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FK3E",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Foundation - Concrete (435mm):140913",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FK4F",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:127mm Slab on Grade:141232",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FK80",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Foundation - Concrete (417mm):140479",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FK9N",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Foundation - Concrete (417mm):140520",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FKE5",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Foundation - Concrete (417mm):140602",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FKEr",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Foundation - Concrete (417mm):140554",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FKGS",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):139939",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FKIu",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):139783",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FKRH",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139374",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FKRi",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139347",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FKST",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):139682",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FKau",
+      "ifc_type": "IfcWall",
+      "element": "PMI_External_Wall_Revised",
+      "status": "MODIFIED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FKcz",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:127mm Slab on Grade:143106",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FL8v",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):144518",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FL96",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):144633",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FL9r",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):144586",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FLCm",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Plumbing (152mm Stud):144783",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FLEJ",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):144684",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FLIE",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):143921",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FLJd",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):143960",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FLKI",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):144301",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FLMr",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Plumbing (152mm Stud):144138",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FLOH",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:143534",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FLPP",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:143590",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FLQD",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:143410",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FLR9",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:143478",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FLTF",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):143856",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FNau",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):139143",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FNbT",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139234",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FNhv",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:138310",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FNld",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Partition (92mm Stud):138584",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FNqI",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:138157",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FNr2",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:138237",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2O2Fr$t4X7Zf8NOew3FNtn",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Exterior - Brick on Block:138062",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUt0F",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Ceramic Tile:169866",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUt2f",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Ceramic Tile:169772",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUt5W",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Wood:169701",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUt8F",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Wood:169354",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUt8s",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Wood:169395",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUtBP",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Wood:169308",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUtC0",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Wood:169093",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUtDX",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Wood:169188",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUten",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Ceramic Tile:171444",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUtgP",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Wood:171292",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUtjR",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Ceramic Tile:171230",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUtju",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Ceramic Tile:171261",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUtoa",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Ceramic Tile:170785",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUtxr",
+      "ifc_type": "IfcSlab",
+      "element": "Floor:Finish Floor - Wood:170352",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUuXp",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159734",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUvPL",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160208",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUvR4",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160065",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OBrcmyk58NupXoVOHUvVV",
+      "ifc_type": "IfcDoor",
+      "element": "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159834",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OrWItJ6zAwBNp0OUxK$8W",
+      "ifc_type": "IfcBeam",
+      "element": "M_W-Wide Flange:W410X60:W410X60:208949",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OrWItJ6zAwBNp0OUxK$Bq",
+      "ifc_type": "IfcBeam",
+      "element": "M_W-Wide Flange:W410X60:W410X60:209121",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OrWItJ6zAwBNp0OUxK$CR",
+      "ifc_type": "IfcBeam",
+      "element": "M_W-Wide Flange:W410X60:W410X60:209166",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OrWItJ6zAwBNp0OUxK$Du",
+      "ifc_type": "IfcBeam",
+      "element": "M_W-Wide Flange:W410X60:W410X60:209261",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OrWItJ6zAwBNp0OUxK$Dv",
+      "ifc_type": "IfcBeam",
+      "element": "M_W-Wide Flange:W310X60:W310X60:209260",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OrWItJ6zAwBNp0OUxK$Dw",
+      "ifc_type": "IfcBeam",
+      "element": "M_W-Wide Flange:W410X60:W410X60:209263",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OrWItJ6zAwBNp0OUxK$Dx",
+      "ifc_type": "IfcBeam",
+      "element": "M_W-Wide Flange:W410X60:W410X60:209262",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "2OrWItJ6zAwBNp0OUxK_l8",
+      "ifc_type": "IfcBeam",
+      "element": "M_W-Wide Flange:W310X60:W310X60:207325",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "34qUFGjJzFKwVWpXe2dTPt",
+      "ifc_type": "IfcMember",
+      "element": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:2",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "37Fy90kSD2PvviizyM7EKl",
+      "ifc_type": "IfcMember",
+      "element": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:2",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3KMJUyUe9DfQ2FOCd5ZoiN",
+      "ifc_type": "IfcStairFlight",
+      "element": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3ThA22djr8AQQ9eQMA5s7I",
+      "ifc_type": "IfcSlab",
+      "element": "Basic Roof:Live Roof over Wood Joist Flat Roof:184483",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3Y4YRln2r91vflHcHE5ITm",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (38 mm Stud):217578",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3Y4YRln2r91vflHcHE5ITn",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (38 mm Stud):217579",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3Y4YRln2r91vflHcHE5ITp",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (38 mm Stud):217577",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3Y4YRln2r91vflHcHE5ITs",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (38 mm Stud):217580",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3Y4YRln2r91vflHcHE5IVI",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (38 mm Stud):217416",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3Y4YRln2r91vflHcHE5IVJ",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (38 mm Stud):217417",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3Y4YRln2r91vflHcHE5IVS",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (38 mm Stud):217414",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3Y4YRln2r91vflHcHE5IVT",
+      "ifc_type": "IfcWallStandardCase",
+      "element": "Basic Wall:Interior - Furring (38 mm Stud):217415",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc503",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187462",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc50B",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187470",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc50U",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187483",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc50n",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187508",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc52o",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187639",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc554",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187649",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc55E",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187659",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc55M",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187667",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc55U",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187675",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc55c",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187683",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc55k",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187691",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc55m",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187701",
+      "status": "UNCHANGED"
+    },
+    {
+      "global_id": "3bXiCStxP6Fgxdej$yc5T8",
+      "ifc_type": "IfcCovering",
+      "element": "Compound Ceiling:Gypsum Board:187149",
+      "status": "UNCHANGED"
+    }
+  ]
+}

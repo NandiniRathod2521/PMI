@@ -1,0 +1,5 @@
+Element,IFC type,Expected channels,Detected channels,Validation
+PMI_External_Wall_Revised,IfcWall,"attribute, property","attribute, property",PASS
+PMI_Fire_Rated_Door,IfcDoor,"attribute, property","attribute, property",PASS
+PMI_Window_Revised,IfcWindow,"attribute, geometry, property","attribute, geometry, property",PASS
+All other elements,-,unchanged,0 unexpected changes,PASS

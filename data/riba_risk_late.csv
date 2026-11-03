@@ -1,0 +1,8 @@
+stage,name,risk,role,finish_v1_day,finish_v2_day,slip_days,min_float_v1,min_float_v2,added_work_days,critical_after_change,exposure,changes,issues,risk_score
+Stage 0,Strategic Definition,NONE,-,10,10,0,0,0,0,True,0,-,-,0
+Stage 1,Preparation and Briefing,NONE,-,25,25,0,0,0,0,True,0,-,-,0
+Stage 2,Concept Design,NONE,-,50,50,0,0,0,0,True,0,-,-,0
+Stage 3,Spatial Coordination,NONE,-,80,80,0,0,0,0,True,0,-,-,0
+Stage 4,Technical Design,HIGH,origin,115,179,64,0,0,22,True,24,"Door, Footing, Slab, Wall, Window",Footing x7 (revised together): geometry+property change -> Stage 4 information re-issued (+6 d) | Window: geometry+property change -> Stage 4 information re-issued (+6 d) | Door: property change -> Stage 4 information re-issued (+2 d) | Slab x2 (revised together): geometry+property change -> Stage 4 information re-issued (+6 d) | Wall: property change -> Stage 4 information re-issued (+2 d),80
+Stage 5,Manufacturing and Construction,HIGH,origin,185,262,77,0,0,53,True,66,"Door, Footing, Slab, Wall, Window","Window: new spec/size -> longer lead time (+15 d) | Door: new spec -> longer lead time (+5 d) | Footing: review (+2 d on A1) | Footing: review (+2 d on A1) | Footing: review (+2 d on A1) | Footing: review (+2 d on A1) | Footing: review (+2 d on A1) | Footing: review (+2 d on A1) | Footing: review (+2 d on A1) | Window: new unit, longer lead time and opening enlargement (+3 d on A4) | Door: certified product, procurement and inspection (+2 d on A4) | Slab: structural rework (+5 d on A2) | Slab: structural rework (+5 d on A2) | Wall: partial rework of the wall build-up (+4 d on A3)",100
+Stage 6,Handover,HIGH,knock-on,195,272,77,0,0,0,True,0,-,finish moves with upstream delay,85

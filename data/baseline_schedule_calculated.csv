@@ -1,0 +1,8 @@
+id,activity,phase,base_duration,added_days,duration,ES,EF,LS,LF,float,critical,start_date,finish_date
+A1,Foundations,Substructure,10,0,10,0,10,0,10,0,True,2027-01-04,2027-01-15
+A2,Structural works,Superstructure,20,0,20,10,30,10,30,0,True,2027-01-18,2027-02-12
+A3,Wall construction,Envelope,12,0,12,30,42,30,42,0,True,2027-02-15,2027-03-02
+A4,Door and window installation,Envelope,8,0,8,42,50,42,50,0,True,2027-03-03,2027-03-12
+A5,MEP rough-in,Services,10,0,10,30,40,40,50,10,False,2027-02-15,2027-02-26
+A6,Interior finishes,Interiors,15,0,15,50,65,50,65,0,True,2027-03-15,2027-04-02
+A7,Final inspection,Handover,5,0,5,65,70,65,70,0,True,2027-04-05,2027-04-09

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520">
+<defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap');
+    .wordmark { font-family: 'Poppins', sans-serif; font-weight: 600; }
+    .subtitle { font-family: 'Poppins', sans-serif; font-weight: 400; }
+  </style>
+</defs>
+<rect width="1500" height="520" fill="#0A2035"/>
+<g transform="translate(100 120)">
+  <!-- Open-right blue bracket surrounding the entire Gantt composition -->
+  <path d="M350 0 H30 Q0 0 0 30 V250 Q0 280 30 280 H350"
+        fill="none" stroke="#447EB9" stroke-width="11"/>
+  <!-- Horizontal guide lines -->
+  <g stroke="#365A79" stroke-width="2.5">
+    <path d="M30 36 H330 M30 88 H330 M30 140 H330 M30 192 H330 M30 244 H330"/>
+    <path d="M105 36 V244"/>
+  </g>
+  <!-- Bars centered as a group: x=55..295, y=46..234 -->
+  <rect x="55" y="46" width="118" height="32" rx="16" fill="#00A8AA"/>
+  <rect x="94" y="98" width="145" height="32" rx="16" fill="#447EB9"/>
+  <rect x="153" y="150" width="142" height="32" rx="16" fill="#FF705B"/>
+  <rect x="196" y="202" width="99" height="32" rx="16" fill="#EBAE38"/>
+  <!-- Change marker -->
+  <path d="M260 25 V255" stroke="#FF705B" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="260" cy="166" r="11" fill="#FFFFFF"/>
+  <circle cx="260" cy="166" r="4" fill="#365A79"/>
+</g>
+<!-- Clean Poppins lettering -->
+<text class="wordmark" x="520" y="345" font-size="195" letter-spacing="1" fill="#FFFFFF">PMI</text>
+<text class="subtitle" x="528" y="404" font-size="35" letter-spacing="1" fill="#B8C0CA">Project Management Intelligence</text>
+</svg>
