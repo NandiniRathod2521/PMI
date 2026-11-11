@@ -1,0 +1,27 @@
+{
+  "checked_date": "2026-11-11",
+  "sources": [
+    {
+      "source": "https://doi.org/10.17863/CAM.53890",
+      "url": "https://www.repository.cam.ac.uk/items/6cb214a6-f52d-4846-b2de-3a2e2a34d431",
+      "evidence": "Institutional schedule dataset; CC BY 4.0; links the 2022 paper; archive SHA checked against local Stage 1 inventory"
+    },
+    {
+      "source": "https://itcon.org/papers/2022_04-ITcon-Fitzsimmons.pdf",
+      "location": "Section 3.1, printed p. 74; limitations pp. 88\u201389",
+      "evidence": "Describes historical P6/XER data and a filtered 302-project/293263-task study, distinct from this raw export; records can be revised without preserved old schedules"
+    },
+    {
+      "source": "https://github.com/fitzsimmonsjp/fitzsimmons_method_data/blob/master/Simulation%20Algorithm.py",
+      "location": "Lines 172\u2013219 and 234\u2013245 in inspected author code",
+      "evidence": "Related author code substitutes planned dates when actual pairs are absent, then counts business days and derives growth. Exact lineage to this JSON is NOT established. Never execute downloaded models/code or apply that fallback as actual data."
+    }
+  ],
+  "unresolved": [
+    "Exact paper/code-to-JSON export version correspondence",
+    "Original issued baseline and contractual completion",
+    "Calendar definitions, holidays, hours/day and timezone",
+    "Shared parent projects and snapshots",
+    "Per-row actual-data verification and correction history"
+  ]
+}

@@ -1,0 +1,3315 @@
+{
+  "Overview": [
+    {
+      "cell": "A1",
+      "row": 1,
+      "column": 1,
+      "value": "Dynamic Scheduling Library (DSLIB): An overview of the empirical project database for baseline scheduling, risk analysis and project control"
+    },
+    {
+      "cell": "A3",
+      "row": 3,
+      "column": 1,
+      "value": "Written by: "
+    },
+    {
+      "cell": "B3",
+      "row": 3,
+      "column": 2,
+      "value": "Mario Vanhoucke and Tom Servranckx"
+    },
+    {
+      "cell": "A4",
+      "row": 4,
+      "column": 1,
+      "value": "Website:"
+    },
+    {
+      "cell": "B4",
+      "row": 4,
+      "column": 2,
+      "value": "https://www.projectmanagement.ugent.be/research/data"
+    },
+    {
+      "cell": "A5",
+      "row": 5,
+      "column": 1,
+      "value": "Reference: "
+    },
+    {
+      "cell": "B5",
+      "row": 5,
+      "column": 2,
+      "value": "\ufeffBatselier, J., & Vanhoucke, M. (2015). Construction and evaluation framework for a real-life project database. International Journal of Project Management, 33(3), 697\u2013710. https://doi.org/10.1016/j.ijproman.2014.09.004"
+    },
+    {
+      "cell": "B6",
+      "row": 6,
+      "column": 2,
+      "value": "The original paper describes 52 projects. The database currently consists of 203 projects for which an update is given in my book \"The illusion of control\"."
+    },
+    {
+      "cell": "A7",
+      "row": 7,
+      "column": 1,
+      "value": "Last update"
+    },
+    {
+      "cell": "B7",
+      "row": 7,
+      "column": 2,
+      "value": "September 2026 (Version 3.4)"
+    },
+    {
+      "cell": "A9",
+      "row": 9,
+      "column": 1,
+      "value": "Overview"
+    },
+    {
+      "cell": "B10",
+      "row": 10,
+      "column": 2,
+      "value": "This sheet gives an overview of the parameters used to classify the empirical projects"
+    },
+    {
+      "cell": "A12",
+      "row": 12,
+      "column": 1,
+      "value": "Project database"
+    },
+    {
+      "cell": "B13",
+      "row": 13,
+      "column": 2,
+      "value": "Code"
+    },
+    {
+      "cell": "C13",
+      "row": 13,
+      "column": 3,
+      "value": "Each project has a unique ID, starting with the year when the data was collected"
+    },
+    {
+      "cell": "B14",
+      "row": 14,
+      "column": 2,
+      "value": "Submitted by"
+    },
+    {
+      "cell": "C14",
+      "row": 14,
+      "column": 3,
+      "value": "Name of the person(s) who collected the project data"
+    },
+    {
+      "cell": "B15",
+      "row": 15,
+      "column": 2,
+      "value": "Sector"
+    },
+    {
+      "cell": "C15",
+      "row": 15,
+      "column": 3,
+      "value": "Sector of the project"
+    },
+    {
+      "cell": "B16",
+      "row": 16,
+      "column": 2,
+      "value": "Keywords"
+    },
+    {
+      "cell": "C16",
+      "row": 16,
+      "column": 3,
+      "value": "Additional keywords"
+    },
+    {
+      "cell": "A18",
+      "row": 18,
+      "column": 1,
+      "value": "Completeness"
+    },
+    {
+      "cell": "B19",
+      "row": 19,
+      "column": 2,
+      "value": "= This part uses the colour-coded approach of Batselier and Vanhoucke (2015) to indicate the completeness of the project data"
+    },
+    {
+      "cell": "B20",
+      "row": 20,
+      "column": 2,
+      "value": "Baseline schedule"
+    },
+    {
+      "cell": "C20",
+      "row": 20,
+      "column": 3,
+      "value": "Indication of the completeness of the baseline schedule information, including the project network, activity duration and cost estimates, etc."
+    },
+    {
+      "cell": "B21",
+      "row": 21,
+      "column": 2,
+      "value": "Risk Analysis"
+    },
+    {
+      "cell": "C21",
+      "row": 21,
+      "column": 3,
+      "value": "Indication of the completeness of the schedule risk analysis information, including the probability distributions, the sensitivity metrics, etc."
+    },
+    {
+      "cell": "B22",
+      "row": 22,
+      "column": 2,
+      "value": "Project control"
+    },
+    {
+      "cell": "C22",
+      "row": 22,
+      "column": 3,
+      "value": "Indication of the completeness of the project control information, including the project performance indicators and other the progress data"
+    },
+    {
+      "cell": "B23",
+      "row": 23,
+      "column": 2,
+      "value": "Recommended reading:"
+    },
+    {
+      "cell": "C23",
+      "row": 23,
+      "column": 3,
+      "value": "Batselier, J., & Vanhoucke, M. (2015). Construction and evaluation framework for a real-life project database. International Journal of Project Management, 33(3), 697\u2013710. https://doi.org/10.1016/j.ijproman.2014.09.004"
+    },
+    {
+      "cell": "A25",
+      "row": 25,
+      "column": 1,
+      "value": "Authenticity"
+    },
+    {
+      "cell": "B26",
+      "row": 26,
+      "column": 2,
+      "value": "= This part uses the colour-coded approach of Batselier and Vanhoucke (2015) to indicate the authenticity of the project data"
+    },
+    {
+      "cell": "B27",
+      "row": 27,
+      "column": 2,
+      "value": "Project"
+    },
+    {
+      "cell": "C27",
+      "row": 27,
+      "column": 3,
+      "value": "The authenticity of all static project data"
+    },
+    {
+      "cell": "B28",
+      "row": 28,
+      "column": 2,
+      "value": "Tracking (color or NA"
+    },
+    {
+      "cell": "C28",
+      "row": 28,
+      "column": 3,
+      "value": "The authenticity of all project progress data for each tracking period (N.A. is used when not available)"
+    },
+    {
+      "cell": "B29",
+      "row": 29,
+      "column": 2,
+      "value": "Recommended reading:"
+    },
+    {
+      "cell": "C29",
+      "row": 29,
+      "column": 3,
+      "value": "Batselier, J., & Vanhoucke, M. (2015). Construction and evaluation framework for a real-life project database. International Journal of Project Management, 33(3), 697\u2013710. https://doi.org/10.1016/j.ijproman.2014.09.004"
+    },
+    {
+      "cell": "A31",
+      "row": 31,
+      "column": 1,
+      "value": "General"
+    },
+    {
+      "cell": "B32",
+      "row": 32,
+      "column": 2,
+      "value": "# activities"
+    },
+    {
+      "cell": "C32",
+      "row": 32,
+      "column": 3,
+      "value": "The number of activities in the project"
+    },
+    {
+      "cell": "B33",
+      "row": 33,
+      "column": 2,
+      "value": "PD (days)"
+    },
+    {
+      "cell": "C33",
+      "row": 33,
+      "column": 3,
+      "value": "The planned duration of the project schedule"
+    },
+    {
+      "cell": "B34",
+      "row": 34,
+      "column": 2,
+      "value": "BAC (euro)"
+    },
+    {
+      "cell": "C34",
+      "row": 34,
+      "column": 3,
+      "value": "The planned costs (budget at completion) of the project schedule"
+    },
+    {
+      "cell": "A36",
+      "row": 36,
+      "column": 1,
+      "value": "Resources"
+    },
+    {
+      "cell": "B37",
+      "row": 37,
+      "column": 2,
+      "value": "Y or N"
+    },
+    {
+      "cell": "C37",
+      "row": 37,
+      "column": 3,
+      "value": "Project has resource information (Y) or not (N)"
+    },
+    {
+      "cell": "B38",
+      "row": 38,
+      "column": 2,
+      "value": "Renewable"
+    },
+    {
+      "cell": "C38",
+      "row": 38,
+      "column": 3,
+      "value": "Renewable resource data (available on a period per period basis)"
+    },
+    {
+      "cell": "B39",
+      "row": 39,
+      "column": 2,
+      "value": "Consumable"
+    },
+    {
+      "cell": "C39",
+      "row": 39,
+      "column": 3,
+      "value": "Consumable resource data (limited consumtion over the whole time horizon)"
+    },
+    {
+      "cell": "B40",
+      "row": 40,
+      "column": 2,
+      "value": "Recommended reading:"
+    },
+    {
+      "cell": "C40",
+      "row": 40,
+      "column": 3,
+      "value": "Vanhoucke, M. (2013). Project management with dynamic scheduling: Baseline scheduling, risk analysis and project control (2nd ed.). Springer. https://doi.org/https://doi.org/10.1007/978-3-642-40438-2"
+    },
+    {
+      "cell": "A42",
+      "row": 42,
+      "column": 1,
+      "value": "Tracking\u00a0"
+    },
+    {
+      "cell": "B43",
+      "row": 43,
+      "column": 2,
+      "value": "Early/late"
+    },
+    {
+      "cell": "C43",
+      "row": 43,
+      "column": 3,
+      "value": "Percentage deviation of real duration relative to the planned duration (positive values: late projects / negative values: early projects)"
+    },
+    {
+      "cell": "B44",
+      "row": 44,
+      "column": 2,
+      "value": "Under/over budget"
+    },
+    {
+      "cell": "C44",
+      "row": 44,
+      "column": 3,
+      "value": "Percentage deviation of real cost relative to the planned cost (positive values: under-budget projects / negative values: over-budget projects)"
+    },
+    {
+      "cell": "A46",
+      "row": 46,
+      "column": 1,
+      "value": "Network topology"
+    },
+    {
+      "cell": "B47",
+      "row": 47,
+      "column": 2,
+      "value": "SP"
+    },
+    {
+      "cell": "C47",
+      "row": 47,
+      "column": 3,
+      "value": "The serial/parallel indicator of Vanhoucke et al. (2008)"
+    },
+    {
+      "cell": "B48",
+      "row": 48,
+      "column": 2,
+      "value": "AD"
+    },
+    {
+      "cell": "C48",
+      "row": 48,
+      "column": 3,
+      "value": "The activity distribution indicator of Vanhoucke et al. (2008)"
+    },
+    {
+      "cell": "B49",
+      "row": 49,
+      "column": 2,
+      "value": "LA"
+    },
+    {
+      "cell": "C49",
+      "row": 49,
+      "column": 3,
+      "value": "The length of arcs indicator of Vanhoucke et al. (2008)"
+    },
+    {
+      "cell": "B50",
+      "row": 50,
+      "column": 2,
+      "value": "TF"
+    },
+    {
+      "cell": "C50",
+      "row": 50,
+      "column": 3,
+      "value": "The topological float indicator of Vanhoucke et al. (2008)"
+    },
+    {
+      "cell": "B51",
+      "row": 51,
+      "column": 2,
+      "value": "RI"
+    },
+    {
+      "cell": "C51",
+      "row": 51,
+      "column": 3,
+      "value": "The regularity index indicator of Batselier and Vanhoucke (2017)"
+    },
+    {
+      "cell": "B52",
+      "row": 52,
+      "column": 2,
+      "value": "Regularity"
+    },
+    {
+      "cell": "C52",
+      "row": 52,
+      "column": 3,
+      "value": "Classification of the RI index into three clases as discussed in Batselier and Vanhoucke (2017)"
+    },
+    {
+      "cell": "B53",
+      "row": 53,
+      "column": 2,
+      "value": "Recommended readings:"
+    },
+    {
+      "cell": "C53",
+      "row": 53,
+      "column": 3,
+      "value": "Vanhoucke, M., Coelho, J., Debels, D., Maenhout, B., & Tavares, L. V. (2008). An evaluation of the adequacy of project network generators with systematically sampled networks. European Journal of Operational Research, 187(2), 511\u2013524. https://doi.org/10.1016/j.ejor.2007.03.032"
+    },
+    {
+      "cell": "C54",
+      "row": 54,
+      "column": 3,
+      "value": "Batselier, J., & Vanhoucke, M. (2017). Project regularity: Development and evaluation of a new project characteristic. Journal of Systems Science and Systems Engineering, 26(1), 100\u2013120. https://doi.org/10.1007/s11518-016-5312-6"
+    },
+    {
+      "cell": "A56",
+      "row": 56,
+      "column": 1,
+      "value": "Time sensitivity"
+    },
+    {
+      "cell": "B57",
+      "row": 57,
+      "column": 2,
+      "value": "= This part measures the time sensitivity of activities (relation between activity duration and the total project duration). Since each activity gets a value, the average, standard deviations and skewness for all activities are reported"
+    },
+    {
+      "cell": "B58",
+      "row": 58,
+      "column": 2,
+      "value": "CI: Avg, stDev and Skew"
+    },
+    {
+      "cell": "C58",
+      "row": 58,
+      "column": 3,
+      "value": "Criticality index"
+    },
+    {
+      "cell": "B59",
+      "row": 59,
+      "column": 2,
+      "value": "SI"
+    },
+    {
+      "cell": "C59",
+      "row": 59,
+      "column": 3,
+      "value": "Significance index"
+    },
+    {
+      "cell": "B60",
+      "row": 60,
+      "column": 2,
+      "value": "SSI"
+    },
+    {
+      "cell": "C60",
+      "row": 60,
+      "column": 3,
+      "value": "Schedule sensitivity index"
+    },
+    {
+      "cell": "B61",
+      "row": 61,
+      "column": 2,
+      "value": "CRI-r"
+    },
+    {
+      "cell": "C61",
+      "row": 61,
+      "column": 3,
+      "value": "The cruciality index based on the Pearson product-moment correlation coefficient"
+    },
+    {
+      "cell": "B62",
+      "row": 62,
+      "column": 2,
+      "value": "CRI-rho"
+    },
+    {
+      "cell": "C62",
+      "row": 62,
+      "column": 3,
+      "value": "The cruciality index based on Spearman\u2019s rank correlation "
+    },
+    {
+      "cell": "B63",
+      "row": 63,
+      "column": 2,
+      "value": "CRI-tau"
+    },
+    {
+      "cell": "C63",
+      "row": 63,
+      "column": 3,
+      "value": "The cruciality index based on Kendall\u2019s tau rank correlation index"
+    },
+    {
+      "cell": "B64",
+      "row": 64,
+      "column": 2,
+      "value": "Recommended reading:"
+    },
+    {
+      "cell": "C64",
+      "row": 64,
+      "column": 3,
+      "value": "Vanhoucke, M. (2010). Measuring time: Improving project performance using earned value management (1st ed.). Springer. http://www.springer.com/engineering/production+engineering/book/978-1-4419-1013-4"
+    },
+    {
+      "cell": "A66",
+      "row": 66,
+      "column": 1,
+      "value": "Cost sensitivity"
+    },
+    {
+      "cell": "B67",
+      "row": 67,
+      "column": 2,
+      "value": "= This part measures the cost sensitivity of activities  (relation between activity cost and the total project cost). Since each activity gets a value, the average, standard deviations and skewness for all activities are reported"
+    },
+    {
+      "cell": "B68",
+      "row": 68,
+      "column": 2,
+      "value": "CRI-r"
+    },
+    {
+      "cell": "C68",
+      "row": 68,
+      "column": 3,
+      "value": "The cruciality index based on the Pearson product-moment correlation coefficient"
+    },
+    {
+      "cell": "B69",
+      "row": 69,
+      "column": 2,
+      "value": "CRI-rho"
+    },
+    {
+      "cell": "C69",
+      "row": 69,
+      "column": 3,
+      "value": "The cruciality index based on Spearman\u2019s rank correlation "
+    },
+    {
+      "cell": "B70",
+      "row": 70,
+      "column": 2,
+      "value": "CRI-tau"
+    },
+    {
+      "cell": "C70",
+      "row": 70,
+      "column": 3,
+      "value": "The cruciality index based on Kendall\u2019s tau rank correlation index"
+    },
+    {
+      "cell": "B71",
+      "row": 71,
+      "column": 2,
+      "value": "Recommended reading:"
+    },
+    {
+      "cell": "C71",
+      "row": 71,
+      "column": 3,
+      "value": "Vanhoucke, M. (2010). Dynamic scheduling on your desktop (1st ed.). OR-AS. http://www.or-as.be/books/protrack2"
+    },
+    {
+      "cell": "A73",
+      "row": 73,
+      "column": 1,
+      "value": "Resource sensitivity"
+    },
+    {
+      "cell": "B74",
+      "row": 74,
+      "column": 2,
+      "value": "= This part measures the resource sensitivity of activities  (relation between the resource cost and the total project cost). Since each resource gets a value, the average, standard deviations and skewness for all resources are reported"
+    },
+    {
+      "cell": "B75",
+      "row": 75,
+      "column": 2,
+      "value": "CRI-r"
+    },
+    {
+      "cell": "C75",
+      "row": 75,
+      "column": 3,
+      "value": "The cruciality index based on the Pearson product-moment correlation coefficient"
+    },
+    {
+      "cell": "B76",
+      "row": 76,
+      "column": 2,
+      "value": "CRI-rho"
+    },
+    {
+      "cell": "C76",
+      "row": 76,
+      "column": 3,
+      "value": "The cruciality index based on Spearman\u2019s rank correlation "
+    },
+    {
+      "cell": "B77",
+      "row": 77,
+      "column": 2,
+      "value": "CRI-tau"
+    },
+    {
+      "cell": "C77",
+      "row": 77,
+      "column": 3,
+      "value": "The cruciality index based on Kendall\u2019s tau rank correlation index"
+    },
+    {
+      "cell": "B78",
+      "row": 78,
+      "column": 2,
+      "value": "Recommended reading:"
+    },
+    {
+      "cell": "C78",
+      "row": 78,
+      "column": 3,
+      "value": "Vanhoucke, M. (2010). Dynamic scheduling on your desktop (1st ed.). OR-AS. http://www.or-as.be/books/protrack2"
+    },
+    {
+      "cell": "A80",
+      "row": 80,
+      "column": 1,
+      "value": "Performance metrics"
+    },
+    {
+      "cell": "B81",
+      "row": 81,
+      "column": 2,
+      "value": "= This part contains values for different performance metrics measuring over the project progress as average values (avg) and standard deviations (stdev) of all tracking periods. Final values are also reported which gives the performance at the end of the project."
+    },
+    {
+      "cell": "B82",
+      "row": 82,
+      "column": 2,
+      "value": "CV"
+    },
+    {
+      "cell": "C82",
+      "row": 82,
+      "column": 3,
+      "value": "Cost variance (CV = EV - AC)"
+    },
+    {
+      "cell": "B83",
+      "row": 83,
+      "column": 2,
+      "value": "SV"
+    },
+    {
+      "cell": "C83",
+      "row": 83,
+      "column": 3,
+      "value": "Schedule variance (SV = EV - PV)"
+    },
+    {
+      "cell": "B84",
+      "row": 84,
+      "column": 2,
+      "value": "SV(t)"
+    },
+    {
+      "cell": "C84",
+      "row": 84,
+      "column": 3,
+      "value": "Schedule variance based on Earned Schedule (SV(t) = ES - AT) with AT = current period (actual time)"
+    },
+    {
+      "cell": "B85",
+      "row": 85,
+      "column": 2,
+      "value": "CPI"
+    },
+    {
+      "cell": "C85",
+      "row": 85,
+      "column": 3,
+      "value": "Cost performance index (CPI = EV / AC)"
+    },
+    {
+      "cell": "B86",
+      "row": 86,
+      "column": 2,
+      "value": "SPI"
+    },
+    {
+      "cell": "C86",
+      "row": 86,
+      "column": 3,
+      "value": "Schedule performance index (SPI = EV / PV)"
+    },
+    {
+      "cell": "B87",
+      "row": 87,
+      "column": 2,
+      "value": "SPI(t)"
+    },
+    {
+      "cell": "C87",
+      "row": 87,
+      "column": 3,
+      "value": "Schedule performance index based on Earned Schedule (SPI(t) = ES / AT)"
+    },
+    {
+      "cell": "B88",
+      "row": 88,
+      "column": 2,
+      "value": "p-factor"
+    },
+    {
+      "cell": "C88",
+      "row": 88,
+      "column": 3,
+      "value": "Schedule adherence index"
+    },
+    {
+      "cell": "B89",
+      "row": 89,
+      "column": 2,
+      "value": "Real duration"
+    },
+    {
+      "cell": "C89",
+      "row": 89,
+      "column": 3,
+      "value": "The real total project duration (known after the project's finish)"
+    },
+    {
+      "cell": "B90",
+      "row": 90,
+      "column": 2,
+      "value": "Real cost"
+    },
+    {
+      "cell": "C90",
+      "row": 90,
+      "column": 3,
+      "value": "The real total project cost (known after the project's finish)"
+    },
+    {
+      "cell": "B91",
+      "row": 91,
+      "column": 2,
+      "value": "Recommended reading:"
+    },
+    {
+      "cell": "C91",
+      "row": 91,
+      "column": 3,
+      "value": "Vanhoucke, M. (2010). Measuring time: Improving project performance using earned value management (1st ed.). Springer. http://www.springer.com/engineering/production+engineering/book/978-1-4419-1013-4"
+    },
+    {
+      "cell": "A93",
+      "row": 93,
+      "column": 1,
+      "value": "Reference used in this document"
+    },
+    {
+      "cell": "B94",
+      "row": 94,
+      "column": 2,
+      "value": "Batselier and Vanhoucke (2015)"
+    },
+    {
+      "cell": "C94",
+      "row": 94,
+      "column": 3,
+      "value": "Batselier, J., & Vanhoucke, M. (2015). Construction and evaluation framework for a real-life project database. International Journal of Project Management, 33(3), 697\u2013710. https://doi.org/10.1016/j.ijproman.2014.09.004"
+    },
+    {
+      "cell": "B95",
+      "row": 95,
+      "column": 2,
+      "value": "Batselier and Vanhoucke (2017)"
+    },
+    {
+      "cell": "C95",
+      "row": 95,
+      "column": 3,
+      "value": "Batselier, J., & Vanhoucke, M. (2017). Project regularity: Development and evaluation of a new project characteristic. Journal of Systems Science and Systems Engineering, 26(1), 100\u2013120. https://doi.org/10.1007/s11518-016-5312-6"
+    },
+    {
+      "cell": "B96",
+      "row": 96,
+      "column": 2,
+      "value": "Vanhoucke et al. (2008)"
+    },
+    {
+      "cell": "C96",
+      "row": 96,
+      "column": 3,
+      "value": "Vanhoucke, M., Coelho, J., Debels, D., Maenhout, B., & Tavares, L. V. (2008). An evaluation of the adequacy of project network generators with systematically sampled networks. European Journal of Operational Research, 187(2), 511\u2013524. https://doi.org/10.1016/j.ejor.2007.03.032"
+    },
+    {
+      "cell": "B97",
+      "row": 97,
+      "column": 2,
+      "value": "Vanhoucke (2010a)"
+    },
+    {
+      "cell": "C97",
+      "row": 97,
+      "column": 3,
+      "value": "Vanhoucke, M. (2010). Measuring time: Improving project performance using earned value management (1st ed.). Springer. http://www.springer.com/engineering/production+engineering/book/978-1-4419-1013-4"
+    },
+    {
+      "cell": "B98",
+      "row": 98,
+      "column": 2,
+      "value": "Vanhoucke (2013)"
+    },
+    {
+      "cell": "C98",
+      "row": 98,
+      "column": 3,
+      "value": "Vanhoucke, M. (2013). Project management with dynamic scheduling: Baseline scheduling, risk analysis and project control (2nd ed.). Springer. https://doi.org/https://doi.org/10.1007/978-3-642-40438-2"
+    },
+    {
+      "cell": "B99",
+      "row": 99,
+      "column": 2,
+      "value": "Vanhoucke (2010b)"
+    },
+    {
+      "cell": "C99",
+      "row": 99,
+      "column": 3,
+      "value": "Vanhoucke, M. (2010). Using activity sensitivity and network topology information to monitor project time performance. Omega - The International Journal of Management Science, 38(5), 359\u2013370. https://doi.org/10.1016/j.omega.2009.10.001"
+    },
+    {
+      "cell": "B100",
+      "row": 100,
+      "column": 2,
+      "value": "Vanhoucke (2010c)"
+    },
+    {
+      "cell": "C100",
+      "row": 100,
+      "column": 3,
+      "value": "Vanhoucke, M. (2010). Dynamic scheduling on your desktop (1st ed.). OR-AS. http://www.or-as.be/books"
+    },
+    {
+      "cell": "B101",
+      "row": 101,
+      "column": 2,
+      "value": "More references:"
+    },
+    {
+      "cell": "C101",
+      "row": 101,
+      "column": 3,
+      "value": "https://www.projectmanagement.ugent.be/staff/publications"
+    },
+    {
+      "cell": "A103",
+      "row": 103,
+      "column": 1,
+      "value": "Books with summary of the empirical data"
+    },
+    {
+      "cell": "B104",
+      "row": 104,
+      "column": 2,
+      "value": "Vanhoucke (2023)"
+    },
+    {
+      "cell": "C104",
+      "row": 104,
+      "column": 3,
+      "value": "Vanhoucke, M., 2023, \"The illusion of control: Project data, computer algorithms and human intuition for project management and control\", Book published by Springer."
+    },
+    {
+      "cell": "B105",
+      "row": 105,
+      "column": 2,
+      "value": "Vanhoucke (2024)"
+    },
+    {
+      "cell": "C105",
+      "row": 105,
+      "column": 3,
+      "value": "Vanhoucke, M., 2024, \"A quest for projects with scarce resources: Seeking schedule intelligence through project data discovery\", Book published by Springer."
+    },
+    {
+      "cell": "A107",
+      "row": 107,
+      "column": 1,
+      "value": "More information"
+    },
+    {
+      "cell": "B108",
+      "row": 108,
+      "column": 2,
+      "value": "Mario Vanhoucke"
+    },
+    {
+      "cell": "C108",
+      "row": 108,
+      "column": 3,
+      "value": "mario.vanhoucke@ugent.be"
+    },
+    {
+      "cell": "B109",
+      "row": 109,
+      "column": 2,
+      "value": "Tom Servranckx"
+    },
+    {
+      "cell": "C109",
+      "row": 109,
+      "column": 3,
+      "value": "tom.servranckx@ugent.be"
+    },
+    {
+      "cell": "B110",
+      "row": 110,
+      "column": 2,
+      "value": "Website"
+    },
+    {
+      "cell": "C110",
+      "row": 110,
+      "column": 3,
+      "value": "www.or-as.be"
+    }
+  ],
+  "Known Problems": [
+    {
+      "cell": "A1",
+      "row": 1,
+      "column": 1,
+      "value": "Known problems in the DSLIB (for future updates)"
+    },
+    {
+      "cell": "A2",
+      "row": 2,
+      "column": 1,
+      "value": "Project ID"
+    },
+    {
+      "cell": "B2",
+      "row": 2,
+      "column": 2,
+      "value": "Update Type"
+    },
+    {
+      "cell": "C2",
+      "row": 2,
+      "column": 3,
+      "value": "Comments (problem)"
+    },
+    {
+      "cell": "A4",
+      "row": 4,
+      "column": 1,
+      "value": "2011-06"
+    },
+    {
+      "cell": "C4",
+      "row": 4,
+      "column": 3,
+      "value": "Project cannot be rescheduled"
+    }
+  ],
+  "Updates": [
+    {
+      "cell": "A1",
+      "row": 1,
+      "column": 1,
+      "value": "Details about the updated files for DSLIB Version 3.4"
+    },
+    {
+      "cell": "A2",
+      "row": 2,
+      "column": 1,
+      "value": "Project ID"
+    },
+    {
+      "cell": "B2",
+      "row": 2,
+      "column": 2,
+      "value": "Updated files"
+    },
+    {
+      "cell": "F2",
+      "row": 2,
+      "column": 6,
+      "value": "Update Type"
+    },
+    {
+      "cell": "G2",
+      "row": 2,
+      "column": 7,
+      "value": "Comments (update)"
+    },
+    {
+      "cell": "B3",
+      "row": 3,
+      "column": 2,
+      "value": "Excel"
+    },
+    {
+      "cell": "C3",
+      "row": 3,
+      "column": 3,
+      "value": "Protrack"
+    },
+    {
+      "cell": "D3",
+      "row": 3,
+      "column": 4,
+      "value": "Project Dard"
+    },
+    {
+      "cell": "E3",
+      "row": 3,
+      "column": 5,
+      "value": "Analysis Sheet"
+    },
+    {
+      "cell": "A4",
+      "row": 4,
+      "column": 1,
+      "value": "C2011-04"
+    },
+    {
+      "cell": "B4",
+      "row": 4,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C4",
+      "row": 4,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D4",
+      "row": 4,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E4",
+      "row": 4,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F4",
+      "row": 4,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G4",
+      "row": 4,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A5",
+      "row": 5,
+      "column": 1,
+      "value": "C2011-08"
+    },
+    {
+      "cell": "B5",
+      "row": 5,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C5",
+      "row": 5,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D5",
+      "row": 5,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E5",
+      "row": 5,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F5",
+      "row": 5,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G5",
+      "row": 5,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A6",
+      "row": 6,
+      "column": 1,
+      "value": "C2011-09"
+    },
+    {
+      "cell": "B6",
+      "row": 6,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C6",
+      "row": 6,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D6",
+      "row": 6,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E6",
+      "row": 6,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F6",
+      "row": 6,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G6",
+      "row": 6,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A7",
+      "row": 7,
+      "column": 1,
+      "value": "C2012-01"
+    },
+    {
+      "cell": "B7",
+      "row": 7,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C7",
+      "row": 7,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D7",
+      "row": 7,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E7",
+      "row": 7,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F7",
+      "row": 7,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G7",
+      "row": 7,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A8",
+      "row": 8,
+      "column": 1,
+      "value": "C2012-02"
+    },
+    {
+      "cell": "B8",
+      "row": 8,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C8",
+      "row": 8,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D8",
+      "row": 8,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E8",
+      "row": 8,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F8",
+      "row": 8,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G8",
+      "row": 8,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A9",
+      "row": 9,
+      "column": 1,
+      "value": "C2012-04"
+    },
+    {
+      "cell": "B9",
+      "row": 9,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C9",
+      "row": 9,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D9",
+      "row": 9,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E9",
+      "row": 9,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F9",
+      "row": 9,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G9",
+      "row": 9,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A10",
+      "row": 10,
+      "column": 1,
+      "value": "C2012-05"
+    },
+    {
+      "cell": "B10",
+      "row": 10,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C10",
+      "row": 10,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D10",
+      "row": 10,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E10",
+      "row": 10,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F10",
+      "row": 10,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G10",
+      "row": 10,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A11",
+      "row": 11,
+      "column": 1,
+      "value": "C2012-16"
+    },
+    {
+      "cell": "B11",
+      "row": 11,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C11",
+      "row": 11,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D11",
+      "row": 11,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E11",
+      "row": 11,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F11",
+      "row": 11,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G11",
+      "row": 11,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A12",
+      "row": 12,
+      "column": 1,
+      "value": "C2016-38"
+    },
+    {
+      "cell": "B12",
+      "row": 12,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C12",
+      "row": 12,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D12",
+      "row": 12,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E12",
+      "row": 12,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F12",
+      "row": 12,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G12",
+      "row": 12,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A13",
+      "row": 13,
+      "column": 1,
+      "value": "C2017-05"
+    },
+    {
+      "cell": "B13",
+      "row": 13,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C13",
+      "row": 13,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D13",
+      "row": 13,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E13",
+      "row": 13,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F13",
+      "row": 13,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G13",
+      "row": 13,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A14",
+      "row": 14,
+      "column": 1,
+      "value": "C2018-06"
+    },
+    {
+      "cell": "B14",
+      "row": 14,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C14",
+      "row": 14,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D14",
+      "row": 14,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E14",
+      "row": 14,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F14",
+      "row": 14,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G14",
+      "row": 14,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A15",
+      "row": 15,
+      "column": 1,
+      "value": "C2018-09"
+    },
+    {
+      "cell": "B15",
+      "row": 15,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C15",
+      "row": 15,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D15",
+      "row": 15,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E15",
+      "row": 15,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F15",
+      "row": 15,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G15",
+      "row": 15,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A16",
+      "row": 16,
+      "column": 1,
+      "value": "C2018-12"
+    },
+    {
+      "cell": "B16",
+      "row": 16,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C16",
+      "row": 16,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D16",
+      "row": 16,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E16",
+      "row": 16,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F16",
+      "row": 16,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G16",
+      "row": 16,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A17",
+      "row": 17,
+      "column": 1,
+      "value": "C2019-16"
+    },
+    {
+      "cell": "B17",
+      "row": 17,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C17",
+      "row": 17,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D17",
+      "row": 17,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E17",
+      "row": 17,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F17",
+      "row": 17,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G17",
+      "row": 17,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A18",
+      "row": 18,
+      "column": 1,
+      "value": "C2023-02"
+    },
+    {
+      "cell": "B18",
+      "row": 18,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C18",
+      "row": 18,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D18",
+      "row": 18,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E18",
+      "row": 18,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F18",
+      "row": 18,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G18",
+      "row": 18,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A19",
+      "row": 19,
+      "column": 1,
+      "value": "C2024-05"
+    },
+    {
+      "cell": "B19",
+      "row": 19,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C19",
+      "row": 19,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D19",
+      "row": 19,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E19",
+      "row": 19,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F19",
+      "row": 19,
+      "column": 6,
+      "value": "Resource-related"
+    },
+    {
+      "cell": "G19",
+      "row": 19,
+      "column": 7,
+      "value": "Project has been rescheduled due to resource conflicts identified in the previous version."
+    },
+    {
+      "cell": "A20",
+      "row": 20,
+      "column": 1,
+      "value": "Details about the updated files for DSLIB Version 3.3"
+    },
+    {
+      "cell": "A21",
+      "row": 21,
+      "column": 1,
+      "value": "C2023-01"
+    },
+    {
+      "cell": "B21",
+      "row": 21,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C21",
+      "row": 21,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D21",
+      "row": 21,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E21",
+      "row": 21,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F21",
+      "row": 21,
+      "column": 6,
+      "value": "Precedence-related"
+    },
+    {
+      "cell": "G21",
+      "row": 21,
+      "column": 7,
+      "value": "Activity IDs have been updated and their precedence relationships have been corrected."
+    },
+    {
+      "cell": "A22",
+      "row": 22,
+      "column": 1,
+      "value": "C2025-01"
+    },
+    {
+      "cell": "B22",
+      "row": 22,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C22",
+      "row": 22,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D22",
+      "row": 22,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E22",
+      "row": 22,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F22",
+      "row": 22,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G22",
+      "row": 22,
+      "column": 7,
+      "value": "TP status dates have been corrected."
+    },
+    {
+      "cell": "A23",
+      "row": 23,
+      "column": 1,
+      "value": "C2025-02"
+    },
+    {
+      "cell": "B23",
+      "row": 23,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C23",
+      "row": 23,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D23",
+      "row": 23,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E23",
+      "row": 23,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F23",
+      "row": 23,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G23",
+      "row": 23,
+      "column": 7,
+      "value": "Activities have been assigned to the correct tracking periods based on their start dates."
+    },
+    {
+      "cell": "A24",
+      "row": 24,
+      "column": 1,
+      "value": "C2025-07"
+    },
+    {
+      "cell": "B24",
+      "row": 24,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C24",
+      "row": 24,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D24",
+      "row": 24,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E24",
+      "row": 24,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F24",
+      "row": 24,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G24",
+      "row": 24,
+      "column": 7,
+      "value": "Activities have been assigned to the correct tracking periods based on their start dates."
+    },
+    {
+      "cell": "A25",
+      "row": 25,
+      "column": 1,
+      "value": "C2025-08"
+    },
+    {
+      "cell": "B25",
+      "row": 25,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C25",
+      "row": 25,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D25",
+      "row": 25,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E25",
+      "row": 25,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F25",
+      "row": 25,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G25",
+      "row": 25,
+      "column": 7,
+      "value": "Activities have been assigned to the correct tracking periods based on their start dates."
+    },
+    {
+      "cell": "A26",
+      "row": 26,
+      "column": 1,
+      "value": "C2025-13"
+    },
+    {
+      "cell": "B26",
+      "row": 26,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C26",
+      "row": 26,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D26",
+      "row": 26,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E26",
+      "row": 26,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F26",
+      "row": 26,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G26",
+      "row": 26,
+      "column": 7,
+      "value": "Activities have been assigned to the correct tracking periods based on their start dates."
+    },
+    {
+      "cell": "A27",
+      "row": 27,
+      "column": 1,
+      "value": "C2025-17"
+    },
+    {
+      "cell": "B27",
+      "row": 27,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C27",
+      "row": 27,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D27",
+      "row": 27,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E27",
+      "row": 27,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F27",
+      "row": 27,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G27",
+      "row": 27,
+      "column": 7,
+      "value": "Activities have been assigned to the correct tracking periods based on their start dates"
+    },
+    {
+      "cell": "A28",
+      "row": 28,
+      "column": 1,
+      "value": "C2025-18"
+    },
+    {
+      "cell": "B28",
+      "row": 28,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C28",
+      "row": 28,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D28",
+      "row": 28,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E28",
+      "row": 28,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F28",
+      "row": 28,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G28",
+      "row": 28,
+      "column": 7,
+      "value": "Activities have been assigned to the correct tracking periods based on their start dates."
+    },
+    {
+      "cell": "A29",
+      "row": 29,
+      "column": 1,
+      "value": "C2025-25"
+    },
+    {
+      "cell": "B29",
+      "row": 29,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C29",
+      "row": 29,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D29",
+      "row": 29,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E29",
+      "row": 29,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F29",
+      "row": 29,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G29",
+      "row": 29,
+      "column": 7,
+      "value": "TP data have been corrected due to minor issues with activity costs."
+    },
+    {
+      "cell": "A30",
+      "row": 30,
+      "column": 1,
+      "value": "C2025-26"
+    },
+    {
+      "cell": "B30",
+      "row": 30,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C30",
+      "row": 30,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D30",
+      "row": 30,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E30",
+      "row": 30,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F30",
+      "row": 30,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G30",
+      "row": 30,
+      "column": 7,
+      "value": "TP status dates have been corrected"
+    },
+    {
+      "cell": "A31",
+      "row": 31,
+      "column": 1,
+      "value": "C2025-27"
+    },
+    {
+      "cell": "B31",
+      "row": 31,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C31",
+      "row": 31,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D31",
+      "row": 31,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E31",
+      "row": 31,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F31",
+      "row": 31,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G31",
+      "row": 31,
+      "column": 7,
+      "value": "Activities have been assigned to the correct tracking periods based on their start dates."
+    },
+    {
+      "cell": "A34",
+      "row": 34,
+      "column": 1,
+      "value": "Details about the updated files for DSLIB Version 3.2"
+    },
+    {
+      "cell": "A35",
+      "row": 35,
+      "column": 1,
+      "value": "C2019-09"
+    },
+    {
+      "cell": "B35",
+      "row": 35,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C35",
+      "row": 35,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D35",
+      "row": 35,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E35",
+      "row": 35,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F35",
+      "row": 35,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G35",
+      "row": 35,
+      "column": 7,
+      "value": "Corrected the summary sheet by removing the final cost and final PD values, as the last TP is not the final tracking period of the project. Consequently, several activities remain in the not started state."
+    },
+    {
+      "cell": "A36",
+      "row": 36,
+      "column": 1,
+      "value": "C2019-11"
+    },
+    {
+      "cell": "B36",
+      "row": 36,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C36",
+      "row": 36,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D36",
+      "row": 36,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E36",
+      "row": 36,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F36",
+      "row": 36,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G36",
+      "row": 36,
+      "column": 7,
+      "value": "Removed the EV and PV calculations, as they were incorrect."
+    },
+    {
+      "cell": "A37",
+      "row": 37,
+      "column": 1,
+      "value": "C2023-01"
+    },
+    {
+      "cell": "B37",
+      "row": 37,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C37",
+      "row": 37,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D37",
+      "row": 37,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E37",
+      "row": 37,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F37",
+      "row": 37,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G37",
+      "row": 37,
+      "column": 7,
+      "value": "Corrected the tracking period sheets by placing the activities in their correct tracking periods based on their start dates."
+    },
+    {
+      "cell": "A38",
+      "row": 38,
+      "column": 1,
+      "value": "C2023-04"
+    },
+    {
+      "cell": "B38",
+      "row": 38,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C38",
+      "row": 38,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D38",
+      "row": 38,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E38",
+      "row": 38,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F38",
+      "row": 38,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G38",
+      "row": 38,
+      "column": 7,
+      "value": "Corrected the tracking period sheets by placing the activities in their correct tracking periods based on their start dates."
+    },
+    {
+      "cell": "A39",
+      "row": 39,
+      "column": 1,
+      "value": "C2023-07"
+    },
+    {
+      "cell": "B39",
+      "row": 39,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C39",
+      "row": 39,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D39",
+      "row": 39,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E39",
+      "row": 39,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F39",
+      "row": 39,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G39",
+      "row": 39,
+      "column": 7,
+      "value": "Modified the status date of the last tracking period. As a result, the total project duration increased."
+    },
+    {
+      "cell": "A40",
+      "row": 40,
+      "column": 1,
+      "value": "C2023-08"
+    },
+    {
+      "cell": "B40",
+      "row": 40,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C40",
+      "row": 40,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D40",
+      "row": 40,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E40",
+      "row": 40,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F40",
+      "row": 40,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G40",
+      "row": 40,
+      "column": 7,
+      "value": "Corrected the summary sheet by removing the final cost and final PD values, as the last TP is not the final tracking period of the project. Consequently, several activities remain in the not started state."
+    },
+    {
+      "cell": "A41",
+      "row": 41,
+      "column": 1,
+      "value": "C2023-09"
+    },
+    {
+      "cell": "B41",
+      "row": 41,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C41",
+      "row": 41,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D41",
+      "row": 41,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E41",
+      "row": 41,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F41",
+      "row": 41,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G41",
+      "row": 41,
+      "column": 7,
+      "value": "Corrected the tracking period sheets by placing the activities in their correct tracking periods based on their start dates. "
+    },
+    {
+      "cell": "A42",
+      "row": 42,
+      "column": 1,
+      "value": "C2025-01"
+    },
+    {
+      "cell": "B42",
+      "row": 42,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C42",
+      "row": 42,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D42",
+      "row": 42,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E42",
+      "row": 42,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F42",
+      "row": 42,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G42",
+      "row": 42,
+      "column": 7,
+      "value": "Corrected the tracking period sheets by placing the activities in their correct tracking periods based on their start dates. "
+    },
+    {
+      "cell": "A43",
+      "row": 43,
+      "column": 1,
+      "value": "C2025-02"
+    },
+    {
+      "cell": "B43",
+      "row": 43,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C43",
+      "row": 43,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D43",
+      "row": 43,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E43",
+      "row": 43,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F43",
+      "row": 43,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G43",
+      "row": 43,
+      "column": 7,
+      "value": "Removed TP2, TP3, and TP4. The status dates did not match the activities' start and end dates, making the tracking periods invalid."
+    },
+    {
+      "cell": "A44",
+      "row": 44,
+      "column": 1,
+      "value": "C2025-03"
+    },
+    {
+      "cell": "B44",
+      "row": 44,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C44",
+      "row": 44,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D44",
+      "row": 44,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E44",
+      "row": 44,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F44",
+      "row": 44,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G44",
+      "row": 44,
+      "column": 7,
+      "value": "Removed TP1, TP2, and TP3. The status dates did not match the activities' start and end dates, making the tracking periods invalid."
+    },
+    {
+      "cell": "A45",
+      "row": 45,
+      "column": 1,
+      "value": "C2025-05"
+    },
+    {
+      "cell": "B45",
+      "row": 45,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C45",
+      "row": 45,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D45",
+      "row": 45,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E45",
+      "row": 45,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F45",
+      "row": 45,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G45",
+      "row": 45,
+      "column": 7,
+      "value": "Removed TP1. The status date did not match the activities' start and end dates, making the tracking period invalid."
+    },
+    {
+      "cell": "A46",
+      "row": 46,
+      "column": 1,
+      "value": "C2025-06"
+    },
+    {
+      "cell": "B46",
+      "row": 46,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C46",
+      "row": 46,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D46",
+      "row": 46,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E46",
+      "row": 46,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F46",
+      "row": 46,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G46",
+      "row": 46,
+      "column": 7,
+      "value": "Corrected the tracking period sheets by placing the activities in their correct tracking periods based on their start dates. "
+    },
+    {
+      "cell": "A47",
+      "row": 47,
+      "column": 1,
+      "value": "C2025-07"
+    },
+    {
+      "cell": "B47",
+      "row": 47,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C47",
+      "row": 47,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D47",
+      "row": 47,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E47",
+      "row": 47,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F47",
+      "row": 47,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G47",
+      "row": 47,
+      "column": 7,
+      "value": "Corrected minor issues in the tracking period sheets."
+    },
+    {
+      "cell": "A48",
+      "row": 48,
+      "column": 1,
+      "value": "C2025-08"
+    },
+    {
+      "cell": "B48",
+      "row": 48,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C48",
+      "row": 48,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D48",
+      "row": 48,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E48",
+      "row": 48,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F48",
+      "row": 48,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G48",
+      "row": 48,
+      "column": 7,
+      "value": "Corrected the tracking period sheets by placing the activities in their correct tracking periods based on their start dates. "
+    },
+    {
+      "cell": "A49",
+      "row": 49,
+      "column": 1,
+      "value": "C2025-14"
+    },
+    {
+      "cell": "B49",
+      "row": 49,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C49",
+      "row": 49,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D49",
+      "row": 49,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E49",
+      "row": 49,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F49",
+      "row": 49,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G49",
+      "row": 49,
+      "column": 7,
+      "value": "Removed TP1 and TP2. The status dates did not match the activities' start and end dates, making the tracking periods invalid."
+    },
+    {
+      "cell": "A50",
+      "row": 50,
+      "column": 1,
+      "value": "C2025-17"
+    },
+    {
+      "cell": "B50",
+      "row": 50,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C50",
+      "row": 50,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D50",
+      "row": 50,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E50",
+      "row": 50,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F50",
+      "row": 50,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G50",
+      "row": 50,
+      "column": 7,
+      "value": "Removed TP2. The status date did not match the activities' start and end dates, making the tracking period invalid."
+    },
+    {
+      "cell": "A51",
+      "row": 51,
+      "column": 1,
+      "value": "C2025-18"
+    },
+    {
+      "cell": "B51",
+      "row": 51,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C51",
+      "row": 51,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D51",
+      "row": 51,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E51",
+      "row": 51,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F51",
+      "row": 51,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G51",
+      "row": 51,
+      "column": 7,
+      "value": "Corrected the tracking period sheets by placing the activities in their correct tracking periods based on their start dates. "
+    },
+    {
+      "cell": "A52",
+      "row": 52,
+      "column": 1,
+      "value": "C2025-19"
+    },
+    {
+      "cell": "B52",
+      "row": 52,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C52",
+      "row": 52,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D52",
+      "row": 52,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E52",
+      "row": 52,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F52",
+      "row": 52,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G52",
+      "row": 52,
+      "column": 7,
+      "value": "Corrected the tracking period sheets by placing the activities in their correct tracking periods based on their start dates. "
+    },
+    {
+      "cell": "A53",
+      "row": 53,
+      "column": 1,
+      "value": "C2025-20"
+    },
+    {
+      "cell": "B53",
+      "row": 53,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C53",
+      "row": 53,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D53",
+      "row": 53,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E53",
+      "row": 53,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F53",
+      "row": 53,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G53",
+      "row": 53,
+      "column": 7,
+      "value": "Corrected the tracking period sheets by placing the activities in their correct tracking periods based on their start dates. "
+    },
+    {
+      "cell": "A54",
+      "row": 54,
+      "column": 1,
+      "value": "C2025-21"
+    },
+    {
+      "cell": "B54",
+      "row": 54,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C54",
+      "row": 54,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D54",
+      "row": 54,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E54",
+      "row": 54,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F54",
+      "row": 54,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G54",
+      "row": 54,
+      "column": 7,
+      "value": "Removed TP1, TP2, and TP3. The status dates did not match the activities' start and end dates, making the tracking periods invalid."
+    },
+    {
+      "cell": "A55",
+      "row": 55,
+      "column": 1,
+      "value": "C2025-22"
+    },
+    {
+      "cell": "B55",
+      "row": 55,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C55",
+      "row": 55,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D55",
+      "row": 55,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E55",
+      "row": 55,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F55",
+      "row": 55,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G55",
+      "row": 55,
+      "column": 7,
+      "value": "Corrected the tracking period sheets by placing the activities in their correct tracking periods based on their start dates. "
+    },
+    {
+      "cell": "A56",
+      "row": 56,
+      "column": 1,
+      "value": "C2025-25"
+    },
+    {
+      "cell": "B56",
+      "row": 56,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C56",
+      "row": 56,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D56",
+      "row": 56,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E56",
+      "row": 56,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F56",
+      "row": 56,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G56",
+      "row": 56,
+      "column": 7,
+      "value": "Corrected the tracking period sheets by placing the activities in their correct tracking periods based on their start dates. "
+    },
+    {
+      "cell": "A57",
+      "row": 57,
+      "column": 1,
+      "value": "C2025-26"
+    },
+    {
+      "cell": "B57",
+      "row": 57,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C57",
+      "row": 57,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D57",
+      "row": 57,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E57",
+      "row": 57,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F57",
+      "row": 57,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G57",
+      "row": 57,
+      "column": 7,
+      "value": "Removed TP1. The status date did not match the activities' start and end dates, making the tracking period invalid."
+    },
+    {
+      "cell": "A58",
+      "row": 58,
+      "column": 1,
+      "value": "C2025-27"
+    },
+    {
+      "cell": "B58",
+      "row": 58,
+      "column": 2,
+      "value": "yes"
+    },
+    {
+      "cell": "C58",
+      "row": 58,
+      "column": 3,
+      "value": "yes"
+    },
+    {
+      "cell": "D58",
+      "row": 58,
+      "column": 4,
+      "value": "yes"
+    },
+    {
+      "cell": "E58",
+      "row": 58,
+      "column": 5,
+      "value": "yes"
+    },
+    {
+      "cell": "F58",
+      "row": 58,
+      "column": 6,
+      "value": "Progress-related"
+    },
+    {
+      "cell": "G58",
+      "row": 58,
+      "column": 7,
+      "value": "Removed TP1. The status date did not match the activities' start and end dates, making the tracking period invalid."
+    }
+  ],
+  "definitions": {
+    "planned_definition": "The planned duration of the project schedule",
+    "real_definition": "The real total project duration (known after the project's finish)",
+    "planned_real_interpretation_verified": true,
+    "authenticity_project_definition": "The authenticity of all static project data",
+    "authenticity_tracking_definition": "The authenticity of all project progress data for each tracking period (N.A. is used when not available)",
+    "authenticity_code_legend": "Overview refers to colour coding and the 2015 paper; it does not define G/O/Y individually",
+    "planned_unit": "days (explicit source header)",
+    "real_unit": "not explicitly specified in Overview Real duration entry",
+    "calendars": "working/calendar day basis, hours/day and calendar equivalence are not established by Overview"
+  },
+  "headers": {
+    "project_id": {
+      "index": 0,
+      "name": "Code"
+    },
+    "project_name": {
+      "index": 1,
+      "name": "Project name"
+    },
+    "sector": {
+      "index": 3,
+      "name": "Sector"
+    },
+    "submitted_by": {
+      "index": 2,
+      "name": "Submitted by"
+    },
+    "project_authenticity": {
+      "index": 8,
+      "name": "Project"
+    },
+    "tracking_authenticity": {
+      "index": 9,
+      "name": "Tracking"
+    },
+    "planned_duration_source": {
+      "index": 11,
+      "name": "PD (days)"
+    },
+    "real_duration_source": {
+      "index": 82,
+      "name": "Duration"
+    },
+    "early_late_source": {
+      "index": 17,
+      "name": "Early/late"
+    },
+    "activity_count": {
+      "index": 10,
+      "name": "# activities"
+    },
+    "baseline_cost_eur": {
+      "index": 12,
+      "name": "BAC"
+    },
+    "renewable_resources": {
+      "index": 14,
+      "name": "Renewable"
+    },
+    "consumable_resources": {
+      "index": 15,
+      "name": "Consumable"
+    },
+    "network_sp": {
+      "index": 19,
+      "name": "SP"
+    },
+    "network_ad": {
+      "index": 20,
+      "name": "AD"
+    },
+    "network_la": {
+      "index": 21,
+      "name": "LA"
+    },
+    "network_tf": {
+      "index": 22,
+      "name": "TF"
+    },
+    "network_ri": {
+      "index": 23,
+      "name": "RI"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "test_metrics": {
+    "mlp": {
+      "MAE": 2.6856962203979493,
+      "RMSE": 3.6092186363199468,
+      "R2": 0.8657204498014719
+    },
+    "mean": {
+      "MAE": 8.2390625,
+      "RMSE": 9.849366577230043,
+      "R2": -2.2649887898573695e-07
+    },
+    "ridge": {
+      "MAE": 4.522421629279471,
+      "RMSE": 5.914956907664795,
+      "R2": 0.6393493947064068
+    }
+  },
+  "experiment": {
+    "target": "ProjDura",
+    "task": "total_project_duration",
+    "duration_unit": "unverified",
+    "features": [
+      "AreaSite",
+      "BuiltArea",
+      "TowerNum",
+      "TowerHgt",
+      "TowerFlr",
+      "BasementNum",
+      "AreaBase",
+      "UnitNum",
+      "AreaUnit"
+    ],
+    "seed": 42,
+    "rows_train_file": 40,
+    "rows_fit": 32,
+    "rows_validation": 8,
+    "rows_test": 10,
+    "best_epoch": 1957,
+    "epochs_run": 2000,
+    "max_epochs": 2000,
+    "patience": 150,
+    "best_validation_mse_scaled": 0.2331726849079132,
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "ridge_alpha": 1.0,
+    "architecture": [
+      9,
+      16,
+      8,
+      1
+    ],
+    "preprocessing_fit": "fitting subset only; validation and test excluded",
+    "fit_row_ids": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      13,
+      14,
+      15,
+      16,
+      19,
+      23,
+      25,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      46,
+      48,
+      49,
+      50
+    ],
+    "validation_row_ids": [
+      18,
+      21,
+      22,
+      35,
+      36,
+      37,
+      38,
+      47
+    ],
+    "test_row_ids": [
+      5,
+      10,
+      12,
+      17,
+      20,
+      24,
+      26,
+      27,
+      30,
+      45
+    ],
+    "input_sha256": {
+      "C:\\Users\\ahmed\\Documents\\Codex\\2026-11-04\\n\\PMI\\data\\processed\\mendeley_train.csv": "55781ad5927284ebcf5e906e971598963c3d12a29f4c2db3bad8698a38b48ec3",
+      "C:\\Users\\ahmed\\Documents\\Codex\\2026-11-04\\n\\PMI\\data\\processed\\mendeley_test.csv": "e60489af0b2492731fe7ecd31ab9054cb14b30e57fdbbce3581005dc2aec8fc3"
+    },
+    "versions": {
+      "python": "3.12.4",
+      "torch": "2.15.0+cpu",
+      "sklearn": "1.9.1",
+      "numpy": "2.5.4",
+      "pandas": "3.1.0"
+    },
+    "limitations": [
+      "Small sample; single held-out split is not strong generalization evidence",
+      "Repeated Pr29 identity requires source verification",
+      "Duration units unverified; not an IFC-change delay estimator",
+      "Cost features excluded by default"
+    ]
+  }
+}

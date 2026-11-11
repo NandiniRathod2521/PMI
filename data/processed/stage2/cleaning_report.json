@@ -1,0 +1,220 @@
+{
+  "source": "C:\\Users\\ahmed\\Documents\\Codex\\2026-11-04\\n\\PMI\\data\\raw\\ghent\\construction_excel\\DSLIB_Analysis_Sheet.xlsx",
+  "source_sha256": "3b513f16779f49e33264c36d8f4dd4f5f36bc11fbc91caf603cabb7bb6e7a483",
+  "worksheet": "DSLIB",
+  "header_row_index": 2,
+  "valid_project_records": 231,
+  "valid_building_records": 87,
+  "positive_numeric_duration_pairs": 68,
+  "building_summary_rows_excluded": 3,
+  "nonbuilding_project_records": 144,
+  "excluded_reason_counts": {
+    "nonbuilding_sector": 144,
+    "missing_or_invalid_project_id_summary_or_nonproject": 12
+  },
+  "duplicate_ids": [],
+  "authenticity_combinations_buildings": {
+    "G/G": 57,
+    "G/Y": 1,
+    "G/missing": 5,
+    "O/missing": 2,
+    "Y/missing": 1,
+    "missing/JA": 1,
+    "missing/O": 6,
+    "missing/missing": 14
+  },
+  "authenticity_combinations_candidates": {
+    "G/G": 56,
+    "G/Y": 1,
+    "G/missing": 1,
+    "O/missing": 1,
+    "missing/missing": 9
+  },
+  "project_authenticity_candidates": {
+    "G": 58,
+    "O": 1,
+    "missing": 9
+  },
+  "tracking_authenticity_candidates": {
+    "missing": 11,
+    "Y": 1,
+    "G": 56
+  },
+  "authenticity_gg_candidates": 56,
+  "duration_validation": {
+    "planned_duration": {
+      "valid": 87
+    },
+    "real_duration": {
+      "missing": 19,
+      "valid": 68
+    }
+  },
+  "missing_or_invalid_baseline_features": {
+    "activity_count": {
+      "valid": 68
+    },
+    "baseline_cost_eur": {
+      "valid": 67,
+      "not_numeric": 1
+    },
+    "renewable_resources": {
+      "valid": 12,
+      "missing": 56
+    },
+    "consumable_resources": {
+      "missing": 61,
+      "valid": 7
+    },
+    "network_sp": {
+      "valid": 68
+    },
+    "network_ad": {
+      "valid": 68
+    },
+    "network_la": {
+      "valid": 68
+    },
+    "network_tf": {
+      "valid": 68
+    },
+    "network_ri": {
+      "valid": 56,
+      "missing": 12
+    }
+  },
+  "early_late_checks": {
+    "consistent_within_rounding": 58,
+    "mismatch": 10
+  },
+  "early_late_mismatch_ids": [
+    "C2013-16",
+    "C2014-06",
+    "C2015-35",
+    "C2016-06",
+    "C2016-07",
+    "C2019-02",
+    "C2023-04",
+    "C2023-07",
+    "C2025-10",
+    "C2025-13"
+  ],
+  "early_late_audit_tolerance": 0.0051,
+  "known_problem_project_ids": [
+    "C2011-06"
+  ],
+  "related_review_groups": [
+    {
+      "review_group_id": "name:family residence",
+      "project_ids": "C2013-07;C2015-06;C2019-10",
+      "project_names": "Family Residence;Family Residence (2);Family Residence (3)",
+      "evidence": "Name/phase similarity only; not confirmed shared parent or independence"
+    },
+    {
+      "review_group_id": "name:young cattle barn",
+      "project_ids": "C2013-12;C2015-01",
+      "project_names": "Young Cattle Barn;Young Cattle Barn (2)",
+      "evidence": "Name/phase similarity only; not confirmed shared parent or independence"
+    },
+    {
+      "review_group_id": "name:office finishing works",
+      "project_ids": "C2013-13;C2013-14;C2013-15;C2013-16;C2013-17",
+      "project_names": "Office Finishing Works (1);Office Finishing Works (2);Office Finishing Works (3);Office Finishing Works (4);Office Finishing Works (5)",
+      "evidence": "Name/phase similarity only; not confirmed shared parent or independence"
+    },
+    {
+      "review_group_id": "name:apartment building",
+      "project_ids": "C2014-05;C2014-06;C2014-07;C2014-08;C2015-04;C2015-05;C2016-27;C2016-28;C2016-29;C2016-30;C2016-31;C2016-32;C2016-33;C2016-34",
+      "project_names": "Apartment Building (1);Apartment Building (2);Apartment Building (3);Apartment Building (4);Apartment Building (5);Apartment Building (6);Apartment Building Foundations;Apartment Building Structural Work (1);Apartment Building Structural Work (2);Apartment Building Structural Work (3);Apartment Building Finishing Works (1);Apartment Building Finishing Works (2);Apartment Building Finishing Works (3);Apartment Building Finishing Works (4)",
+      "evidence": "Name/phase similarity only; not confirmed shared parent or independence"
+    },
+    {
+      "review_group_id": "name:social apartments ypres",
+      "project_ids": "C2015-30;C2015-31;C2015-32",
+      "project_names": "Social Apartments Ypres (1);Social Apartments Ypres (2);Social Apartments Ypres (3)",
+      "evidence": "Name/phase similarity only; not confirmed shared parent or independence"
+    },
+    {
+      "review_group_id": "name:residential house",
+      "project_ids": "C2016-11;C2016-12;C2016-13;C2016-14;C2016-15;C2016-16;C2016-17;C2016-18;C2016-19;C2016-20;C2016-21;C2016-22;C2016-23;C2016-24;C2016-25;C2016-26",
+      "project_names": "Residential House (1);Residential House (2);Residential House (3);Residential House (4);Residential House Structural Work;Residential House Finishing Works (1);Residential House Finishing Works (2);Residential House Finishing Works (3);Residential House Finishing Works (4);Residential House Finishing Works (5);Residential House Finishing Works (6);Residential House Finishing Works (7);Residential House Finishing Works (8);Residential House Finishing Works (9);Residential House Finishing Works (10);Residential House Finishing Works (11)",
+      "evidence": "Name/phase similarity only; not confirmed shared parent or independence"
+    },
+    {
+      "review_group_id": "name:artes project",
+      "project_ids": "C2016-40;C2016-41",
+      "project_names": "Artes Project (1);Artes Project (2)",
+      "evidence": "Name/phase similarity only; not confirmed shared parent or independence"
+    }
+  ],
+  "provisional_candidate_groups": 32,
+  "verified_target_records": 0,
+  "independently_usable_projects_confirmed": 0,
+  "verification_source": null,
+  "verification_sha256": null,
+  "target_blocker_counts": {
+    "real_duration_missing": 19,
+    "duration_units_unverified": 87,
+    "calendar_comparability_unverified": 87,
+    "original_baseline_unverified": 87,
+    "verification_reviewer_missing": 87,
+    "duration_ratio_inconsistent_with_source": 10
+  },
+  "definitions": {
+    "planned_definition": "The planned duration of the project schedule",
+    "real_definition": "The real total project duration (known after the project's finish)",
+    "planned_real_interpretation_verified": true,
+    "authenticity_project_definition": "The authenticity of all static project data",
+    "authenticity_tracking_definition": "The authenticity of all project progress data for each tracking period (N.A. is used when not available)",
+    "authenticity_code_legend": "Overview refers to colour coding and the 2015 paper; it does not define G/O/Y individually",
+    "planned_unit": "days (explicit source header)",
+    "real_unit": "not explicitly specified in Overview Real duration entry",
+    "calendars": "working/calendar day basis, hours/day and calendar equivalence are not established by Overview"
+  },
+  "target_definition": "Signed total project duration deviation; real minus planned. Negative means early; not IFC-caused extra work or start-date slippage.",
+  "baseline_feature_columns": [
+    "project_id",
+    "planned_duration_days",
+    "activity_count",
+    "baseline_cost_eur",
+    "renewable_resources",
+    "consumable_resources",
+    "network_sp",
+    "network_ad",
+    "network_la",
+    "network_tf",
+    "network_ri"
+  ],
+  "metadata_not_model_features": [
+    "project_id",
+    "authenticity",
+    "review_group_id",
+    "submitted_by"
+  ],
+  "excluded_predictors": [
+    "Real Duration",
+    "Real Cost",
+    "Early/late",
+    "Under/over budget",
+    "CV",
+    "SV",
+    "SV(t)",
+    "CPI",
+    "SPI",
+    "SPI(t)",
+    "p-factor",
+    "all progress averages/stddev/final metrics",
+    "actual duration",
+    "target",
+    "authenticity"
+  ],
+  "unresolved_assumptions": [
+    "Day-equivalence and project calendar comparability require project-level evidence; no hours/day conversion inferred.",
+    "G/O/Y are preserved source codes; Overview provides no explicit code-to-authenticity legend. G/G is only a conservative screen.",
+    "Updates include revised schedules/precedences: the baseline must be verified as the original prediction-time plan.",
+    "Early/late disagreement is a review blocker; resolution requires source_issue_reviewed and evidence, never editing original durations.",
+    "Name-based related groups can overgroup generic names and miss other shared projects; they do not prove independence.",
+    "Absence from Known Problems does not certify a record. The sheet contains an out-of-scope project issue.",
+    "Summary rows are never observations; missing outcomes and features stay missing. No split, imputation or model training."
+  ]
+}

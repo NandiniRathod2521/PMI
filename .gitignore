@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 .env
+
+data/processed/stage2/cambridge_audit/activity_label_audit.csv
+data/raw/cambridge/JPF_Anonymised_Project_Data.json

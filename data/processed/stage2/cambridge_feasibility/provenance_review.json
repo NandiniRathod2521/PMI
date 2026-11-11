@@ -1,0 +1,26 @@
+{
+  "checked_date": "2026-11-11",
+  "sources": [
+    {
+      "url": "https://itcon.org/papers/2022_04-ITcon-Fitzsimmons.pdf",
+      "location": "Section 3.1, p.74; Eq.4 and adjacent text, p.77; limitations pp.88\u201389",
+      "evidence": "ODE names the original estimate; AOD may adjust finish to successor start for CPM. The study uses historical exports and acknowledges missing old schedule versions. The published filtered sample differs from this raw export."
+    },
+    {
+      "url": "https://www.repository.cam.ac.uk/items/6cb214a6-f52d-4846-b2de-3a2e2a34d431",
+      "location": "Dataset DOI 10.17863/CAM.53890",
+      "evidence": "Institutional archive provides dataset-level source context, not activity-level original-issue certificates."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/fitzsimmonsjp/fitzsimmons_method_data/master/Simulation%20Algorithm.py",
+      "location": "Lines 172\u2013219 and 234\u2013245 of inspected related author code",
+      "evidence": "Reads target start/end fields and can substitute planned dates if actuals are missing. Exact generation lineage to this JSON is unverified; code was not executed."
+    }
+  ],
+  "distinction": "Raw timestamp elapsed time is not the paper's adjusted AOD, stored At_Completion_Duration, working time, or IFC-caused delay.",
+  "findings": {
+    "verified_original_baseline_features": 0,
+    "fully_provenance_supported_candidates": 0,
+    "per_record_provenance_reason": "No original-issued version registry, row-level measurement certificate or independent parent-project registry provided"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "source": "https://github.com/MarioVanhoucke/DSLIB-Dynamic-Scheduling-Empirical-Project-Library/releases/tag/DSLIB_v3.4",
+  "archive_sha256": "19f87632c589f5d49f72b5f071992efc6379df2beb35f1efd3a60ac1381dc277",
+  "file_count": 1396,
+  "excel_files": 232,
+  "license": "No explicit reuse license established; citation requested in repository README",
+  "project_records": 231,
+  "unique_project_codes": 231,
+  "construction_records": 163,
+  "construction_with_numeric_real_duration": 116,
+  "project_count_caveat": "Rows and numeric durations are not verified independent historical labels; authenticity codes require interpretation",
+  "units": "Inspect project calendars and Excel field definitions before deriving delays",
+  "ifc_link": "Not established",
+  "decision": "Separate Schedule V2 candidate; no compatible building-feature schema established",
+  "caveat": "Related subprojects and rescheduled versions must be grouped; planned durations are not observed outcomes"
+}

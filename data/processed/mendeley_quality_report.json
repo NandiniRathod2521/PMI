@@ -1,0 +1,48 @@
+{
+  "exact_duplicates_removed": 0,
+  "issues": [],
+  "repeated_project_identifiers": [
+    "Pr29"
+  ],
+  "missing_features": {
+    "AreaSite": 0,
+    "BuiltArea": 0,
+    "TowerNum": 0,
+    "TowerHgt": 0,
+    "TowerFlr": 0,
+    "BasementNum": 0,
+    "AreaBase": 0,
+    "UnitNum": 0,
+    "AreaUnit": 0,
+    "SellCost": 0,
+    "ConstCost": 0
+  },
+  "source": "C:\\Users\\ahmed\\Documents\\Codex\\2026-11-04\\n\\PMI\\data\\raw\\Data set_MENDLEY.csv",
+  "source_sha256": "d525a9f37a31a89b6b96a4a9342effe2cbcb8f5ae4104bc607e7d4ce7922e35f",
+  "rows_clean": 50,
+  "rows_train": 40,
+  "rows_test": 10,
+  "seed": 42,
+  "target": "ProjDura",
+  "duration_unit": "unverified",
+  "task": "total_project_duration",
+  "identifier_columns": [
+    "Sl.no",
+    "ProjName"
+  ],
+  "feature_columns": [
+    "AreaSite",
+    "BuiltArea",
+    "TowerNum",
+    "TowerHgt",
+    "TowerFlr",
+    "BasementNum",
+    "AreaBase",
+    "UnitNum",
+    "AreaUnit",
+    "SellCost",
+    "ConstCost"
+  ],
+  "preprocessing": "No imputation or scaling; fit later on training data only",
+  "cost_features": "SellCost and ConstCost availability at prediction time must be verified"
+}

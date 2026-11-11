@@ -1,0 +1,118 @@
+{
+  "test_metrics": {
+    "mlp": {
+      "MAE": 5.561694145202637,
+      "RMSE": 7.859446594648294,
+      "R2": 0.12517423112541815
+    },
+    "mean": {
+      "MAE": 8.589999999999998,
+      "RMSE": 10.620470799357248,
+      "R2": -0.5974422659880503
+    },
+    "ridge": {
+      "MAE": 7.2444952300770975,
+      "RMSE": 9.498978810605827,
+      "R2": -0.27788411162594895
+    }
+  },
+  "experiment": {
+    "target": "ProjDura",
+    "task": "total_project_duration",
+    "duration_unit": "unverified",
+    "features": [
+      "AreaSite",
+      "BuiltArea",
+      "TowerNum",
+      "TowerHgt",
+      "TowerFlr",
+      "BasementNum",
+      "AreaBase",
+      "UnitNum",
+      "AreaUnit"
+    ],
+    "seed": 42,
+    "rows_train_file": 32,
+    "rows_fit": 25,
+    "rows_validation": 7,
+    "rows_test": 8,
+    "best_epoch": 378,
+    "epochs_run": 528,
+    "max_epochs": 2000,
+    "patience": 150,
+    "best_validation_mse_scaled": 0.053362298756837845,
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "ridge_alpha": 1.0,
+    "architecture": [
+      9,
+      16,
+      8,
+      1
+    ],
+    "preprocessing_fit": "fitting subset only; validation and test excluded",
+    "fit_row_ids": [
+      2,
+      4,
+      7,
+      8,
+      13,
+      14,
+      16,
+      19,
+      21,
+      22,
+      25,
+      28,
+      29,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      39,
+      41,
+      43,
+      44,
+      47,
+      49
+    ],
+    "validation_row_ids": [
+      1,
+      6,
+      18,
+      34,
+      38,
+      42,
+      50
+    ],
+    "test_row_ids": [
+      3,
+      9,
+      11,
+      15,
+      23,
+      40,
+      46,
+      48
+    ],
+    "input_sha256": {
+      "C:\\Users\\ahmed\\Documents\\Codex\\2026-11-04\\n\\PMI\\data\\processed\\duration_validation\\repeat_1_fold_5\\development.csv": "884cf73292bfbc67c577744fe554805c524dadce5ee022096c50fb5d51250118",
+      "C:\\Users\\ahmed\\Documents\\Codex\\2026-11-04\\n\\PMI\\data\\processed\\duration_validation\\repeat_1_fold_5\\evaluation.csv": "5b1d78962647091bb3a73739d6a17ba0728c8c60650bedbbcbc2e8c8ba2bb804"
+    },
+    "versions": {
+      "python": "3.12.4",
+      "torch": "2.15.0+cpu",
+      "sklearn": "1.9.1",
+      "numpy": "2.5.4",
+      "pandas": "3.1.0"
+    },
+    "limitations": [
+      "Small sample; single held-out split is not strong generalization evidence",
+      "Repeated Pr29 identity requires source verification",
+      "Duration units unverified; not an IFC-change delay estimator",
+      "Cost features excluded by default"
+    ]
+  }
+}

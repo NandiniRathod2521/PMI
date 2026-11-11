@@ -1,0 +1,50 @@
+{
+  "columns": [
+    "project_key",
+    "activity_key",
+    "project_type",
+    "uk_region",
+    "activity_description",
+    "wbs_description",
+    "original_duration_source_units",
+    "planned_elapsed_calendar_days",
+    "planned_start_month",
+    "predecessor_count_as_exported"
+  ],
+  "identifier_columns": [
+    "project_key",
+    "activity_key"
+  ],
+  "candidate_input_columns": [
+    "project_type",
+    "uk_region",
+    "activity_description",
+    "wbs_description",
+    "original_duration_source_units",
+    "planned_elapsed_calendar_days",
+    "planned_start_month",
+    "predecessor_count_as_exported"
+  ],
+  "availability": "Conceptually baseline-available only; actual original issue timestamps not verified",
+  "excludes": [
+    "At_Completion_Duration",
+    "Duration_Growth_Percentage(Y_values)",
+    "Physical_Percent_Complete",
+    "Actual_Start_Date",
+    "Actual_Finish_Date",
+    "Status_Data_Date",
+    "Latest_Project_Finish_Date",
+    "Earliest_Project_Start_Date",
+    "all weather fields",
+    "all costs if later added",
+    "GMM_Topic_Classification",
+    "Task_Type:",
+    "float",
+    "concurrency",
+    "task position",
+    "market conditions",
+    "actual elapsed labels"
+  ],
+  "unit_notes": "planned_elapsed_calendar_days uses timestamp difference/86400; ODE remains in unverified source units",
+  "no_fit_or_split": true
+}

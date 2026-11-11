@@ -1,0 +1,16 @@
+requirement,supported_or_passed,unresolved_or_not_passed,note
+positive_duration_pair_and_unique_id,68,0,Evidence milestone only; not an approval
+planned_real_interpretation,68,0,Evidence milestone only; not an approval
+planned_unit_days_source_header,68,0,Evidence milestone only; not an approval
+real_unit_days_direct_card_label,31,37,Evidence milestone only; not an approval
+planned_working_basis_direct_card_statement,68,0,Evidence milestone only; not an approval
+project_calendar_settings_located_NOT_comparability,68,0,Evidence milestone only; not an approval
+saved_hours_per_day_located,68,0,Evidence milestone only; not an approval
+baseline_display_exact_summary_match,53,15,Evidence milestone only; not an approval
+actual_display_exact_summary_match,40,28,Evidence milestone only; not an approval
+source_ratio_consistent_at_stage22_tolerance,58,10,Evidence milestone only; not an approval
+common_calendar_and_real_day_basis_verified,0,68,Evidence milestone only; not an approval
+original_issued_baseline_verified,0,68,Evidence milestone only; not an approval
+independence_verified,0,68,Evidence milestone only; not an approval
+reviewer_signoff,0,68,Evidence milestone only; not an approval
+all_label_release_requirements_passed,0,68,No projects automatically approved

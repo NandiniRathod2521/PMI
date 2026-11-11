@@ -1,0 +1,118 @@
+{
+  "test_metrics": {
+    "mlp": {
+      "MAE": 6.52081789289202,
+      "RMSE": 7.465681845836592,
+      "R2": -2.3144221671595253
+    },
+    "mean": {
+      "MAE": 5.300824175824176,
+      "RMSE": 6.307548870990409,
+      "R2": -1.365865855869766
+    },
+    "ridge": {
+      "MAE": 7.14615917243426,
+      "RMSE": 8.582340065502095,
+      "R2": -3.380062486645878
+    }
+  },
+  "experiment": {
+    "target": "ProjDura",
+    "task": "total_project_duration",
+    "duration_unit": "unverified",
+    "features": [
+      "AreaSite",
+      "BuiltArea",
+      "TowerNum",
+      "TowerHgt",
+      "TowerFlr",
+      "BasementNum",
+      "AreaBase",
+      "UnitNum",
+      "AreaUnit"
+    ],
+    "seed": 44,
+    "rows_train_file": 33,
+    "rows_fit": 26,
+    "rows_validation": 7,
+    "rows_test": 7,
+    "best_epoch": 251,
+    "epochs_run": 401,
+    "max_epochs": 2000,
+    "patience": 150,
+    "best_validation_mse_scaled": 0.21356995403766632,
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "ridge_alpha": 1.0,
+    "architecture": [
+      9,
+      16,
+      8,
+      1
+    ],
+    "preprocessing_fit": "fitting subset only; validation and test excluded",
+    "fit_row_ids": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      11,
+      14,
+      15,
+      18,
+      19,
+      21,
+      22,
+      25,
+      28,
+      32,
+      34,
+      36,
+      39,
+      41,
+      42,
+      43,
+      44,
+      46,
+      47,
+      49
+    ],
+    "validation_row_ids": [
+      6,
+      13,
+      16,
+      31,
+      35,
+      37,
+      48
+    ],
+    "test_row_ids": [
+      7,
+      23,
+      29,
+      33,
+      38,
+      40,
+      50
+    ],
+    "input_sha256": {
+      "data\\processed\\duration_validation_repeated\\repeat_3_fold_5\\development.csv": "28c7607b33b2f25c1e3d19871b249ffc2ef858e3172341da60f2ad6763ee865f",
+      "data\\processed\\duration_validation_repeated\\repeat_3_fold_5\\evaluation.csv": "58622823c55191a9775ca124813daea402807bd727d1fdd0db2ce12639ce28d5"
+    },
+    "versions": {
+      "python": "3.12.4",
+      "torch": "2.15.0+cpu",
+      "sklearn": "1.9.1",
+      "numpy": "2.5.4",
+      "pandas": "3.1.0"
+    },
+    "limitations": [
+      "Small sample; single held-out split is not strong generalization evidence",
+      "Repeated Pr29 identity requires source verification",
+      "Duration units unverified; not an IFC-change delay estimator",
+      "Cost features excluded by default"
+    ]
+  }
+}

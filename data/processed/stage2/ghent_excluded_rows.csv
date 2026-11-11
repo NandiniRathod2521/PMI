@@ -1,0 +1,157 @@
+project_id,project_name,sector,submitted_by,project_authenticity,tracking_authenticity,planned_duration_source,real_duration_source,early_late_source,activity_count,baseline_cost_eur,renewable_resources,consumable_resources,network_sp,network_ad,network_la,network_tf,network_ri,source_excel_row,planned_duration_original,real_duration_original,exclusion_reason
+C2011-03,Family Day,Event Management,Raphael Seffers,O,N/A,97,N/A,-,22,31675,2,-,0.33,0.48,0.07,0.19,0.77,6,97,N/A,nonbuilding_sector
+C2011-04,Railway Station Sint-Joost,Construction (civil),Frederiek Vanhessche,Y,N/A,135,N/A,-,18,59831,2,-,0.47,0.62,0.45,0.19,0.79,7,135,N/A,nonbuilding_sector
+C2011-05,Telecom System Agnes,IT,Pieter Van Schoors,G,O,43,53,0.2326,21,180485,6,-,0.6,0.58,0.38,0.09,0.85,8,43,53,nonbuilding_sector
+C2011-06,Veterinary Exposition,Event Management,Joyca Vervinckt,G,N/A,314,N/A,-,75,54350,15,-,0.29,0.44,0.03,0.18,0.48,9,314,N/A,nonbuilding_sector
+C2011-07,Patient Transport System,IT,Els Van Impe,G,Y,389,445,0.143958868894602,49,180759,5,-,0.7,0.7,0.07,0.08,0.74,10,389,445,nonbuilding_sector
+C2011-08,Sports Center Tielt,Construction (civil),Lise Braeckman,Y,N/A,75,N/A,-,26,254564,1,-,0.56,0.71,0.1,0.6,0.81,11,75,N/A,nonbuilding_sector
+C2011-09,Commercial IT Project,IT,Simon Buysse,O,N/A,67,N/A,-,41,33623,8,-,0.55,0.49,0.2,0.24,0.83,12,67,N/A,nonbuilding_sector
+C2011-11,Eating Belgium,Event Management,Wouter Van Damme,O,N/A,299,N/A,-,24,37760,2,-,0.3,0.42,0.18,0.14,0.5,14,299,N/A,nonbuilding_sector
+C2011-13,Wind Farm,Construction (industrial),Philip Pensaert,G,G,525,600,0.142857142857143,134,21369836,-,-,0.27,0.36,0,0.48,0.36,16,525,600,nonbuilding_sector
+C2012-01,Manufacturing Tool Cost Module,IT,Jolien Commeene,G,N/A,45,N/A,-,29,61699,5,-,0.79,0.78,0.1,0.11,0.74,18,45,N/A,nonbuilding_sector
+C2012-02,Nut Mixing Station,Construction (industrial),Mathijs Bostyn,G,N/A,23,N/A,-,47,1056501,24,-,0.17,0.17,0,0.48,0.55,19,23,N/A,nonbuilding_sector
+C2012-04,Asti-Cuneo Highway,Construction (civil),Anna Bierma,G,N/A,284,N/A,-,67,6230961,16,2,0.63,0.54,0,0.1,0.79,21,284,N/A,nonbuilding_sector
+C2012-05,Tappan Zee Bridge,Construction (civil),Wolfgang Prestl,Y,N/A,1289,N/A,-,19,4999958016,20,-,0.5,0.44,0.23,0.04,0.88,22,1289,N/A,nonbuilding_sector
+C2012-07,Solar Park,Construction (industrial),Rémi Krick,G,N/A,711,N/A,-,175,-,-,-,0.04,0.65,0,0.85,N/A,24,711,N/A,nonbuilding_sector
+C2012-08,Sea Electricity,Construction (industrial),Tom Valcke,O,N/A,468,N/A,-,437,139062144,27,-,0.08,0.4,0,0.41,0.55,25,468,N/A,nonbuilding_sector
+C2012-09,Digipolis Talent Management Suite,IT,Annelies Troch,Y,N/A,162,N/A,-,279,4899912,1,-,0.01,0.22,0,0.28,0.45,26,162,N/A,nonbuilding_sector
+C2012-11,MIVB SeSaMe,Construction (civil),Livine Maerschalck,G,N/A,13,N/A,-,22,1535854,2,-,0.34,0.47,0.96,0.01,0.54,28,13,N/A,nonbuilding_sector
+C2012-12,Railway Station Ghent,Construction (civil),Karel Verlinde,G,N/A,440,N/A,-,19,-,-,-,0.38,0.36,0.2,0.23,N/A,29,440,N/A,nonbuilding_sector
+C2012-13,Pumping Station Jabbeke,Construction (civil),Niels Crommen,G,G,125,140,0.12,75,336410,2,-,0.64,0.59,0.03,0.27,0.83,30,125,140,nonbuilding_sector
+C2012-14,Sluiskil Tunnel,Construction (civil),Josée De Backere,O,N/A,1299,N/A,-,48,528569216,8,-,0.58,0.39,0.25,0.1,0.86,31,1299,N/A,nonbuilding_sector
+C2012-15,The Master Project,Education,Eline Van Lombeek,O,N/A,32,34,0.0625,134,185472,3,-,0.17,0.66,0,0.84,0.84,32,32,34,nonbuilding_sector
+C2012-16,Metal Extraction,Construction (industrial),N/A,G,N/A,86,N/A,-,86,-,10,-,0.17,0.55,0.01,0.37,N/A,33,86,N/A,nonbuilding_sector
+C2013-01,Wiedauwkaai Fenders,Construction (civil),Pieter Buyse,G,G,152,152,0,42,1069533,-,-,0.48,0.45,0,0.68,0.94,35,152,152,nonbuilding_sector
+C2013-02,Sewage Plant Hove,Construction (civil),Tim Vandenbussche,G,G,403,403,0,181,1236604,-,-,0.12,0.38,0,0.62,0.16,36,403,403,nonbuilding_sector
+C2013-05,PET Packaging,Engineering,Annelies Troch,G,Y,521,673,0.291746641074856,28,874554,-,-,0.14,0.69,0,0.8,0.72,39,521,673,nonbuilding_sector
+C2013-10,Town Square,Construction (civil),Evy Dierickx,G,G,786,794,0.0101781170483461,197,11421890,-,-,0.18,0.36,0,0.62,0.41,44,786,794,nonbuilding_sector
+C2013-11,Recreation Complex,Construction (civil),Evy Dierickx,G,G,359,331,-0.0779944289693593,167,5480520,-,-,0.27,0.44,0,0.32,0.8,45,359,331,nonbuilding_sector
+C2014-02,Playing Cards,Engineering,Annelies Troch,G,G,124,146.000000000007,0.17741935483871,23,191493,-,-,0.81,0.94,0,0.14,0.89,53,124,146.000000000007,nonbuilding_sector
+C2014-03,Organizational Development,Education,Annelies Troch,G,G,229,260.000000000007,0.135371179039301,112,43170,1,-,0.09,0.31,0,0.36,0.87,54,229,260.000000000007,nonbuilding_sector
+C2014-04,Compressor Station Zelzate,Construction (industrial),Tim Vandenbussche,Y,G,522,848,0.624521072796935,24,62385600,-,-,1,0,1,0,0.92,55,522,848,nonbuilding_sector
+C2015-02,Railway Station (1),Construction (civil),Tom Servranckx,G,G,417,501,0.201438848920863,216,1121317,-,-,0.08,0.66,0.01,0.8,0.84,61,417,501,nonbuilding_sector
+C2015-03,Industrial Complex (1),Construction (industrial),Tom Servranckx,G,G,257,282,0.0972762645914397,135,2244091,-,-,0.16,0.43,0,0.58,0.91,62,257,282,nonbuilding_sector
+C2015-07,Industrial Complex (2),Construction (industrial),Tom Servranckx,G,G,297,360,0.212121212121212,138,5999600,-,-,0.27,0.38,0,0.49,0.86,66,297,360,nonbuilding_sector
+C2015-09,Railway Station (2),Construction (civil),Tom Servranckx,G,G,354,570,0.610169491525424,348,1457424,-,-,0.04,0.48,0,0.75,0.76,68,354,570,nonbuilding_sector
+C2015-10,Tax Return System (1),IT,Jelle Van Ingelgem,G,G,85,85,0,20,18990,10,-,0.1,0.82,0.23,0.21,0.77,69,85,85,nonbuilding_sector
+C2015-11,Staff Authorization System,IT,Jelle Van Ingelgem,G,G,55,56,0.018,13,14400,5,-,0.25,0.66,0,0.52,0.39,70,55,56,nonbuilding_sector
+C2015-12,Premium Payment System,IT,Jelle Van Ingelgem,G,G,184,184,0,42,132570,17,-,0.19,0.63,0.09,0.61,0.37,71,184,184,nonbuilding_sector
+C2015-13,Broker Account Conversion System,IT,Jelle Van Ingelgem,G,G,117,118,0.0085,22,12735,7,-,0.19,0.6,0.07,0.51,0.79,72,117,118,nonbuilding_sector
+C2015-14,Supplementary Pensions Database,IT,Jelle Van Ingelgem,G,G,124,124,0,24,34260,13,-,0.17,0.55,0.03,0.5,0.74,73,124,124,nonbuilding_sector
+C2015-15,FACTA System,IT,Jelle Van Ingelgem,G,G,57,56,-0.0175438596491228,19,11700,12,-,0.22,0.57,0.08,0.18,0.61,74,57,56,nonbuilding_sector
+C2015-16,Generic Document Output System,IT,Jelle Van Ingelgem,G,G,270,270,0,30,64620,13,-,0.1,0.48,0.13,0.21,0.62,75,270,270,nonbuilding_sector
+C2015-17,Insurance Bundling System,IT,Jelle Van Ingelgem,G,G,209,237,0.133971291866029,91,281430,24,-,0.06,0.77,0.08,0.41,0.74,76,209,237,nonbuilding_sector
+C2015-18,Tax Return System (2),IT,Jelle Van Ingelgem,G,G,128,128,0,21,39450,6,-,0.1,0.66,0.16,0.11,0.68,77,128,128,nonbuilding_sector
+C2015-19,Receipt Numbering System,IT,Jelle Van Ingelgem,G,G,182,183,0.00549450549450549,24,43800,12,-,0.21,0.46,0.08,0.31,0.67,78,182,183,nonbuilding_sector
+C2015-20,Policy Numbering System,IT,Jelle Van Ingelgem,G,G,171,161,-0.0584,11,12645,6,-,0.2,0.62,0.2,0.13,0.05,79,171,161,nonbuilding_sector
+C2015-21,Investment Product (1),IT,Jelle Van Ingelgem,G,G,37,37,0,17,4020,8,-,0.18,0.35,0.02,0.36,0.23,80,37,37,nonbuilding_sector
+C2015-22,Risk Profile Questionnaire,IT,Jelle Van Ingelgem,G,G,151,151,0,31,29880,9,-,0.16,0.7,0.09,0.4,0.81,81,151,151,nonbuilding_sector
+C2015-23,Investment Product (2),IT,Jelle Van Ingelgem,G,G,122,120,-0.0163934426229508,40,46920,16,-,0.17,0.53,0.05,0.39,0.67,82,122,120,nonbuilding_sector
+C2015-24,CRM System,IT,Jelle Van Ingelgem,G,G,233,233,0,29,44130,12,-,0.07,0.59,0.07,0.29,0.83,83,233,233,nonbuilding_sector
+C2015-25,Beer Tasting,Event Management,Jelle Van Ingelgem,G,G,14,15,0.0714285714285714,26,1210,4,-,0.16,0.4,0.21,0.19,0.85,84,14,15,nonbuilding_sector
+C2015-26,Debt Collection System,IT,Jelle Van Ingelgem,G,G,149,157,0.0536912751677852,220,458112,19,-,0.09,0.43,0,0.61,0.89,85,149,157,nonbuilding_sector
+C2015-27,Railway Station Antwerp,Construction (civil),Jelle Van Ingelgem,G,G,68,82,0.205882352941176,18,22704,11,-,0.23,0.3,0,0.52,0.89,86,68,82,nonbuilding_sector
+C2015-28,Website Tennis Vlaanderen,IT,Jelle Van Ingelgem,G,G,201,222,0.104477611940299,27,219275,5,-,0.15,0.54,0,0.67,0.86,87,201,222,nonbuilding_sector
+C2015-33,IJzertoren Memorial Square,Construction (civil),Torrino Debal,G,G,50,100,1,12,214418,-,-,0.63,0.57,0,0.14,0.84,92,50,100,nonbuilding_sector
+C2015-34,Roadworks Poperinge,Construction (civil),Torrino Debal,G,G,120,238,0.983333333333333,13,511326,-,-,0.91,0.99,0,0.18,0.65,93,120,238,nonbuilding_sector
+C2016-01,Railway Bridge (1),Construction (civil),Mieke De Saedeleer,G,G,225,274,0.2178,31,671384,-,-,0.51,0.71,0,0.86,0.93,95,225,274,nonbuilding_sector
+C2016-02,Railway Bridge (2),Construction (civil),Mieke De Saedeleer,G,G,229,239,0.04,27,962182,-,-,0.63,0.71,0,0.82,0.81,96,229,239,nonbuilding_sector
+C2016-03,Railway Bridge (3),Construction (civil),Mieke De Saedeleer,G,G,203,220,0.08,27,926888,-,-,0.16,0.37,0,0.56,0.56,97,203,220,nonbuilding_sector
+C2016-04,Railway Bridge (4),Construction (civil),Mieke De Saedeleer,G,G,248,242,-0.02,29,906254,-,-,0.64,0.62,0,0.71,0.84,98,248,242,nonbuilding_sector
+C2016-05,Railway Bridge (5),Construction (civil),Mieke De Saedeleer,G,G,195,195,0,34,832497,-,-,0.77,0.74,0,0.51,0.73,99,195,195,nonbuilding_sector
+C2016-08,SCM System,IT,Mieke De Saedeleer,G,G,725,725,0,124,375253,-,-,0.49,0.59,0.08,0.52,0.78,102,725,725,nonbuilding_sector
+C2016-09,Data Loss Prevention System,IT,Mieke De Saedeleer,G,G,195,189,-0.03,143,584952,-,-,0.1,0.36,0.01,0.51,0.8,103,195,189,nonbuilding_sector
+C2016-10,Biofuel Refinery,Engineering,Stijn Van Auwenis,G,N/A,360,375,0.0398,24,14362625,-,-,0.18,0.22,0.06,0.21,0.42,104,360,375,nonbuilding_sector
+C2016-35,Sweetpack,Construction (Industrial),Mayté & Thymo,,O,137,N/A,-,15,-,-,-,0.24,0.29,0.01,0.4,-,129,137,N/A,nonbuilding_sector
+C2016-37,Event planning,Event management,Mayté & Thymo,,O,145,N/A,-,30,426354,-,-,0.44,0.29,0,0.46,0.685,131,145,N/A,nonbuilding_sector
+C2016-42,Shared bike app development,Mobility,Mayté & Thymo,,,350,350,0,39,1703350,8,-,0.38,0.54,0.01,0.41,0.3509,136,350,350,nonbuilding_sector
+C2016-43,Mail delivery app,IT,Mayté & Thymo,,O,363,N/A,-,49,-,-,-,0.43,0.72,0.01,0.48,-,137,363,N/A,nonbuilding_sector
+C2017-02,Charging block network,Mobility,Mayté & Thymo,,O,278,N/A,-,25,-,-,-,0.45,0.64,0.18,0.03,-,139,278,N/A,nonbuilding_sector
+C2017-03,Hydrogen Island,Construction (Civil),Mayté & Thymo,,O,2804,N/A,-,87,-,-,-,0.37,0.47,0,0.49,-,140,2804,N/A,nonbuilding_sector
+C2017-04,Recy-call,Event management,Mayté & Thymo,,O,148,N/A,-,49,78350,1,-,0.47,0.31,0.08,0.36,0.6468,141,148,N/A,nonbuilding_sector
+C2017-05,JobFair Gent,Event management,Mayté & Thymo,,O,210,N/A,-,30,34720,6,-,0.41,0.54,0,0.54,0.8643,142,210,N/A,nonbuilding_sector
+C2017-06,Landing gear development,Engineering,Mayté & Thymo,,,320,285,-0.109375,24,11562500,4,-,0.7,0.71,0.71,0,0.8322,143,320,285,nonbuilding_sector
+C2018-01,App development,IT,Mayté & Thymo,,O,110,N/A,-,22,-,-,-,0.8,0.82,0.4,0.04,-,144,110,N/A,nonbuilding_sector
+C2018-02,eScooter,Mobility,Mayté & Thymo,,O,260,N/A,-,19,396760,5,-,0.61,0.63,0.37,0.1,0.7844,145,260,N/A,nonbuilding_sector
+C2018-03,Castelein,Construction (Industrial),Mayté & Thymo,,O,177,N/A,-,20,1480224.75,8,-,0.68,0.76,0,0.1,0.8377,146,177,N/A,nonbuilding_sector
+C2018-04,Christmas market (1),Event management,Mayté & Thymo,,O,94,N/A,-,38,69080.35156,-,-,0.4,0.5,0.35,0.08,0.477,147,94,N/A,nonbuilding_sector
+C2018-05,Music festival,Event management,Mayté & Thymo,,O,265,N/A,-,30,1287700,-,-,0.55,0.43,0.3,0.17,0.8428,148,265,N/A,nonbuilding_sector
+C2018-06,Camera network,Construction (civil),Mayté & Thymo,,O,23,N/A,-,17,37980,2,-,0.56,0.55,0,0.41,0.7,149,23,N/A,nonbuilding_sector
+C2018-07,WKB development,IT,Mayté & Thymo,,O,43,N/A,-,14,220271,6,-,0.2,0.49,0,0.69,0.5721,150,43,N/A,nonbuilding_sector
+C2018-08,Bikesharing platform,Mobility,Mayté & Thymo,,,393,590,0.501272264631043,23,5611571,3,-,0.36,0.41,0.07,0.2,0.5854,151,393,590,nonbuilding_sector
+C2018-09,CarSharing platform,Mobility,Mayté & Thymo,,O,214,N/A,-,41,439234,5,-,0.5,0.5,0.09,0.2,0.7178,152,214,N/A,nonbuilding_sector
+C2018-10,Fontein,Construction (Civil),Mayté & Thymo,,,100,120,0.2,43,115115.23,1,-,0.58,0.62,0.04,0.39,0.5992,153,100,120,nonbuilding_sector
+C2018-11,Warehouse renovation,Construction (Industrial),Mayté & Thymo,,O,9,N/A,-,36,-,-,-,0.42,0.39,0,0.58,-,154,9,N/A,nonbuilding_sector
+C2018-12,Cornflakes new taste,Engineering,Mayté & Thymo,,O,276,N/A,-,31,750110,2,-,0.34,0.26,0.07,0.42,0.5686,155,276,N/A,nonbuilding_sector
+C2018-13,Christmas market (2),Event management,Mayté & Thymo,,JA,132,185,0.403409090909091,31,58900,2,-,0.56,0.72,0.25,0.12,0.8674,156,132,185,nonbuilding_sector
+C2019-03,Emergency Department,Construction (civil),Jens Martens,,,413,521,0.261501210653753,18,967878,-,-,0.37,0.43,0.03,0.37,-,159,413,521,nonbuilding_sector
+C2019-04,Nuclear Healthcare,Construction (civil),Jens Martens,,,373,520,0.394101876675603,38,4318950,-,-,0.84,0.85,0.6,0.02,-,160,373,520,nonbuilding_sector
+C2019-05,Fuel Tank Filter,Engineering,Jens Martens,,,510,515,0.00980392156862745,18,1456000,-,-,0.28,0.75,0.21,0.2,-,161,510,515,nonbuilding_sector
+C2019-06,Production Line Change,Engineering,Jens Martens,,,480,501,0.04375,26,1512000,-,-,0.27,0.61,0.03,0.22,-,162,480,501,nonbuilding_sector
+C2019-07,Gluing Machinge,Engineering,Jens Martens,,,150,189,0.26,9,107500,-,-,0.42,0.33,0,0.25,-,163,150,189,nonbuilding_sector
+C2019-08,Labeling Machine,Engineering,Jens Martens,,,115,182,0.582608695652174,8,114700,-,-,0.66,0.75,0,0.75,-,164,115,182,nonbuilding_sector
+C2019-11,Tournament infrastructure,Event management,Mayté & Thymo,,,27,23,-0.162037037037037,30,126955.3,1,-,0.27,0.62,0,0.23,0.7517,167,27,23,nonbuilding_sector
+C2019-13,Weekend trip organisation,Event management,Mayté & Thymo,,N/A,2,N/A,-,19,3721.6,2,1,0.77,0.85,0.5,0.05,0.6782,169,2,N/A,nonbuilding_sector
+C2019-14,Weekend trip preparation,Event management,Mayté & Thymo,,N/A,67,N/A,-,24,2450,1,-,0.43,0.39,0.18,0.09,0.4783,170,67,N/A,nonbuilding_sector
+C2019-15,Electrical step sharing platform,Mobility,Mayté & Thymo,,N/A,400,N/A,-,30,-,2,-,0.58,0.7,0.08,0.2,-,171,400,N/A,nonbuilding_sector
+C2019-16,Lock Ganzepoot,Construction (civil),Mayté & Thymo,,N/A,33,N/A,-,32,170000,1,-,0.67,0.8,0.33,0.2,0.9159,172,33,N/A,nonbuilding_sector
+C2019-17,Wine production,Engineering,Mayté & Thymo,,N/A,93,N/A,-,25,-,-,-,0.45,0.48,0.05,0.37,-,173,93,N/A,nonbuilding_sector
+C2019-18,Greenhouse,Construction (Industrial),Mayté & Thymo,,N/A,163,N/A,-,23,2978315.3,6,-,0.45,0.48,0.08,0.22,0.9024,174,163,N/A,nonbuilding_sector
+C2019-21,Tanglewood 4,Engineering,Mayté & Thymo,,N/A,671,N/A,-,31,13812919,3,-,0.4,0.59,0.92,0.04,0.667,177,671,N/A,nonbuilding_sector
+C2019-22,BAM deelproject 1,Construction (Civil),Mayté & Thymo,"ANTAL.ALS('[Analysis sheet (opgekuist 30_03).xlsx]baseline'!$N$141:$N$189;""<=""&AK5)",N/A,1203,N/A,-,1419,-,-,-,0.04,0.66,0,0.81,-,178,1203,N/A,nonbuilding_sector
+C2019-23,BAM deelproject 2,Construction (Civil),Mayté & Thymo,,N/A,1188,N/A,-,646,-,-,-,0.05,0.5,0,0.63,-,179,1188,N/A,nonbuilding_sector
+C2019-24,BAM deelproject 3a,Construction (Civil),Mayté & Thymo,,N/A,1041,N/A,-,1373,-,-,-,0.01,0.61,0,0.78,-,180,1041,N/A,nonbuilding_sector
+C2019-25,BAM deelproject 3b,Construction (Civil),Mayté & Thymo,,N/A,1306,N/A,-,1796,-,-,-,0.02,0.54,0,0.7,-,181,1306,N/A,nonbuilding_sector
+C2019-26,BAM deelproject 4,Construction (Civil),Mayté & Thymo,,N/A,897,N/A,-,676,-,-,-,0.07,0.62,0,0.79,-,182,897,N/A,nonbuilding_sector
+C2019-27,BAM deelproject 6,Construction (Civil),Mayté & Thymo,,N/A,834,N/A,-,899,-,-,-,0.03,0.54,0,0.74,-,183,834,N/A,nonbuilding_sector
+C2019-28,BAM deelproject 7,Construction (Civil),Mayté & Thymo,,N/A,863,N/A,-,132,-,-,-,0.16,0.21,0,0.38,-,184,863,N/A,nonbuilding_sector
+C2020-01,Racing car upgrading,Engineering,"Marina Aristotile, Claudio Galli & others",G,N/A,45,N/A,-,54,N/A,-,-,0.07,0.42,0.01,0.54,-,185,45,N/A,nonbuilding_sector
+C2022-01,Student kick-off Kramersplein,Event management,"Boris Borysiewicz, Ellen Van Moere, Joallen Ghysbrecht, Lucas Baeteman & Mathias Brabants",,N/A,8,N/A,-,187,-,-,-,0.07,0.62,0,0.38,-,186,8,N/A,nonbuilding_sector
+C2022-02,Student kick-off Sint-Pietersplein,Event management,"Boris Borysiewicz, Ellen Van Moere, Joallen Ghysbrecht, Lucas Baeteman & Mathias Brabants",,N/A,4,N/A,-,159,-,-,-,0.08,0.68,0,0.35,-,187,4,N/A,nonbuilding_sector
+C2023-02,Security,IT,Stef Pauwels & Emile Van de Walle,G,N/A,234,N/A,-,66,607575,3,-,0.33,0.54,0.05,0.15,-,189,234,N/A,nonbuilding_sector
+C2023-03,MetaBOF,IT,"Sven Cousaert, Jeroen De Cocker & others",G,N/A,230,N/A,-,109,-,43,-,0.15,0.39,0,0.62,-,190,230,N/A,nonbuilding_sector
+C2023-05,IT data migration,IT,Stef Pauwels & Emile Van de Walle,G,,143,299,1.09,76,112000,-,-,0.85,0.88,0.21,0.31,-,192,143,299,nonbuilding_sector
+C2023-06,Steel industry,Engineering,Stef Pauwels & Emile Van de Walle,G,,11,10,-0.06,844,94825504,-,-,0.1,0.54,0,0.77,-,193,11,10,nonbuilding_sector
+C2023-09,Wine Storage Expansion,Construction (industrial),Stef Pauwels & Emile Van de Walle,G,G,80,120,0.5,28,"€ 458 688,44",-,-,0.61,0.69,0,0.61,-,196,80,120,nonbuilding_sector
+C2023-10,UK Roap map,Construction (Civil),Matthias Danneel,G,,234,N/A,-,19,-,-,-,0.61,0.54,0.6,0.27,-,197,234,N/A,nonbuilding_sector
+C2023-11,Rail-net communication point 1,Construction (Civil),Stef Pauwels & Emile Van de Walle,,,401,723,0.8021,279,8974809.3,-,-,0.06,0.4,0,0.44,-,198,401,723,nonbuilding_sector
+C2023-12,Railroad construction,Construction (Civil),Stef Pauwels & Emile Van de Walle,,,383,403,0.0522,73,7612805.15,-,-,0.12,0.4,0.01,0.49,-,199,383,403,nonbuilding_sector
+C2023-13,Rail-net communication point 2,Construction (Civil),Stef Pauwels &Emile Van de Walle,,,533,650,0.219,232,1481000,-,-,0.18,0.64,0,0.7,-,200,533,650,nonbuilding_sector
+C2024-01,Signalisation work Peru,Construction (Civil),Eder Vilca,,,84,37,-0.57,66,"201.312,14 €",N/A,N/A,0.57,0.52,0,0.43,N/A,202,84,37,nonbuilding_sector
+C2024-02,Gas Pipeline,Construction (Industrial),Rojin & Forough,G,N/A,58,N/A,-,13,37536,N/A,N/A,0.75,0.77,0,0.22,N/A,203,58,N/A,nonbuilding_sector
+C2024-03,Learning management system implementation,IT,Forough & Rojin,G,N/A,293,N/A,-,153,644405,N/A,N/A,0.35,0.56,0,0.57,N/A,204,293,N/A,nonbuilding_sector
+C2024-04,New product development,Engineering,Rojin & Forough,G,,84,239,1.8452,37,32481,N/A,N/A,0.58,0.57,0.1,0.08,N/A,205,84,239,nonbuilding_sector
+C2024-05,Product marketing,Construction (Industrial),Forough & Rojin,G,,272,N/A,-,111,228090,N/A,N/A,0.71,0.79,0.11,0.03,N/A,206,272,N/A,nonbuilding_sector
+C2025-01,Water Intake and Canal Rehabilitation,Construction (Civil),Amin Azimi,,,57,62,0.08,45,278057.33,5,0,0.36,0.41,0,0.25,N/A,207,57,62,nonbuilding_sector
+C2025-02,Urban road,Construction (Civil),Amin Azimi,,,52,71,0.36,100,197472.31,6,0,0.3,0.41,0,0.4,N/A,208,52,71,nonbuilding_sector
+C2025-04,Sidewalk Reconstruction,Construction (Civil),Amin Azimi,,,125,140,0.12,149,1663948.63,7,0,0.22,0.32,0,0.48,N/A,210,125,140,nonbuilding_sector
+C2025-08,Convertible Roofing,Construction (Civil),Amin Azimi,,,60,65,0.08,75,349558.26,6,0,0.43,0.41,0,0.38,N/A,214,60,65,nonbuilding_sector
+C2025-11,Power Network,Construction (Industrial),Amin Azimi,,,119,119,0,33,22226.08,6,0,0.15,0.71,0.02,0.3,N/A,217,119,119,nonbuilding_sector
+C2025-12,Public Plaza,Construction (Civil),Amin Azimi,,,60,61,0.01,123,163383.27,9,0,0.37,0.46,0,0.54,N/A,218,60,61,nonbuilding_sector
+C2025-14,Drainge System,Construction (Civil),Amin Azimi,,,354,388,0.096,82,32341.63,6,0,0.2,0.35,0,0.43,N/A,220,354,388,nonbuilding_sector
+C2025-15,Irrigation Canal Repair,Construction (Civil),Zahra Husaini,,,353,363,0.03,50,268769.55,8,0,0.18,0.36,0,0.38,N/A,221,353,363,nonbuilding_sector
+C2025-16,Actividades Generales,Construction (Civil),Zahra Husaini,,,56,57,0.01,49,247278.93,6,0,0.22,0.25,0,0.39,N/A,222,56,57,nonbuilding_sector
+C2025-17,Temporary Works,Construction (Civil),Zahra Husaini,,,90,96,0.0666,170,338686.53,8,0,0.26,0.47,0,0.29,N/A,223,90,96,nonbuilding_sector
+C2025-18,Mejoramiento De Los,Construction (Civil),Zahra Husaini,,,104,12,-0.88,266,196718.125,9,0,0.27,0.42,0,0.53,N/A,224,104,12,nonbuilding_sector
+C2025-19,Road Drainage Construction with COVID-19 Safety Measures,Construction (Civil),Zahra Husaini,,,59,60,0.02,38,392053.5313,7,0,0.7,0.65,0,0.52,N/A,225,59,60,nonbuilding_sector
+C2025-20,Drainage Culverts Construction,Construction (Civil),Zahra Husaini,,,45,59,0.31,34,302383.41,6,0,0.67,0.6,0,0.5,N/A,226,45,59,nonbuilding_sector
+C2025-21,Sanitary Facilities,Construction (Civil),Zahra Husaini,,,44,69,0.36,140,161654.99,7,0,0.29,0.33,0,0.54,N/A,227,44,69,nonbuilding_sector
+C2025-22,Sanitary Sewer Network Infrastructure,Construction (Civil),Zahra Husaini,,,27,46,0.41,45,73441.85,7,0,0.38,0.29,0,0.31,N/A,228,27,46,nonbuilding_sector
+C2025-23,Active Recreation Construction,Construction (Civil),Zahra Husaini,,,60,59,-0.01,55,124330.97,9,0,0.38,0.61,0,0.68,N/A,229,60,59,nonbuilding_sector
+C2025-24,Construssion De Cerco,Construction (Civil),Mathilde and Margarida,,,45,59,0.311,77,230728.4,6,0,0.22,0.33,0,0.57,N/A,230,45,59,nonbuilding_sector
+C2025-25,Construssion De Plazoleta,Construction (Civil),Mathilde and Margarida,,,45,59,0.237,73,149252.5,6,0,0.36,0.48,0,0.55,N/A,231,45,59,nonbuilding_sector
+C2025-26,Mejoramiento Del Parque,Construction (Civil),Mathilde and Margarida,,,120,12,-0.9,85,1249157,9,0,0.3,0.32,0,0.42,N/A,232,120,12,nonbuilding_sector
+C2025-27,Creacion Del Pavimentado,Construction (Civil),Mathilde and Margarida,,,90,147,0.633,127,6083558,9,0,0.3,0.35,0,0.62,N/A,233,90,147,nonbuilding_sector
+C2025-28,Cronograma De Obra,Construction (Civil),Mathilde and Margarida,,,60,92,0.533,58,156771.1,8,0,0.26,0.37,0,0.47,N/A,234,60,92,nonbuilding_sector
+,,,SUMMARY STATISTICS,,nrProjects,,,,231,,,,,,,,,237,,,missing_or_invalid_project_id_summary_or_nonproject
+,,Construction (Civil),Construction (civil),,Average,251.07359307359306,,0.12654662961275012,95.81385281385282,35203221.829836026,7.485148514851486,0.1,0.4062770562770562,0.5479653679653683,0.13398268398268406,0.37160173160173177,0.7527148648648648,238,=AVERAGE(L4:L235),,missing_or_invalid_project_id_summary_or_nonproject
+,,Construction (commercial building),Construction (commercial),,StDev,291.09787498602856,,0.3003165024922625,202.0521348527888,362669377.4858544,6.323944752108669,0.4025778999364488,0.22716205925935146,0.1695357307849843,0.21200221420845258,0.2146615876545676,0.16344698046703526,239,=STDEV(L4:L235),,missing_or_invalid_project_id_summary_or_nonproject
+,,Construction (residential building),Construction (residential),,Minimum,2,,-0.9,8,1210,1,0,0.01,0,0,0,0.05,240,=MIN(L4:L235),,missing_or_invalid_project_id_summary_or_nonproject
+,,Construction (institutional building),Construction (institutional),,Maximum,2804,,1.8452,1796,4999958016,43,2,1,0.99,1,0.99,0.95,241,=MAX(L4:L235),,missing_or_invalid_project_id_summary_or_nonproject
+,,Construction (Industrial),Construction (industrial),,CountEmpty,1.0043290043290043,,0.6753246753246753,1.0043290043290043,0.8744588744588745,0.46320346320346323,0.15584415584415584,1.0043290043290043,1.0043290043290043,1.0043290043290043,1.0043290043290043,0.8095238095238095,242,"=COUNTIF(L4:L235,""<>-"")/$E$251",,missing_or_invalid_project_id_summary_or_nonproject
+,,Engineering,Engineering,,nrPos,,,104,,,,,,,,,,243,,,missing_or_invalid_project_id_summary_or_nonproject
+,,Mobility,Mobility,,nrNeq,,,22,,,,,,,,,,244,,,missing_or_invalid_project_id_summary_or_nonproject
+,,Event management,Event management,,nrZero,,,29,,,,,,,,,,245,,,missing_or_invalid_project_id_summary_or_nonproject
+,,IT,IT,,Average Lateness or Over Budget,,,0.23630223952588503,,,,,,,,,,246,,,missing_or_invalid_project_id_summary_or_nonproject
+,,Education,Education,,Average Earliness or Under Budget,,,-0.2254866054870808,,,,,,,,,,247,,,missing_or_invalid_project_id_summary_or_nonproject
+,,,,,,,,,,,,,,,,,,251,,,missing_or_invalid_project_id_summary_or_nonproject
