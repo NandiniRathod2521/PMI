@@ -1,0 +1,114 @@
+{
+  "projects": 68,
+  "requirements": [
+    {
+      "requirement": "positive_duration_pair_and_unique_id",
+      "supported_or_passed": 68,
+      "unresolved_or_not_passed": 0,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "planned_real_interpretation",
+      "supported_or_passed": 68,
+      "unresolved_or_not_passed": 0,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "planned_unit_days_source_header",
+      "supported_or_passed": 68,
+      "unresolved_or_not_passed": 0,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "real_unit_days_direct_card_label",
+      "supported_or_passed": 31,
+      "unresolved_or_not_passed": 37,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "planned_working_basis_direct_card_statement",
+      "supported_or_passed": 68,
+      "unresolved_or_not_passed": 0,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "project_calendar_settings_located_NOT_comparability",
+      "supported_or_passed": 68,
+      "unresolved_or_not_passed": 0,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "saved_hours_per_day_located",
+      "supported_or_passed": 68,
+      "unresolved_or_not_passed": 0,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "baseline_display_exact_summary_match",
+      "supported_or_passed": 53,
+      "unresolved_or_not_passed": 15,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "actual_display_exact_summary_match",
+      "supported_or_passed": 40,
+      "unresolved_or_not_passed": 28,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "source_ratio_consistent_at_stage22_tolerance",
+      "supported_or_passed": 58,
+      "unresolved_or_not_passed": 10,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "common_calendar_and_real_day_basis_verified",
+      "supported_or_passed": 0,
+      "unresolved_or_not_passed": 68,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "original_issued_baseline_verified",
+      "supported_or_passed": 0,
+      "unresolved_or_not_passed": 68,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "independence_verified",
+      "supported_or_passed": 0,
+      "unresolved_or_not_passed": 68,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "reviewer_signoff",
+      "supported_or_passed": 0,
+      "unresolved_or_not_passed": 68,
+      "note": "Evidence milestone only; not an approval"
+    },
+    {
+      "requirement": "all_label_release_requirements_passed",
+      "supported_or_passed": 0,
+      "unresolved_or_not_passed": 68,
+      "note": "No projects automatically approved"
+    }
+  ],
+  "released_labels": 0,
+  "automatically_approved_projects": 0,
+  "explicit_simulated_outcomes": 5,
+  "gg_with_simulation_conflict": 3,
+  "tracking_simulation_markers": 2,
+  "baseline_comparisons": {
+    "within_half_day_rounding_only": 5,
+    "exact": 53,
+    "mismatch": 2,
+    "unresolved": 8
+  },
+  "actual_comparisons": {
+    "within_half_day_rounding_only": 3,
+    "mismatch": 15,
+    "exact": 40,
+    "unresolved": 10
+  },
+  "ratio_inconsistencies": 10,
+  "protected_files_unchanged": 380
+}

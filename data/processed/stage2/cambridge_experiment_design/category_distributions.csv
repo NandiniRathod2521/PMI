@@ -1,0 +1,109 @@
+scenario,split,dimension,category,rows,row_share,source_project_ids,blocks
+conservative,train,project_type,Airports,3263,0.0226424259246409,2,2
+conservative,train,project_type,Clean Water Networks,5991,0.04157240996461037,87,51
+conservative,train,project_type,Electical Networks,1392,0.009659288043855388,2,1
+conservative,train,project_type,Highways,6191,0.04296023870654361,7,3
+conservative,train,project_type,Light Rail - Overground,50467,0.35019776559572546,12,3
+conservative,train,project_type,Light Rail - Underground (exc. Tunnelling),4629,0.03212129623204497,1,1
+conservative,train,project_type,Light Rail - Underground (inc. Tunnelling),11564,0.08024425785858025,3,2
+conservative,train,project_type,Marine Projects - Ports/Coastal Defence etc.,8953,0.062126153632641734,2,2
+conservative,train,project_type,Power Generation - Coal,1827,0.012677815557560198,1,1
+conservative,train,project_type,Power Generation - Renewables,259,0.0017972382208035528,1,1
+conservative,train,project_type,Rail,24260,0.16834362639650266,36,11
+conservative,train,project_type,Waste Water Treatment,25314,0.17565748386649088,9,3
+conservative,test,project_type,Airports,3335,0.09256946179254448,1,1
+conservative,test,project_type,Clean Water Networks,4046,0.1123046603935937,80,78
+conservative,test,project_type,Electical Networks,3930,0.1090848530268965,1,1
+conservative,test,project_type,Highways,1156,0.03208704582674105,2,2
+conservative,test,project_type,Light Rail - Overground,767,0.021289588364282346,2,2
+conservative,test,project_type,Light Rail - Underground (exc. Tunnelling),5926,0.1644877453021345,2,2
+conservative,test,project_type,Light Rail - Underground (inc. Tunnelling),0,0.0,0,0
+conservative,test,project_type,Marine Projects - Ports/Coastal Defence etc.,14578,0.4046409637216532,3,3
+conservative,test,project_type,Power Generation - Coal,0,0.0,0,0
+conservative,test,project_type,Power Generation - Renewables,0,0.0,0,0
+conservative,test,project_type,Rail,2289,0.06353568157215422,14,13
+conservative,test,project_type,Waste Water Treatment,0,0.0,0,0
+conservative,train,uk_region,East & North East England,0,0.0,0,0
+conservative,train,uk_region,East Anglia,1215,0.008431059607244466,1,1
+conservative,train,uk_region,Midlands,25057,0.17387412393310667,123,61
+conservative,train,uk_region,North England,4272,0.029644021927694122,4,2
+conservative,train,uk_region,North West England/North Wales,58101,0.4031711886753175,24,5
+conservative,train,uk_region,South East England and South Central England,55465,0.3848796058566373,11,6
+conservative,test,uk_region,East & North East England,891,0.02473145141144142,1,1
+conservative,test,uk_region,East Anglia,0,0.0,0,0
+conservative,test,uk_region,Midlands,6290,0.17459127876314987,93,90
+conservative,test,uk_region,North England,0,0.0,0,0
+conservative,test,uk_region,North West England/North Wales,11098,0.30804674272073723,4,4
+conservative,test,uk_region,South East England and South Central England,17748,0.4926305271046715,7,6
+content_supported,train,project_type,Airports,6598,0.04578447019637777,3,3
+content_supported,train,project_type,Clean Water Networks,9877,0.06853792242037332,161,161
+content_supported,train,project_type,Electical Networks,5322,0.036930122822843664,3,3
+content_supported,train,project_type,Highways,7347,0.05098188883491777,9,9
+content_supported,train,project_type,Light Rail - Overground,51234,0.35552008882103947,14,14
+content_supported,train,project_type,Light Rail - Underground (exc. Tunnelling),10555,0.07324266185552702,3,3
+content_supported,train,project_type,Light Rail - Underground (inc. Tunnelling),5211,0.03615987787107071,2,2
+content_supported,train,project_type,Marine Projects - Ports/Coastal Defence etc.,23531,0.16328499063215599,5,5
+content_supported,train,project_type,Power Generation - Coal,1827,0.012677815557560198,1,1
+content_supported,train,project_type,Power Generation - Renewables,259,0.0017972382208035528,1,1
+content_supported,train,project_type,Rail,16703,0.11590451738255499,48,48
+content_supported,train,project_type,Waste Water Treatment,5646,0.039178405384775516,5,5
+content_supported,test,project_type,Airports,0,0.0,0,0
+content_supported,test,project_type,Clean Water Networks,160,0.004441113609237516,6,6
+content_supported,test,project_type,Electical Networks,0,0.0,0,0
+content_supported,test,project_type,Highways,0,0.0,0,0
+content_supported,test,project_type,Light Rail - Overground,0,0.0,0,0
+content_supported,test,project_type,Light Rail - Underground (exc. Tunnelling),0,0.0,0,0
+content_supported,test,project_type,Light Rail - Underground (inc. Tunnelling),6353,0.17633996724678713,1,1
+content_supported,test,project_type,Marine Projects - Ports/Coastal Defence etc.,0,0.0,0,0
+content_supported,test,project_type,Power Generation - Coal,0,0.0,0,0
+content_supported,test,project_type,Power Generation - Renewables,0,0.0,0,0
+content_supported,test,project_type,Rail,9846,0.2732950287284537,2,2
+content_supported,test,project_type,Waste Water Treatment,19668,0.5459238904155217,4,4
+content_supported,train,uk_region,East & North East England,891,0.006182777045312608,1,1
+content_supported,train,uk_region,East Anglia,1215,0.008431059607244466,1,1
+content_supported,train,uk_region,Midlands,30892,0.2143640274790091,209,209
+content_supported,train,uk_region,North England,4272,0.029644021927694122,4,4
+content_supported,train,uk_region,North West England/North Wales,60805,0.42193463326625497,26,26
+content_supported,train,uk_region,South East England and South Central England,46035,0.31944348067448475,14,14
+content_supported,test,uk_region,East & North East England,0,0.0,0,0
+content_supported,test,uk_region,East Anglia,0,0.0,0,0
+content_supported,test,uk_region,Midlands,455,0.012629416826269188,7,7
+content_supported,test,uk_region,North England,0,0.0,0,0
+content_supported,test,uk_region,North West England/North Wales,8394,0.2329919227246232,2,2
+content_supported,test,uk_region,South East England and South Central England,27178,0.7543786604491076,4,4
+task_id_only,train,project_type,Airports,3263,0.0226424259246409,2,2
+task_id_only,train,project_type,Clean Water Networks,8769,0.06084935119006315,140,111
+task_id_only,train,project_type,Electical Networks,5322,0.036930122822843664,3,2
+task_id_only,train,project_type,Highways,7278,0.0505030879189508,8,7
+task_id_only,train,project_type,Light Rail - Overground,47557,0.33000485740059676,12,5
+task_id_only,train,project_type,Light Rail - Underground (exc. Tunnelling),10555,0.07324266185552702,3,3
+task_id_only,train,project_type,Light Rail - Underground (inc. Tunnelling),5211,0.03615987787107071,2,1
+task_id_only,train,project_type,Marine Projects - Ports/Coastal Defence etc.,13465,0.09343557005065575,4,4
+task_id_only,train,project_type,Power Generation - Coal,0,0.0,0,0
+task_id_only,train,project_type,Power Generation - Renewables,259,0.0017972382208035528,1,1
+task_id_only,train,project_type,Rail,24699,0.17138991048504615,45,28
+task_id_only,train,project_type,Waste Water Treatment,17732,0.12304489625980154,7,1
+task_id_only,test,project_type,Airports,3335,0.09256946179254448,1,1
+task_id_only,test,project_type,Clean Water Networks,1268,0.03519582535320732,27,26
+task_id_only,test,project_type,Electical Networks,0,0.0,0,0
+task_id_only,test,project_type,Highways,69,0.001915230243983679,1,1
+task_id_only,test,project_type,Light Rail - Overground,3677,0.10206234213228967,2,2
+task_id_only,test,project_type,Light Rail - Underground (exc. Tunnelling),0,0.0,0,0
+task_id_only,test,project_type,Light Rail - Underground (inc. Tunnelling),6353,0.17633996724678713,1,1
+task_id_only,test,project_type,Marine Projects - Ports/Coastal Defence etc.,10066,0.27940155994115523,1,1
+task_id_only,test,project_type,Power Generation - Coal,1827,0.05071196602548089,1,1
+task_id_only,test,project_type,Power Generation - Renewables,0,0.0,0,0
+task_id_only,test,project_type,Rail,1850,0.05135037610680878,5,5
+task_id_only,test,project_type,Waste Water Treatment,7582,0.21045327115774282,2,2
+task_id_only,train,uk_region,East & North East England,891,0.006182777045312608,1,1
+task_id_only,train,uk_region,East Anglia,1215,0.008431059607244466,1,1
+task_id_only,train,uk_region,Midlands,28274,0.19619734924710291,185,138
+task_id_only,train,uk_region,North England,4267,0.029609326209145793,3,1
+task_id_only,train,uk_region,North West England/North Wales,53560,0.37166053708972313,23,12
+task_id_only,train,uk_region,South East England and South Central England,55903,0.3879189508014711,14,9
+task_id_only,test,uk_region,East & North East England,0,0.0,0,0
+task_id_only,test,uk_region,East Anglia,0,0.0,0,0
+task_id_only,test,uk_region,Midlands,3073,0.08529713825741805,31,29
+task_id_only,test,uk_region,North England,5,0.00013878480028867239,1,1
+task_id_only,test,uk_region,North West England/North Wales,15639,0.4340910983429095,5,4
+task_id_only,test,uk_region,South East England and South Central England,17310,0.4804729785993838,4,4

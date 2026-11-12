@@ -1,5 +1,6 @@
 {
   "generated": "2026-11-03T17:56:55",
+  "generated": "2026-11-11T12:52:02",
   "original_model": "original.ifc",
   "revised_model": "revised.ifc",
   "method": "Deterministic GlobalId comparison over 5 channels (attribute, property, material, type, geometry)",

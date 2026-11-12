@@ -1,0 +1,18 @@
+field,requirement,scope,authority
+project_id,Present valid unique building project ID with positive planned and real durations,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+planned_unit,days,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+real_unit,days,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+planned_day_basis,working or calendar,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+real_day_basis,same as planned_day_basis,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+planned_calendar,Documented calendar identifier,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+real_calendar,Documented calendar identifier,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+calendar_comparable,Explicit true with supporting evidence,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+original_baseline_verified,Explicit true with original prediction-time baseline evidence,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+unit_evidence,Nonempty direct evidence,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+calendar_evidence,"Nonempty evidence of comparability, not merely calendar presence",label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+baseline_evidence,Nonempty original-baseline evidence,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+verified_by,Identified reviewer; never auto-filled,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+source_issue_reviewed,True if known issue or ratio contradiction applies,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+source_issue_evidence,Required to resolve source issue,label_release,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+independence_verified,Additional true attestation for independently usable count,independently_usable_additional,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged
+independence_evidence,Additional documented identity/parent review,independently_usable_additional,training/prepare_ghent_delays.py: target_blockers / process_records; unchanged

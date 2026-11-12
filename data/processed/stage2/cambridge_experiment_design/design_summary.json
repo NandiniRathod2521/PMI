@@ -1,0 +1,317 @@
+{
+  "credible_representative_conservative_holdout": false,
+  "diagnostic_review_changed_allocation_or_feature_policy": false,
+  "dominant_block": {
+    "all_source_project_id_count": 96,
+    "all_source_project_ids": [
+      "10030",
+      "10290",
+      "10389",
+      "10459",
+      "11046",
+      "11424",
+      "11619",
+      "11783",
+      "11785",
+      "1221",
+      "12900",
+      "12911",
+      "12913",
+      "13136",
+      "1437",
+      "15614",
+      "15900",
+      "16075",
+      "16799",
+      "1744",
+      "1819",
+      "1820",
+      "1821",
+      "1822",
+      "1836",
+      "1837",
+      "1838",
+      "1839",
+      "1840",
+      "2104",
+      "2109",
+      "2240",
+      "2296",
+      "2495",
+      "2496",
+      "2497",
+      "2503",
+      "2505",
+      "2507",
+      "2512",
+      "2513",
+      "2598",
+      "2599",
+      "2600",
+      "2601",
+      "2618",
+      "2620",
+      "26256",
+      "2639",
+      "2640",
+      "2641",
+      "2642",
+      "2643",
+      "2651",
+      "2664",
+      "2665",
+      "2666",
+      "26689",
+      "2684",
+      "27289",
+      "2843",
+      "33314",
+      "3425",
+      "3448",
+      "3517",
+      "36832",
+      "3818",
+      "3872",
+      "3897",
+      "3898",
+      "39242",
+      "4517",
+      "4534",
+      "45697",
+      "4582",
+      "4694",
+      "4761",
+      "5060",
+      "52324",
+      "52344",
+      "5289",
+      "5486",
+      "5521",
+      "57315",
+      "6571",
+      "6743",
+      "6883",
+      "7013",
+      "7366",
+      "7606",
+      "8770",
+      "883",
+      "9248",
+      "928",
+      "9583",
+      "9719"
+    ],
+    "assigned": "train",
+    "balanced_evaluation_of_all_blocks_possible": false,
+    "block_id": "C-5f73906a8795",
+    "can_be_test_in_near_80_20": false,
+    "can_be_train_with_near_80_20": "see conservative allocation; concentration persists in development",
+    "eligible_project_types": {
+      "Airports": 2508,
+      "Clean Water Networks": 1396,
+      "Electical Networks": 1392,
+      "Highways": 5708,
+      "Light Rail - Overground": 36737,
+      "Light Rail - Underground (exc. Tunnelling)": 4629,
+      "Light Rail - Underground (inc. Tunnelling)": 5211,
+      "Power Generation - Coal": 1827,
+      "Power Generation - Renewables": 259,
+      "Rail": 22237,
+      "Waste Water Treatment": 17732
+    },
+    "eligible_regions": {
+      "East Anglia": 1215,
+      "Midlands": 18026,
+      "North England": 4267,
+      "North West England/North Wales": 43547,
+      "South East England and South Central England": 32581
+    },
+    "eligible_row_share": 0.5531123533754865,
+    "eligible_rows": 99636,
+    "eligible_source_project_id_count": 92,
+    "interpretation": "Conservative connectivity component from uncertain shared IDs/histories; not a verified physical project",
+    "maximum_train_share_if_held_out": 0.4468876466245135,
+    "minimum_test_share_if_held_out": 0.5531123533754865
+  },
+  "eligible_rows": 180137,
+  "eligible_source_project_ids": 268,
+  "grouped_validation_required_for_broader_inference": true,
+  "holdout_scope": "limited_retrospective_distribution_shift_experiment",
+  "hyperparameters_tuned": false,
+  "join_validation": {
+    "duplicate_keys": 0,
+    "eligible_rows": 180137,
+    "feature_rows": 444156,
+    "structural_rows": 180335,
+    "unmatched_eligible_keys": 0
+  },
+  "model_trained": false,
+  "observed_project_type_total_variation": 0.714966110439029,
+  "prediction_model_evaluated": false,
+  "prospective_claim_supported": false,
+  "protected_files_unchanged": 676,
+  "protocol_id": "fbc2076978805d434b08e525b44bda4babe8509da6d494b2fa5b2c01fb27a848",
+  "representative_balanced_holdout_covering_unseen_dominant_block": false,
+  "representative_holdout_limitation": "An unseen 55.3% block cannot fit a near-20% test set; substantial category shift and missing test types remain",
+  "scenarios": {
+    "conservative": {
+      "composite_key_overlap": 0,
+      "conservative_blocks_crossing_sides": 0,
+      "development_fold_rows": [
+        99636,
+        19001,
+        8818,
+        8328,
+        8327
+      ],
+      "project_type": {
+        "test_only_categories": [],
+        "total_variation_distance": 0.714966110439029,
+        "train_only_categories": [
+          "Light Rail - Underground (inc. Tunnelling)",
+          "Power Generation - Coal",
+          "Power Generation - Renewables",
+          "Waste Water Treatment"
+        ]
+      },
+      "scenario_block_overlap": 0,
+      "shared_task_id_project_pairs_crossing": 0,
+      "shared_wbs_id_project_pairs_crossing": 0,
+      "source_project_id_overlap": 0,
+      "test": {
+        "blocks": 99,
+        "largest_block_rows": 10066,
+        "largest_block_share": 0.27940155994115523,
+        "row_share": 0.19999777946784947,
+        "rows": 36027,
+        "source_project_ids": 105
+      },
+      "train": {
+        "blocks": 70,
+        "largest_block_rows": 99636,
+        "largest_block_share": 0.6913885226563042,
+        "row_share": 0.8000022205321505,
+        "rows": 144110,
+        "source_project_ids": 163
+      },
+      "uk_region": {
+        "test_only_categories": [
+          "East & North East England"
+        ],
+        "total_variation_distance": 0.13319952748951883,
+        "train_only_categories": [
+          "East Anglia",
+          "North England"
+        ]
+      }
+    },
+    "content_supported": {
+      "composite_key_overlap": 0,
+      "conservative_blocks_crossing_sides": 2,
+      "development_fold_rows": [
+        28824,
+        28822,
+        28821,
+        28819,
+        28824
+      ],
+      "project_type": {
+        "test_only_categories": [],
+        "total_variation_distance": 0.8043160857523612,
+        "train_only_categories": [
+          "Airports",
+          "Electical Networks",
+          "Highways",
+          "Light Rail - Overground",
+          "Light Rail - Underground (exc. Tunnelling)",
+          "Marine Projects - Ports/Coastal Defence etc.",
+          "Power Generation - Coal",
+          "Power Generation - Renewables"
+        ]
+      },
+      "scenario_block_overlap": 0,
+      "shared_task_id_project_pairs_crossing": 14,
+      "shared_wbs_id_project_pairs_crossing": 7,
+      "source_project_id_overlap": 0,
+      "test": {
+        "blocks": 13,
+        "largest_block_rows": 9551,
+        "largest_block_share": 0.265106725511422,
+        "row_share": 0.19999777946784947,
+        "rows": 36027,
+        "source_project_ids": 13
+      },
+      "train": {
+        "blocks": 255,
+        "largest_block_rows": 10513,
+        "largest_block_share": 0.07295121781972104,
+        "row_share": 0.8000022205321505,
+        "rows": 144110,
+        "source_project_ids": 255
+      },
+      "uk_region": {
+        "test_only_categories": [],
+        "total_variation_distance": 0.43493517977462287,
+        "train_only_categories": [
+          "East & North East England",
+          "East Anglia",
+          "North England"
+        ]
+      }
+    },
+    "task_id_only": {
+      "composite_key_overlap": 0,
+      "conservative_blocks_crossing_sides": 2,
+      "development_fold_rows": [
+        89112,
+        13751,
+        13749,
+        13748,
+        13750
+      ],
+      "project_type": {
+        "test_only_categories": [
+          "Power Generation - Coal"
+        ],
+        "total_variation_distance": 0.5341934560575416,
+        "train_only_categories": [
+          "Electical Networks",
+          "Light Rail - Underground (exc. Tunnelling)",
+          "Power Generation - Renewables"
+        ]
+      },
+      "scenario_block_overlap": 0,
+      "shared_task_id_project_pairs_crossing": 0,
+      "shared_wbs_id_project_pairs_crossing": 2,
+      "source_project_id_overlap": 0,
+      "test": {
+        "blocks": 36,
+        "largest_block_rows": 10066,
+        "largest_block_share": 0.27940155994115523,
+        "row_share": 0.19999777946784947,
+        "rows": 36027,
+        "source_project_ids": 41
+      },
+      "train": {
+        "blocks": 156,
+        "largest_block_rows": 89112,
+        "largest_block_share": 0.6183609742557769,
+        "row_share": 0.8000022205321505,
+        "rows": 144110,
+        "source_project_ids": 227
+      },
+      "uk_region": {
+        "test_only_categories": [],
+        "total_variation_distance": 0.15498458905109908,
+        "train_only_categories": [
+          "East & North East England",
+          "East Anglia"
+        ]
+      }
+    }
+  },
+  "structurally_credible_limited_conservative_holdout": true,
+  "training_can_proceed_for_limited_retrospective_scope": true,
+  "verified_historical_labels_released": 0,
+  "version": "PMI-Cambridge-retrospective-v1"
+}

@@ -1,0 +1,37 @@
+{
+  "checked_date": "2026-11-11",
+  "sources": [
+    {
+      "source": "data/raw/ghent/construction_excel/DSLIB_Analysis_Sheet.xlsx",
+      "location": "Overview!B25:C29",
+      "finding": "Colour-coded framework referenced, no explicit G/Y/O legend"
+    },
+    {
+      "source": "data/raw/ghent/buildings/DSLIB 3.4/Readme.rtf",
+      "location": "Citation and versioning sections",
+      "finding": "Points to Batselier & Vanhoucke 2015; no code legend"
+    },
+    {
+      "source": "https://biblio.ugent.be/publication/5978659",
+      "location": "Downloads",
+      "finding": "Original article identified; full text UGent-only"
+    },
+    {
+      "source": "https://iranarze.ir/storage/uploads/2016/09/4960-English.pdf",
+      "canonical_source": "https://doi.org/10.1016/j.ijproman.2014.09.004",
+      "location": "Printed pp. 699\u2013700, sections 2.1.1 and 2.1.4",
+      "finding": "Explicit G=green, Y=yellow, O=orange; project/tracking authenticity definitions and N/A documented"
+    },
+    {
+      "source": "https://discovery.ucl.ac.uk/id/eprint/1506266/1/Vanhoucke_Vanhoucke%20et%20al,%20JMPM,%202016.pdf",
+      "location": "Sections 4.1.1\u20134.1.2, printed pp. 15\u201316",
+      "finding": "Author paper corroborates colour-based framework and static/tracking distinction"
+    }
+  ],
+  "code_to_colour": {
+    "G": "green",
+    "Y": "yellow",
+    "O": "orange"
+  },
+  "interpretation_limit": "Dictionary meaning only; no project codes or authenticity approvals changed. Individual cards contain contradictory provenance claims."
+}

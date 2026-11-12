@@ -1,0 +1,49 @@
+{
+  "audited_records": 444156,
+  "nonstructural_records": 263821,
+  "structural_candidates": 180335,
+  "exact_repeated_candidate": 0,
+  "possible_actual_history_conflict": 0,
+  "explicit_outcome_text_flag": 123,
+  "stored_growth_inconsistent": 39711,
+  "exploratory_retrospective_eligible": 180137,
+  "structural_project_IDs": 268,
+  "structural_conservative_blocks": 169,
+  "exploratory_project_IDs": 268,
+  "exploratory_conservative_blocks": 169,
+  "exclusion_reasons": {
+    "minimal_context_missing": 75,
+    "explicit_outcome_phrase_in_description": 123
+  },
+  "project_identifier_count": 299,
+  "grouping_scenarios": {
+    "task_ID_only_group": 217,
+    "content_supported_group": 298,
+    "conservative_group": 192
+  },
+  "independently_verified_project_groups": 0,
+  "largest_conservative_block_project_IDs": 96,
+  "largest_exploratory_block_activities": 99636,
+  "largest_exploratory_block_share": 0.5531123533754865,
+  "task_pair_review_classifications": {
+    "identifier_collision_plausible": 95,
+    "mixed_shared_ID_evidence_manual_review": 1
+  },
+  "shared_task_IDs": 7718,
+  "shared_wbs_IDs": 1305,
+  "wbs_project_pairs": 33,
+  "possible_revised_baseline_pair_count": 0,
+  "fully_provenance_supported_candidates": 0,
+  "unresolved_for_verified_ground_truth": 180335,
+  "verified_original_baseline_feature_count": 0,
+  "verified_labels_released": 0,
+  "split_performed": false,
+  "model_trained": false,
+  "hyperparameters_tuned": false,
+  "protected_files_unchanged": 432,
+  "retrospective_exploratory_experiment_justified": true,
+  "prospective_pre_execution_prediction_justified": false,
+  "target": "Reported completed-activity elapsed calendar days = naive Actual_Finish_Date minus Actual_Start_Date divided by 86400 seconds",
+  "label_class": "Exploratory reported timestamps; not verified historical ground truth, adjusted AOD, working duration or IFC delay",
+  "future_experiment_policy": "Minimal as-exported text/context features only, conservative grouped evaluation, exact repeats excluded, conflict/outcome-text quarantine; no original-baseline or deployment claim"
+}

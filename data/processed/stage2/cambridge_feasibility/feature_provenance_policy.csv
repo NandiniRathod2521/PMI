@@ -1,0 +1,9 @@
+feature,conceptual_prediction_time_availability,verified_baseline_feature,provenance_status,exploratory_policy,allowed_in_minimal_retrospective_experiment,forward_prediction_claim_supported
+project_type,Conceptually known before execution; exported classification has no original issue certificate,False,as_exported_unverified,minimal_context,True,False
+uk_region,Geographical context plausibly static; export vintage and parent identity unverified,False,as_exported_unverified,minimal_context,True,False
+activity_description,As-exported text may reflect later scope edits; exclude explicit outcome phrases and frame experiment retrospectively,False,as_exported_unverified,minimal_context,True,False
+wbs_description,"May encode parent identity, phase or revised scope; original hierarchy unverified",False,as_exported_unverified,sensitivity_only_not_default,False,False
+original_duration_source_units,"ODE naming does not certify original issuance, units or immutable baseline",False,as_exported_unverified,exclude_until_baseline_and_units_review,False,False
+planned_elapsed_calendar_days,"Derived from exported planned dates, not an issued baseline; schedule revisions can leak execution knowledge",False,as_exported_unverified,exclude_until_baseline_review,False,False
+planned_start_month,Can change with replanning; not an original-plan calendar feature without version provenance,False,as_exported_unverified,exclude_until_baseline_review,False,False
+predecessor_count_as_exported,Exported topology may include execution corrections; missing maps remain unknown,False,as_exported_unverified,exclude_until_baseline_review,False,False

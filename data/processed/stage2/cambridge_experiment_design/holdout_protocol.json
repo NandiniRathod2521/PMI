@@ -1,0 +1,171 @@
+{
+  "allocation": {
+    "alternative_allocations_selected_using_diagnostics": false,
+    "decision_inputs": [
+      "block IDs",
+      "eligible row counts",
+      "fixed namespace seed"
+    ],
+    "exact_ratio_required": false,
+    "method": "exact subset-sum nearest 20% of eligible rows, intact evaluation blocks",
+    "outcome_or_category_balancing": false,
+    "seeds_searched": 0,
+    "target_test_fraction": 0.2,
+    "tie_break": "SHA-256 block order; nearest integer row target, lower row total on equal distance"
+  },
+  "allocations": {
+    "conservative": {
+      "manifest": "split_manifest_conservative.csv",
+      "test_blocks": 99,
+      "test_rows": 36027,
+      "total_blocks": 169,
+      "total_rows": 180137
+    },
+    "content_supported": {
+      "manifest": "split_manifest_content_supported.csv",
+      "test_blocks": 13,
+      "test_rows": 36027,
+      "total_blocks": 268,
+      "total_rows": 180137
+    },
+    "task_id_only": {
+      "manifest": "split_manifest_task_id_only.csv",
+      "test_blocks": 36,
+      "test_rows": 36027,
+      "total_blocks": 192,
+      "total_rows": 180137
+    }
+  },
+  "diagnostic_outcomes_used_for_protocol_selection": false,
+  "diagnostics_credibility_rule": {
+    "checked_after_freeze": true,
+    "minimum_train_and_test_blocks": 20,
+    "near_80_20_test_range": [
+      0.15,
+      0.25
+    ],
+    "use": "structural limited-holdout feasibility only, not proof of generalization"
+  },
+  "eligibility": "unchanged Stage 2.3C eligible population; no outcome trimming, imputation or new exclusions",
+  "feature_provenance": "as-exported; original prediction-time availability unverified",
+  "features": [
+    "activity_description",
+    "project_type",
+    "uk_region"
+  ],
+  "frozen_data_artifacts": {
+    "block_assignments.csv": "2af6c8451cf8ab103a91f39b69c03867e5518b76a7acfc164664ea65e2313d5f",
+    "exploratory_targets.csv": "51b0d2d68a482792e6933108378005496958e18c6ae606b533ee97a59b3f616a",
+    "feature_matrix.csv": "4ccdfdb66134cf3d9d3696f5473ce14cbc5276acab71b33a3a5fe41293ae7325",
+    "split_manifest_conservative.csv": "549e6e701413ee1f4c0e0799b0a4c601e948defbab6b71707a13328e437a3714",
+    "split_manifest_content_supported.csv": "9b66cc4087f04507f42625a38cc94419300c089d4d464d12431c68acfe44454e",
+    "split_manifest_task_id_only.csv": "97a98b79b78b3ddcbf6bd46280bd5c6ec63b2760524481a73fd8935f7c5067a8"
+  },
+  "holdout_rules": [
+    "No holdout outcomes for feature selection, model choice, tuning, early stopping, scaling or vocabulary fitting",
+    "Target/category tables are post-allocation descriptive diagnostics; no allocation reselection",
+    "Complete and lock primary models/configuration and primary final results before sensitivity fitting",
+    "Sensitivity train sets can contain primary holdout rows; sensitivity results must never feed back into primary choices",
+    "Freeze candidate models and hyperparameters using development data before opening test results",
+    "Report all predeclared scenarios; do not choose the best split or grouping by test performance",
+    "No inference about independently verified projects, historical ground truth, working days or deployment readiness"
+  ],
+  "hyperparameters_tuned": false,
+  "join_validation": {
+    "duplicate_keys": 0,
+    "eligible_rows": 180137,
+    "feature_rows": 444156,
+    "structural_rows": 180335,
+    "unmatched_eligible_keys": 0
+  },
+  "label_provenance": "exploratory reported timestamps; no verified historical labels released",
+  "model_trained": false,
+  "prediction_model_evaluated": false,
+  "primary": "conservative",
+  "prior_stage_counts": {
+    "audited_records": 444156,
+    "exact_repeated_candidate": 0,
+    "exclusion_reasons": {
+      "explicit_outcome_phrase_in_description": 123,
+      "minimal_context_missing": 75
+    },
+    "explicit_outcome_text_flag": 123,
+    "exploratory_conservative_blocks": 169,
+    "exploratory_project_IDs": 268,
+    "exploratory_retrospective_eligible": 180137,
+    "fully_provenance_supported_candidates": 0,
+    "future_experiment_policy": "Minimal as-exported text/context features only, conservative grouped evaluation, exact repeats excluded, conflict/outcome-text quarantine; no original-baseline or deployment claim",
+    "grouping_scenarios": {
+      "conservative_group": 192,
+      "content_supported_group": 298,
+      "task_ID_only_group": 217
+    },
+    "hyperparameters_tuned": false,
+    "independently_verified_project_groups": 0,
+    "label_class": "Exploratory reported timestamps; not verified historical ground truth, adjusted AOD, working duration or IFC delay",
+    "largest_conservative_block_project_IDs": 96,
+    "largest_exploratory_block_activities": 99636,
+    "largest_exploratory_block_share": 0.5531123533754865,
+    "model_trained": false,
+    "nonstructural_records": 263821,
+    "possible_actual_history_conflict": 0,
+    "possible_revised_baseline_pair_count": 0,
+    "project_identifier_count": 299,
+    "prospective_pre_execution_prediction_justified": false,
+    "protected_files_unchanged": 432,
+    "retrospective_exploratory_experiment_justified": true,
+    "shared_task_IDs": 7718,
+    "shared_wbs_IDs": 1305,
+    "split_performed": false,
+    "stored_growth_inconsistent": 39711,
+    "structural_candidates": 180335,
+    "structural_conservative_blocks": 169,
+    "structural_project_IDs": 268,
+    "target": "Reported completed-activity elapsed calendar days = naive Actual_Finish_Date minus Actual_Start_Date divided by 86400 seconds",
+    "task_pair_review_classifications": {
+      "identifier_collision_plausible": 95,
+      "mixed_shared_ID_evidence_manual_review": 1
+    },
+    "unresolved_for_verified_ground_truth": 180335,
+    "verified_labels_released": 0,
+    "verified_original_baseline_feature_count": 0,
+    "wbs_project_pairs": 33
+  },
+  "protected_input_digest": "2ce88c69903121db233e58395b70622fb1ce421c2c95a59ddef0e68b31d3b127",
+  "protocol_id": "fbc2076978805d434b08e525b44bda4babe8509da6d494b2fa5b2c01fb27a848",
+  "seed_namespace": "PMI-Stage2.3D-v1",
+  "sensitivity": [
+    "content_supported",
+    "task_id_only"
+  ],
+  "status": "frozen_proposal_before_any_model_training",
+  "target": {
+    "excludes_claims": [
+      "working duration",
+      "adjusted AOD",
+      "IFC-induced delay",
+      "prospective forecast"
+    ],
+    "formula": "(Actual_Finish_Date - Actual_Start_Date).total_seconds()/86400",
+    "name": "reported_completed_activity_elapsed_calendar_days",
+    "unit": "naive elapsed calendar days",
+    "verified_historical_ground_truth": false
+  },
+  "validation": {
+    "folds": 5,
+    "holdout_in_transformer_fitting": false,
+    "large_block": "report validation with this block withheld separately; do not split it to balance folds",
+    "learned_text_vocabulary_and_category_mapping": "fit inside each development training fold; unknown categories supported",
+    "method": "largest-block-first into smallest row-count fold; deterministic SHA-256 ties",
+    "metrics": [
+      "MAE in elapsed calendar days",
+      "RMSE in elapsed calendar days",
+      "macro block MAE",
+      "per-block errors"
+    ],
+    "model_selection": "training-only grouped validation, mean macro-block MAE; no holdout-based choices",
+    "scope": "training rows only",
+    "unequal_fold_sizes_allowed": true
+  },
+  "version": "PMI-Cambridge-retrospective-v1"
+}

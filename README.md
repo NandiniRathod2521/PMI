@@ -1,6 +1,9 @@
 # PMI — Project Management Intelligence
 *IAAC Research Studio · midterm prototype · November 2026*
 
+<img width="1500" height="520" alt="pmi-logo" src="https://github.com/user-attachments/assets/35c535e0-3a7c-47cd-9a87-920b633807f9" />
+
+
 **From a BIM design change to its construction-schedule consequence.**
 
 PMI compares two versions of an IFC model, detects which building elements changed and *how* they changed,
@@ -175,6 +178,65 @@ docs/         PMI_MIDTERM_GUIDE.md  pipeline_log.txt
 ```
 
 ## 7. Limitations and next steps
+## 7. AI training-data preparation
+
+Export the current detected changes with activity mapping and baseline duration:
+
+```powershell
+python scripts/prepare_training_data.py
+python scripts/prepare_training_data.py --synthetic
+```
+
+These commands write `data/training/change_events_unlabeled.csv` and
+`data/training/synthetic_rule_labels.csv`, respectively. Both keep
+`actual_extra_days` empty. Only the synthetic file fills `target_extra_days`
+using the existing schedule engine, marked `label_source=synthetic_rule`.
+Unmapped elements or activities missing from the baseline require manual review
+and receive no target. The module reads the baseline CSV without recalculating
+or modifying the schedule; use matching change, mapping and baseline files
+(`--changes`, `--mapping`, `--baseline`) for each revision. Synthetic labels
+demonstrate the learning pipeline; they do not establish real-world accuracy.
+Exclude label/source fields and identifiers from future model inputs.
+
+`scripts/build_training_dataset.py` joins each changed element in historical
+`changes` JSON reports to its **observed** additional work duration. It produces
+numeric change-channel and status features plus the IFC type and measured target;
+categorical encoding and model training are intentionally left for a later step.
+It does not use `data/assumptions.json` or rule-engine estimates as labels.
+
+Prepare one JSON change report per revision in a directory (the filename without
+`.json` is its `revision_id`), and fill
+`data/historical_impacts_template.csv` with actual outcomes from project records:
+
+```csv
+revision_id,global_id,observed_extra_work_days
+projectA_rev02,2O2Fr$t4X7Zf8NOew3FKau,3
+```
+
+Then run:
+
+```powershell
+python scripts\build_training_dataset.py --changes-dir data\historical_changes --labels data\historical_impacts.csv
+```
+
+The target is additional work duration attributable to an individual element,
+not the overall project delay after CPM dependencies and float. Unlabeled
+changes are skipped with a count; labels that do not match a detected change
+are rejected. This repository currently contains no measured historical
+outcomes, so the template is empty and a real training dataset requires
+project-verified labels. Do not train or evaluate a model on the rule-based
+assumptions as though they were actual observations.
+
+Changed records must provide a non-empty IFC type, recognized change channels,
+and a JSON boolean for `geometry_changed` when supplied. Invalid records are
+rejected even when unlabeled. Zero observed extra days is a valid outcome.
+Keep `revision_id` and `global_id` as traceability fields rather than numeric
+model inputs. When training is added, split by project/revision before fitting
+categorical encoders to avoid leaking related examples into evaluation data.
+
+Run the dataset module checks with `python -m unittest discover -s tests -v`.
+
+## 8. Limitations and next steps
 
 * One sample building, three controlled changes, a 7-activity schedule — a proof of the workflow, not a
   validated estimator.

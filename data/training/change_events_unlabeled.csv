@@ -1,0 +1,13 @@
+revision_id,global_id,ifc_type,added,deleted,modified,attribute_changed,property_changed,material_changed,type_changed,geometry_changed,change_category,activity_id,baseline_activity_duration_days,mapping_status,actual_extra_days,target_extra_days,label_source
+changes,0kF45Qs8L9PAM9kmb1lT2B,IfcFooting,0,0,1,1,1,0,0,1,attribute;property;geometry,A1,10.0,mapped,,,unlabeled
+changes,0kF45Qs8L9PAM9kmb1lT2N,IfcFooting,0,0,1,1,1,0,0,1,attribute;property;geometry,A1,10.0,mapped,,,unlabeled
+changes,0kF45Qs8L9PAM9kmb1lT2Z,IfcFooting,0,0,1,1,1,0,0,1,attribute;property;geometry,A1,10.0,mapped,,,unlabeled
+changes,0kF45Qs8L9PAM9kmb1lT5$,IfcFooting,0,0,1,1,1,0,0,1,attribute;property;geometry,A1,10.0,mapped,,,unlabeled
+changes,0kF45Qs8L9PAM9kmb1lT5d,IfcFooting,0,0,1,1,1,0,0,1,attribute;property;geometry,A1,10.0,mapped,,,unlabeled
+changes,0kF45Qs8L9PAM9kmb1lT5l,IfcFooting,0,0,1,1,1,0,0,1,attribute;property;geometry,A1,10.0,mapped,,,unlabeled
+changes,0kF45Qs8L9PAM9kmb1lT5t,IfcFooting,0,0,1,1,1,0,0,1,attribute;property;geometry,A1,10.0,mapped,,,unlabeled
+changes,1hOSvn6df7F8_7GcBWlR72,IfcWindow,0,0,1,1,1,0,0,1,attribute;property;geometry,A4,8.0,mapped,,,unlabeled
+changes,1hOSvn6df7F8_7GcBWlRGQ,IfcDoor,0,0,1,1,1,0,0,0,attribute;property,A4,8.0,mapped,,,unlabeled
+changes,1hOSvn6df7F8_7GcBWlRqU,IfcSlab,0,0,1,1,1,0,0,1,attribute;property;geometry,A2,20.0,mapped,,,unlabeled
+changes,1hOSvn6df7F8_7GcBWlRrM,IfcSlab,0,0,1,1,1,0,0,1,attribute;property;geometry,A2,20.0,mapped,,,unlabeled
+changes,2O2Fr$t4X7Zf8NOew3FKau,IfcWall,0,0,1,1,1,0,0,0,attribute;property,A3,12.0,mapped,,,unlabeled

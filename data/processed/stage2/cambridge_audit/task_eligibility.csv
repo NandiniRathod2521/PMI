@@ -1,0 +1,7 @@
+task,structural_candidate_activities,projects_with_structural_candidates,supervised_training_ready_activities,supervised_training_ready_projects,qualification
+descriptive_analysis,444156,299,0,0,"Available for source-level descriptive analysis, not verified outcomes"
+reported_completed_elapsed_duration,180335,268,0,0,"Reported complete, valid positive actual-date span, finish no later than status; calendar elapsed proxy only; baseline provenance/independence unresolved"
+recorded_at_completion_duration,150650,268,0,0,Above temporal checks plus positive stored duration; missing working calendars/units prevent verified work-duration labels
+elapsed_planned_vs_actual_deviation,177403,268,0,0,Complete elapsed candidates plus positive planned span; original issued baseline unverified
+stored_duration_growth,105783,267,0,0,Complete positive stored pairs with growth fraction consistent; calendar/export contract and original baseline unverified
+project_schedule_risk,0,0,0,0,"No original contractual baseline, verified actual project completion or probability-of-risk target"
