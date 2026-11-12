@@ -177,6 +177,7 @@ evidence/     gantt_before.png  gantt_after.png  scenario_comparison.png  change
 docs/         PMI_MIDTERM_GUIDE.md  pipeline_log.txt
 ```
 
+## 7. Limitations and next steps
 ## 7. AI training-data preparation
 
 Export the current detected changes with activity mapping and baseline duration:
